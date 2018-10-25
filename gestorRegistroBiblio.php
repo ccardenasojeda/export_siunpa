@@ -26,7 +26,7 @@ class gestorRegistroBiblio {
                 FROM biblio b
                 INNER JOIN material_type_dm mt ON b.`material_cd`   = mt.code AND mt.code = 2
                 INNER JOIN collection_dm   cdm ON b.`collection_cd` = cdm.code
-                LIMIT 10";
+                LIMIT 1000";
         $conexion = new dbModelo();
         $resultado = $conexion->get_query($sql);
        
@@ -96,7 +96,7 @@ class gestorRegistroBiblio {
                 bc.bibid, bc.barcode_nmbr, bc.status_begin_dt, bc.copy_volumen, bc.copy_tomo,
                 bc.copy_proveedor, bc.copy_precio, bc.copy_cod_loc, bcn.anio, bcn.estado, bcn.numeros,
                 bi.indice, mt.description as tipo_maetrial, cdm.description as tipo_coleccion,
-                bcl.description as uuaa
+                bcl.description as uuaa, bc.copy_date_sptu
                 FROM biblio b
                 INNER JOIN material_type_dm mt     ON b.`material_cd`   = mt.code AND mt.code = 2
                 INNER JOIN collection_dm cdm       ON b.`collection_cd` = cdm.code 

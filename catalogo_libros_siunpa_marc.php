@@ -25,7 +25,7 @@ function registro_MarcXml() {
         $marc_colection->appendChild($marc_record);
 
         /*         * crea el leader con la cabecera del registro* */
-        $tamanio = 1000; //generar por 000sistema debe calcularse a partir de los datos generados por el sistema
+        $tamanio = 1000; //generar por sistema debe calcularse a partir de los datos generados por el sistema
         $pos_base = 260; //generar por sistema debe calcularse a partir del ultimo leader
         $cabecera = leader($tamanio, $pos_base); // Llama al metodo que gener el leader
         //Agrega cabecera al archivo XML
@@ -369,8 +369,6 @@ function registro_MarcXml() {
         $marc_data_subfield = $xml->createElement('subfield', 'LI');
         $marc_data_field->appendChild($marc_data_subfield);
         $marc_data_subfield->setAttribute('code', 'c');
-
-
 
         /*         * CREA REGISTRO DE ITEMS PARA KOHA* */
         foreach ($ejemplares_libro as $key => $value) {
@@ -1033,22 +1031,22 @@ function campo_247($consulta) {
 
 function campo_250($consulta) {
 
-
+    
     foreach ($consulta as $campo => $key) {
         if ($key['tag'] == 250 && !empty($key['field_data']) && $key['field_data'] != ' ') {
-            if($key['field_data'] == 'a'){
+            var_dump($key['tag']);
+            if ($key['subfield_cd'] == 'a') {
                 $campo_250['tag'] = '250';
-            $campo_250 ['subfield_cd'] = 'a';//$a - Mención de edición (NR) 
-            $campo_250 ['field_data'] = $key['field_data']; 
-            }else
-            {
-                if($key['field_data'] == 'b'){
+                $campo_250 ['subfield_cd'] = 'a'; //$a - Mención de edición (NR) 
+                $campo_250 ['field_data'] = $key['field_data'];
+            } else {
+                if ($key['subfield_cd'] == 'b') {
                     $campo_250['tag'] = '250';
-            $campo_250 ['subfield_cd'] = 'b';//$b - Resto de la mención de edición (NR)
-            $campo_250 ['field_data'] = $key['field_data'];
+                    $campo_250 ['subfield_cd'] = 'b'; //$b - Resto de la mención de edición (NR)
+                    $campo_250 ['field_data'] = $key['field_data'];
                 }
             }
-           
+
             $listado_edicion [] = $campo_250;
             /*             * $edicion = explode('|', $key['field_data']);
               $i = 0;
@@ -1139,6 +1137,20 @@ function campo_786($consulta) {
 
     return $listado_786;
 }
+
+function campo_942($xml, $marc_record, $tipo_material) {
+
+    $marc_data_field = $xml->createElement('datafield');
+    $marc_record->appendChild($marc_data_field);
+    $marc_data_field->setAttribute('tag', '942');
+    $marc_data_field->setAttribute('ind1', ' ');
+    $marc_data_field->setAttribute('ind2', ' ');
+    $marc_data_subfield = $xml->createElement('subfield', $tipo_material);
+    $marc_data_field->appendChild($marc_data_subfield);
+    $marc_data_subfield->setAttribute('code', 'c');
+}
+
+
 
 function campoR_subcampoNR($xml, $marc_record, $consulta) {
     //IMPORTANTE MUY MUCHO OJITO
