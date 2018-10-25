@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<marc:collection xmlns:marc="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+    <marc:record>
+        <marc:leader>01000cam# 22002601a 4500</marc:leader>
+        <marc:controlfield tag="001">BCV00006595</marc:controlfield>
+        <marc:controlfield tag="003">BCV-S/A</marc:controlfield>
+        <marc:controlfield tag="005">20170417093356</marc:controlfield>
+        <marc:controlfield tag="008">136 20|        ###||||||b   |||||||ES  ||</marc:controlfield>
+        <marc:datafield tag="020"  ind1=" " ind2=" " >
+            <marc:subfield code="c">9789877230963</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="037"  ind1=" " ind2=" " >
+            <marc:subfield code="a">00005443</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040"  ind1=" " ind2=" " >
+            <marc:subfield code="a">BCV</marc:subfield>
+            <marc:subfield code="b">spa</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="041"  ind1=" " ind2=" " >
+            <marc:subfield code="b">spa</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="044"  ind1=" " ind2=" " >
+            <marc:subfield code="b">ag</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="080"  ind1=" " ind2=" " >
+            <marc:subfield code="a">791.43:982</marc:subfield>
+            <marc:subfield code="2">M269i</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="080"  ind1=" " ind2=" " >
+            <marc:subfield code="a">CDU</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Mafud Lucio</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245"  ind1="1" ind2="0" >
+            <marc:subfield code="a">La imagen ausente: El cine mudo argentino en publicaciones gráficas. Catálogo. El cine de ficción 1914-1923</marc:subfield>
+            <marc:subfield code="b"></marc:subfield>
+            <marc:subfield code="c">Lucio Mafud</marc:subfield>
+            <marc:subfield code="h"></marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260"  ind1=" " ind2=" " >
+            <marc:subfield code="c">2016</marc:subfield>
+            <marc:subfield code="b">Teseo</marc:subfield>
+            <marc:subfield code="a">Ciudad Autónoma de Buenos Aires</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300"  ind1=" " ind2=" " >
+            <marc:subfield code="a">pág. 576, </marc:subfield>
+            <marc:subfield code="b">il. ; 23cm</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="490"  ind1="0" ind2=" " >
+            <marc:subfield code="a">Investigaciones de la Biblioteca Nacional</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Acervo Documental: 1 ej.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">REPERTORIO DE INDIZACION (tesauro): Lista de Encabezamientos de Materia para Bibliotecas. OEA. Bogotá, 1985.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Operador: MI</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="508"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Autor: Mafud Lucio</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="518"  ind1=" " ind2=" " >
+            <marc:subfield code="a">alta:2016 12 13</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650"  ind1=" " ind2="4 " >
+            <marc:subfield code="a">CINE</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650"  ind1=" " ind2="4 " >
+            <marc:subfield code="a">HISTORIA</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650"  ind1=" " ind2="4 " >
+            <marc:subfield code="a">ARGENTINA</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="942"  ind1=" " ind2="" >
+            <marc:subfield code="c">BK</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="952"  ind1=" " ind2=" " >
+            <marc:subfield code="p">00005443</marc:subfield>
+            <marc:subfield code="g">$400.-</marc:subfield>
+            <marc:subfield code="e">Donación Biblioteca Nacional</marc:subfield>
+            <marc:subfield code="f">Préstamo</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01000cam# 22002601a 4500</marc:leader>
+        <marc:controlfield tag="001">BCV00006596</marc:controlfield>
+        <marc:controlfield tag="003">BCV-S/A</marc:controlfield>
+        <marc:controlfield tag="005">20170417093356</marc:controlfield>
+        <marc:controlfield tag="008">136 20|        ###||||||b   |||||||ES  ||</marc:controlfield>
+        <marc:datafield tag="020"  ind1=" " ind2=" " >
+            <marc:subfield code="c">9789873900389</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="037"  ind1=" " ind2=" " >
+            <marc:subfield code="a">00005444</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040"  ind1=" " ind2=" " >
+            <marc:subfield code="a">BCV</marc:subfield>
+            <marc:subfield code="b">spa</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="041"  ind1=" " ind2=" " >
+            <marc:subfield code="b">spa</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="044"  ind1=" " ind2=" " >
+            <marc:subfield code="b">ag</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="080"  ind1=" " ind2=" " >
+            <marc:subfield code="a">791.43.01</marc:subfield>
+            <marc:subfield code="2">C359c</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="080"  ind1=" " ind2=" " >
+            <marc:subfield code="a">CDU</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Ciucci Manuel</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Russo Pablo Mariano</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Russo Sebastián</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245"  ind1="1" ind2="0" >
+            <marc:subfield code="a">Un cine hacia el socialismo: Imagenes del PRT-ERP</marc:subfield>
+            <marc:subfield code="b"></marc:subfield>
+            <marc:subfield code="c">comp. Manuel Ciucci, Pablo Mariano Russo y Sebastián Russo</marc:subfield>
+            <marc:subfield code="h"></marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260"  ind1=" " ind2=" " >
+            <marc:subfield code="c">2016</marc:subfield>
+            <marc:subfield code="b">Fundación La Hendija</marc:subfield>
+            <marc:subfield code="a">Paraná, Entre Ríos</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300"  ind1=" " ind2=" " >
+            <marc:subfield code="a">pág. 268, </marc:subfield>
+            <marc:subfield code="b">fot. ; 23cm</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Acervo Documental: 1 ej.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">REPERTORIO DE INDIZACION (tesauro): Lista de Encabezamientos de Materia para Bibliotecas. OEA. Bogotá, 1985.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Operador: MI</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="508"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Autor: Ciucci Manuel</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="508"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Autor: Russo Pablo Mariano</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="508"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Autor: Russo Sebastián</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="508"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Responsable institucional:  </marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="518"  ind1=" " ind2=" " >
+            <marc:subfield code="a">alta:2016 12 13</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650"  ind1=" " ind2="4 " >
+            <marc:subfield code="a">CINE</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650"  ind1=" " ind2="4 " >
+            <marc:subfield code="a">HISTORIA</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650"  ind1=" " ind2="4 " >
+            <marc:subfield code="a">ARGENTINA</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650"  ind1=" " ind2="4 " >
+            <marc:subfield code="a">CINE DE LA BASE</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650"  ind1=" " ind2="4 " >
+            <marc:subfield code="a">RAYMUNDO GLEYZER</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="942"  ind1=" " ind2="" >
+            <marc:subfield code="c">BK</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="952"  ind1=" " ind2=" " >
+            <marc:subfield code="p">00005444</marc:subfield>
+            <marc:subfield code="g">$200.-</marc:subfield>
+            <marc:subfield code="e">Donación INCAA</marc:subfield>
+            <marc:subfield code="f">Préstamo</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01000cam# 22002601a 4500</marc:leader>
+        <marc:controlfield tag="001">BCV00006597</marc:controlfield>
+        <marc:controlfield tag="003">BCV-S/A</marc:controlfield>
+        <marc:controlfield tag="005">20170417093356</marc:controlfield>
+        <marc:controlfield tag="008">136 20|        ###||||||b   |||||||ES  ||</marc:controlfield>
+        <marc:datafield tag="020"  ind1=" " ind2=" " >
+            <marc:subfield code="c">9789872491840</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="037"  ind1=" " ind2=" " >
+            <marc:subfield code="a">00005445</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040"  ind1=" " ind2=" " >
+            <marc:subfield code="a">BCV</marc:subfield>
+            <marc:subfield code="b">spa</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="041"  ind1=" " ind2=" " >
+            <marc:subfield code="b">spa</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="044"  ind1=" " ind2=" " >
+            <marc:subfield code="b">ag</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="080"  ind1=" " ind2=" " >
+            <marc:subfield code="a">982.65</marc:subfield>
+            <marc:subfield code="2">M545s</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="080"  ind1=" " ind2=" " >
+            <marc:subfield code="a">CDU</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Mercado Lucía</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245"  ind1="1" ind2="0" >
+            <marc:subfield code="a">Santa Lucia de Tucumán. La base</marc:subfield>
+            <marc:subfield code="b"></marc:subfield>
+            <marc:subfield code="c">Lucía Mercado</marc:subfield>
+            <marc:subfield code="h"></marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="250"  ind1=" " ind2=" " >
+            <marc:subfield code="d">2a ed.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260"  ind1=" " ind2=" " >
+            <marc:subfield code="c">2013</marc:subfield>
+            <marc:subfield code="b">Lucía Mercado</marc:subfield>
+            <marc:subfield code="a">Bs. As.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300"  ind1=" " ind2=" " >
+            <marc:subfield code="a">pág. 416, </marc:subfield>
+            <marc:subfield code="b">fot. ; 20 cm.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Acervo Documental: 1 ej.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">REPERTORIO DE INDIZACION (tesauro): Lista de Encabezamientos de Materia para Bibliotecas. OEA. Bogotá, 1985.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Operador: MI</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="508"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Autor: Mercado Lucía</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="518"  ind1=" " ind2=" " >
+            <marc:subfield code="a">alta:2016 12 13</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650"  ind1=" " ind2="4 " >
+            <marc:subfield code="a">HISTORIA - INVESTIGACIONES</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="653"  ind1=" " ind2=" " >
+            <marc:subfield code="a">HISTORIA ARGENTINA</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="653"  ind1=" " ind2=" " >
+            <marc:subfield code="a">HISTORIA DE TUCUMÁN</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="942"  ind1=" " ind2="" >
+            <marc:subfield code="c">BK</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="952"  ind1=" " ind2=" " >
+            <marc:subfield code="p">00005445</marc:subfield>
+            <marc:subfield code="g">$150.-</marc:subfield>
+            <marc:subfield code="e">Donación Lucía Mercado</marc:subfield>
+            <marc:subfield code="f">Préstamo</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01000cam# 22002601a 4500</marc:leader>
+        <marc:controlfield tag="001">BCV00006598</marc:controlfield>
+        <marc:controlfield tag="003">BCV-S/A</marc:controlfield>
+        <marc:controlfield tag="005">20170417093356</marc:controlfield>
+        <marc:controlfield tag="008">136 20|        ###||||||b   |||||||ES  ||</marc:controlfield>
+        <marc:datafield tag="020"  ind1=" " ind2=" " >
+            <marc:subfield code="c">9789872491888</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="037"  ind1=" " ind2=" " >
+            <marc:subfield code="a">00005446</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040"  ind1=" " ind2=" " >
+            <marc:subfield code="a">BCV</marc:subfield>
+            <marc:subfield code="b">spa</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="041"  ind1=" " ind2=" " >
+            <marc:subfield code="b">spa</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="044"  ind1=" " ind2=" " >
+            <marc:subfield code="b">ag</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="080"  ind1=" " ind2=" " >
+            <marc:subfield code="a">982.65</marc:subfield>
+            <marc:subfield code="2">M545a</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="080"  ind1=" " ind2=" " >
+            <marc:subfield code="a">CDU</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Mercado Lucía</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245"  ind1="1" ind2="0" >
+            <marc:subfield code="a">50 años cierre de Ingenios Azucareros. 1966-2016</marc:subfield>
+            <marc:subfield code="b"></marc:subfield>
+            <marc:subfield code="c">Lucía Mercado</marc:subfield>
+            <marc:subfield code="h"></marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260"  ind1=" " ind2=" " >
+            <marc:subfield code="c">2016</marc:subfield>
+            <marc:subfield code="b">Lucía Mercado</marc:subfield>
+            <marc:subfield code="a">Bs. As.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300"  ind1=" " ind2=" " >
+            <marc:subfield code="a">pág. 160, </marc:subfield>
+            <marc:subfield code="b">fot. ; 20 cm.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Acervo Documental: 1 ej.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">REPERTORIO DE INDIZACION (tesauro): Lista de Encabezamientos de Materia para Bibliotecas. OEA. Bogotá, 1985.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Operador: MI</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="508"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Autor: Mercado Lucía</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="518"  ind1=" " ind2=" " >
+            <marc:subfield code="a">alta:2016 12 13</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650"  ind1=" " ind2="4 " >
+            <marc:subfield code="a">HISTORIA - INVESTIGACIONES</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="653"  ind1=" " ind2=" " >
+            <marc:subfield code="a">HISTORIA ARGENTINA</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="653"  ind1=" " ind2=" " >
+            <marc:subfield code="a">HISTORIA DE TUCUMÁN</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="942"  ind1=" " ind2="" >
+            <marc:subfield code="c">BK</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="952"  ind1=" " ind2=" " >
+            <marc:subfield code="p">00005446</marc:subfield>
+            <marc:subfield code="g">$100.-</marc:subfield>
+            <marc:subfield code="e">Donación Lucía Mercado</marc:subfield>
+            <marc:subfield code="f">Préstamo</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01000cam# 22002601a 4500</marc:leader>
+        <marc:controlfield tag="001">BCV00006599</marc:controlfield>
+        <marc:controlfield tag="003">BCV-S/A</marc:controlfield>
+        <marc:controlfield tag="005">20170417093356</marc:controlfield>
+        <marc:controlfield tag="008">217 20|        ###||||||q   |||||||ES  ||</marc:controlfield>
+        <marc:datafield tag="037"  ind1=" " ind2=" " >
+            <marc:subfield code="a">00005447</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040"  ind1=" " ind2=" " >
+            <marc:subfield code="a">BCV</marc:subfield>
+            <marc:subfield code="b">spa</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="041"  ind1=" " ind2=" " >
+            <marc:subfield code="b">spa</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="044"  ind1=" " ind2=" " >
+            <marc:subfield code="b">ag</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="080"  ind1=" " ind2=" " >
+            <marc:subfield code="a">791.44.071</marc:subfield>
+            <marc:subfield code="2">S67h</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="080"  ind1=" " ind2=" " >
+            <marc:subfield code="a">791.44.071</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Sapire Juana</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245"  ind1="1" ind2="0" >
+            <marc:subfield code="a">Hasta la memoria siempre. Raymundo Gleyzer [dvd]</marc:subfield>
+            <marc:subfield code="b"></marc:subfield>
+            <marc:subfield code="c">Rest. Juana Sapire; Formato: Avi</marc:subfield>
+            <marc:subfield code="h">DVD</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260"  ind1=" " ind2=" " >
+            <marc:subfield code="c">2015</marc:subfield>
+            <marc:subfield code="b">Instituto Nacional de Cine y Artes Audiovisuales</marc:subfield>
+            <marc:subfield code="a">Ciudad Autónoma de Bs As</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300"  ind1=" " ind2=" " >
+            <marc:subfield code="a">1 videograbación (124 min.)</marc:subfield>
+            <marc:subfield code="b">son., col.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="338"  ind1=" " ind2=" " >
+            <marc:subfield code="c">DVD</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">4 DVD conteniendo las películas: La tierra quema, Ocurrido en Hualfín, Quilino, México la revolución congelada, Nuestras Islas Malvinas, Ceramiqueros de traslacierra, Los traidores, Me matan si no trabajo y si trabajo me matan, Swift, BANADE, Ni olvido ni perdón, Las AAA son las tres armas, Testimonio de Juana Sapire en el juicio por secuestro y desaparición de Raymundo Gleyzer. Los documentales: Raymundo de Ernesto Ardito y Virna Molina y Fuego eterno de Cynthia Sabat</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Acompaña al libro Compañero Raymundo</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Acervo Documental: 1 ej.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">REPERTORIO DE INDIZACION (tesauro): Lista de Encabezamientos de Materia para Bibliotecas. OEA. Bogotá, 1985.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Operador: MI</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="508"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Autor: Sapire Juana</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="508"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Responsable institucional: Ministerio de Cultura. Presidencia de la Nación Instituto Nacional de Cine y Artes Audiovisuales(INCAA)(Argentima)(Bs As)</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="518"  ind1=" " ind2=" " >
+            <marc:subfield code="a">alta:2017 02 21</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650"  ind1=" " ind2="4 " >
+            <marc:subfield code="a">CINE</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650"  ind1=" " ind2="4 " >
+            <marc:subfield code="a">HISTORIA</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="942"  ind1=" " ind2="" >
+            <marc:subfield code="c">VID</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="952"  ind1=" " ind2=" " >
+            <marc:subfield code="p">00005447</marc:subfield>
+            <marc:subfield code="g">$300.</marc:subfield>
+            <marc:subfield code="t">1 ej.</marc:subfield>
+            <marc:subfield code="e">Donación INCAA</marc:subfield>
+            <marc:subfield code="f">PRES</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01000cam# 22002601a 4500</marc:leader>
+        <marc:controlfield tag="001">BCV00006600</marc:controlfield>
+        <marc:controlfield tag="003">BCV-S/A</marc:controlfield>
+        <marc:controlfield tag="005">20170417093356</marc:controlfield>
+        <marc:controlfield tag="008">217 20|        ###||||||b   |||||||ES  ||</marc:controlfield>
+        <marc:datafield tag="020"  ind1=" " ind2=" " >
+            <marc:subfield code="c">9789874604996</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="037"  ind1=" " ind2=" " >
+            <marc:subfield code="a">00005448</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040"  ind1=" " ind2=" " >
+            <marc:subfield code="a">BCV</marc:subfield>
+            <marc:subfield code="b">spa</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="041"  ind1=" " ind2=" " >
+            <marc:subfield code="b">spa</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="044"  ind1=" " ind2=" " >
+            <marc:subfield code="b">ag</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="080"  ind1=" " ind2=" " >
+            <marc:subfield code="a">791.44.071</marc:subfield>
+            <marc:subfield code="2">S65c</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="080"  ind1=" " ind2=" " >
+            <marc:subfield code="a">791.44.071</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Sapire Juana</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Sabat Cynthia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245"  ind1="1" ind2="0" >
+            <marc:subfield code="a">Compañero Raymundo</marc:subfield>
+            <marc:subfield code="b"></marc:subfield>
+            <marc:subfield code="c">Juana Sapire ; Cynthia Sabat</marc:subfield>
+            <marc:subfield code="h"></marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260"  ind1=" " ind2=" " >
+            <marc:subfield code="c">2015</marc:subfield>
+            <marc:subfield code="b">Instituto Nacional de Cine y Artes Audiovisuales</marc:subfield>
+            <marc:subfield code="a">Ciudad Autónoma de Bs As</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300"  ind1=" " ind2=" " >
+            <marc:subfield code="a">pág. 400 + CD-DVD</marc:subfield>
+            <marc:subfield code="b">fot. ; 22 cm.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Acervo Documental: 1 ej.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">REPERTORIO DE INDIZACION (tesauro): Lista de Encabezamientos de Materia para Bibliotecas. OEA. Bogotá, 1985.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Operador: MI</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="508"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Autor: Sapire Juana</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="508"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Autor: Sabat Cynthia</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="518"  ind1=" " ind2=" " >
+            <marc:subfield code="a">alta:2017 02 21</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650"  ind1=" " ind2="4 " >
+            <marc:subfield code="a">CINE</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="653"  ind1=" " ind2=" " >
+            <marc:subfield code="a">HISTORIA ARGENTINA</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="653"  ind1=" " ind2=" " >
+            <marc:subfield code="a">HISTORIA DE TUCUMÁN</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="942"  ind1=" " ind2="" >
+            <marc:subfield code="c">BK</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="952"  ind1=" " ind2=" " >
+            <marc:subfield code="p">00005448</marc:subfield>
+            <marc:subfield code="g">$300.-</marc:subfield>
+            <marc:subfield code="t">1 ej.</marc:subfield>
+            <marc:subfield code="e">Donación INCAA</marc:subfield>
+            <marc:subfield code="f">Préstamo</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01000cam# 22002601a 4500</marc:leader>
+        <marc:controlfield tag="001">BCV00006601</marc:controlfield>
+        <marc:controlfield tag="003">BCV-S/A</marc:controlfield>
+        <marc:controlfield tag="005">20170417093356</marc:controlfield>
+        <marc:controlfield tag="008">227 20|        ###||||||b   |||||||ES  ||</marc:controlfield>
+        <marc:datafield tag="020"  ind1=" " ind2=" " >
+            <marc:subfield code="c">9789873754067</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="037"  ind1=" " ind2=" " >
+            <marc:subfield code="a">00005449</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040"  ind1=" " ind2=" " >
+            <marc:subfield code="a">BCV</marc:subfield>
+            <marc:subfield code="b">spa</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="041"  ind1=" " ind2=" " >
+            <marc:subfield code="b">spa</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="044"  ind1=" " ind2=" " >
+            <marc:subfield code="b">ag</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="080"  ind1=" " ind2=" " >
+            <marc:subfield code="a">791.43</marc:subfield>
+            <marc:subfield code="2">G75v</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="080"  ind1=" " ind2=" " >
+            <marc:subfield code="a">791.43</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Grassi Alfredo Julio</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245"  ind1="1" ind2="0" >
+            <marc:subfield code="a">Una vida entre cuadritos y celuloide</marc:subfield>
+            <marc:subfield code="b"></marc:subfield>
+            <marc:subfield code="c">Alfredo Julio Grassi</marc:subfield>
+            <marc:subfield code="h"></marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260"  ind1=" " ind2=" " >
+            <marc:subfield code="c">2015</marc:subfield>
+            <marc:subfield code="b">Libraria</marc:subfield>
+            <marc:subfield code="a">Ciudad Autónoma de Bs As</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300"  ind1=" " ind2=" " >
+            <marc:subfield code="a">176 pág.</marc:subfield>
+            <marc:subfield code="b">fot. ; 21 cm.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="490"  ind1="0" ind2=" " >
+            <marc:subfield code="a">Biblioteca ENER INCAA</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Acervo Documental: 1 ej.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">REPERTORIO DE INDIZACION (tesauro): Lista de Encabezamientos de Materia para Bibliotecas. OEA. Bogotá, 1985.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Operador: MI</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="508"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Autor: Grassi Alfredo Julio</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="518"  ind1=" " ind2=" " >
+            <marc:subfield code="a">alta:2017 02 22</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650"  ind1=" " ind2="4 " >
+            <marc:subfield code="a">CINE</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="653"  ind1=" " ind2=" " >
+            <marc:subfield code="a">HISTORIA ARGENTINA</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="653"  ind1=" " ind2=" " >
+            <marc:subfield code="a">MEMORIAS</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="942"  ind1=" " ind2="" >
+            <marc:subfield code="c">BK</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="952"  ind1=" " ind2=" " >
+            <marc:subfield code="p">00005449</marc:subfield>
+            <marc:subfield code="g">$150.-</marc:subfield>
+            <marc:subfield code="t">1 ej.</marc:subfield>
+            <marc:subfield code="e">Donación INCAA</marc:subfield>
+            <marc:subfield code="f">Préstamo</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01000cam# 22002601a 4500</marc:leader>
+        <marc:controlfield tag="001">BCV00006602</marc:controlfield>
+        <marc:controlfield tag="003">BCV-S/A</marc:controlfield>
+        <marc:controlfield tag="005">20170417093356</marc:controlfield>
+        <marc:controlfield tag="008">227 20|        ###||||||b   |||||||ES  ||</marc:controlfield>
+        <marc:datafield tag="020"  ind1=" " ind2=" " >
+            <marc:subfield code="c">9789877230390</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="037"  ind1=" " ind2=" " >
+            <marc:subfield code="a">00005450</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040"  ind1=" " ind2=" " >
+            <marc:subfield code="a">BCV</marc:subfield>
+            <marc:subfield code="b">spa</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="041"  ind1=" " ind2=" " >
+            <marc:subfield code="b">spa</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="044"  ind1=" " ind2=" " >
+            <marc:subfield code="b">ag</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="080"  ind1=" " ind2=" " >
+            <marc:subfield code="a">791.43.01</marc:subfield>
+            <marc:subfield code="2">M323m</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="080"  ind1=" " ind2=" " >
+            <marc:subfield code="a">791.43.01</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Gil Mariño Cecilia Nuria</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245"  ind1="1" ind2="0" >
+            <marc:subfield code="a">El mercado del deseo: tango, cine y cultura de masas en la Argentina de los 30´</marc:subfield>
+            <marc:subfield code="b"></marc:subfield>
+            <marc:subfield code="c">Cecilia Nuria Gil Mariño</marc:subfield>
+            <marc:subfield code="h"></marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260"  ind1=" " ind2=" " >
+            <marc:subfield code="c">2015</marc:subfield>
+            <marc:subfield code="b">Teseo</marc:subfield>
+            <marc:subfield code="a">Ciudad Autónoma de Bs As</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300"  ind1=" " ind2=" " >
+            <marc:subfield code="a">174 pág. ; 20 cm.</marc:subfield>
+            <marc:subfield code="b"></marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Acervo Documental: 1 ej.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">REPERTORIO DE INDIZACION (tesauro): Lista de Encabezamientos de Materia para Bibliotecas. OEA. Bogotá, 1985.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Operador: MI</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="508"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Autor: Gil Mariño Cecilia Nuria</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="518"  ind1=" " ind2=" " >
+            <marc:subfield code="a">alta:2017 02 22</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650"  ind1=" " ind2="4 " >
+            <marc:subfield code="a">CINE</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="653"  ind1=" " ind2=" " >
+            <marc:subfield code="a">HISTORIA ARGENTINA</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="942"  ind1=" " ind2="" >
+            <marc:subfield code="c">BK</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="952"  ind1=" " ind2=" " >
+            <marc:subfield code="p">00005450</marc:subfield>
+            <marc:subfield code="g">$70.-</marc:subfield>
+            <marc:subfield code="t">1 ej.</marc:subfield>
+            <marc:subfield code="e">Donación INCAA</marc:subfield>
+            <marc:subfield code="f">Préstamo</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01000cam# 22002601a 4500</marc:leader>
+        <marc:controlfield tag="001">BCV00006603</marc:controlfield>
+        <marc:controlfield tag="003">BCV-S/A</marc:controlfield>
+        <marc:controlfield tag="005">20170417093356</marc:controlfield>
+        <marc:controlfield tag="008">227 20|        ###||||||b   |||||||ES  ||</marc:controlfield>
+        <marc:datafield tag="037"  ind1=" " ind2=" " >
+            <marc:subfield code="a">00005451</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040"  ind1=" " ind2=" " >
+            <marc:subfield code="a">BCV</marc:subfield>
+            <marc:subfield code="b">spa</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="041"  ind1=" " ind2=" " >
+            <marc:subfield code="b">spa</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="044"  ind1=" " ind2=" " >
+            <marc:subfield code="b">ag</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="080"  ind1=" " ind2=" " >
+            <marc:subfield code="a">791.43.01</marc:subfield>
+            <marc:subfield code="2">K871s</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="080"  ind1=" " ind2=" " >
+            <marc:subfield code="a">791.43.01</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Krebs Eduardo C.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245"  ind1="1" ind2="0" >
+            <marc:subfield code="a">Sangre negra: breve historia de una película perdida</marc:subfield>
+            <marc:subfield code="b"></marc:subfield>
+            <marc:subfield code="c">Eduardo C. Krebs</marc:subfield>
+            <marc:subfield code="h"></marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260"  ind1=" " ind2=" " >
+            <marc:subfield code="c">2015</marc:subfield>
+            <marc:subfield code="b">30° Festival Internacional de Cine de Mar del Plata</marc:subfield>
+            <marc:subfield code="a">Ciudad Autónoma de Bs As</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300"  ind1=" " ind2=" " >
+            <marc:subfield code="a">90 pág. </marc:subfield>
+            <marc:subfield code="b">fot. ; 22 cm.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="490"  ind1="0" ind2=" " >
+            <marc:subfield code="a">Libros del festival</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Acervo Documental: 1 ej.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">REPERTORIO DE INDIZACION (tesauro): Lista de Encabezamientos de Materia para Bibliotecas. OEA. Bogotá, 1985.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Operador: MI</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="508"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Autor: Krebs Eduardo C.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="518"  ind1=" " ind2=" " >
+            <marc:subfield code="a">alta:2017 02 22</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650"  ind1=" " ind2="4 " >
+            <marc:subfield code="a">CINE</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="653"  ind1=" " ind2=" " >
+            <marc:subfield code="a">HISTORIA Nortamericana</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="942"  ind1=" " ind2="" >
+            <marc:subfield code="c">BK</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="952"  ind1=" " ind2=" " >
+            <marc:subfield code="p">00005451</marc:subfield>
+            <marc:subfield code="g">$70.-</marc:subfield>
+            <marc:subfield code="t">1 ej.</marc:subfield>
+            <marc:subfield code="e">Donación INCAA</marc:subfield>
+            <marc:subfield code="f">Préstamo</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01000cam# 22002601a 4500</marc:leader>
+        <marc:controlfield tag="001">BCV00006604</marc:controlfield>
+        <marc:controlfield tag="003">BCV-S/A</marc:controlfield>
+        <marc:controlfield tag="005">20170417093356</marc:controlfield>
+        <marc:controlfield tag="008">227 20|        ###||||||b   |||||||ES  ||</marc:controlfield>
+        <marc:datafield tag="020"  ind1=" " ind2=" " >
+            <marc:subfield code="c">9789872629121</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="037"  ind1=" " ind2=" " >
+            <marc:subfield code="a">00005452</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040"  ind1=" " ind2=" " >
+            <marc:subfield code="a">BCV</marc:subfield>
+            <marc:subfield code="b">spa</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="041"  ind1=" " ind2=" " >
+            <marc:subfield code="b">spa</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="044"  ind1=" " ind2=" " >
+            <marc:subfield code="b">ag</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="080"  ind1=" " ind2=" " >
+            <marc:subfield code="a">177.5</marc:subfield>
+            <marc:subfield code="2">M866c</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="080"  ind1=" " ind2=" " >
+            <marc:subfield code="a">177.5</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Roma Pablo</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245"  ind1="1" ind2="0" >
+            <marc:subfield code="a">En el camino de la igualdad</marc:subfield>
+            <marc:subfield code="b"></marc:subfield>
+            <marc:subfield code="c">dir. edit. Pablo Roma</marc:subfield>
+            <marc:subfield code="h"></marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260"  ind1=" " ind2=" " >
+            <marc:subfield code="c">[2010?]</marc:subfield>
+            <marc:subfield code="b">Imprenta El Faro</marc:subfield>
+            <marc:subfield code="a">Ciudad Autónoma de Bs As</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300"  ind1=" " ind2=" " >
+            <marc:subfield code="a">243 pág. ; 21 cm.</marc:subfield>
+            <marc:subfield code="b"></marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Acervo Documental: 1 ej.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">REPERTORIO DE INDIZACION (tesauro): Lista de Encabezamientos de Materia para Bibliotecas. OEA. Bogotá, 1985.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Operador: MI</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="508"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Autor: Roma Pablo</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="508"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Responsable institucional:  Argentina. Instituto Nacional contra la Discriminación, la Xenofobia y el Racismo. INADI</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="518"  ind1=" " ind2=" " >
+            <marc:subfield code="a">alta:2017 02 22</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650"  ind1=" " ind2="4 " >
+            <marc:subfield code="a">DISCRIMINACIÓN</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="653"  ind1=" " ind2=" " >
+            <marc:subfield code="a">ARGENTINA</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="653"  ind1=" " ind2=" " >
+            <marc:subfield code="a">LEYES</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="942"  ind1=" " ind2="" >
+            <marc:subfield code="c">BK</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="952"  ind1=" " ind2=" " >
+            <marc:subfield code="p">00005452</marc:subfield>
+            <marc:subfield code="g">$100.-</marc:subfield>
+            <marc:subfield code="t">1 ej.</marc:subfield>
+            <marc:subfield code="e">Donación</marc:subfield>
+            <marc:subfield code="f">Préstamo</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+    <marc:record>
+        <marc:leader>01000cam# 22002601a 4500</marc:leader>
+        <marc:controlfield tag="001">BCV00006605</marc:controlfield>
+        <marc:controlfield tag="003">BCV-S/A</marc:controlfield>
+        <marc:controlfield tag="005">20170417093356</marc:controlfield>
+        <marc:controlfield tag="008">227 20|        ###||||||b   |||||||ES  ||</marc:controlfield>
+        <marc:datafield tag="037"  ind1=" " ind2=" " >
+            <marc:subfield code="a">00005453</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="040"  ind1=" " ind2=" " >
+            <marc:subfield code="a">BCV</marc:subfield>
+            <marc:subfield code="b">spa</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="041"  ind1=" " ind2=" " >
+            <marc:subfield code="b">spa</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="044"  ind1=" " ind2=" " >
+            <marc:subfield code="b">ag</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="080"  ind1=" " ind2=" " >
+            <marc:subfield code="a">791.43.01</marc:subfield>
+            <marc:subfield code="2">M337h</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="080"  ind1=" " ind2=" " >
+            <marc:subfield code="a">791.43.01</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Margaritt Teo de León</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="100"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Ratto Alberto F.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="245"  ind1="1" ind2="0" >
+            <marc:subfield code="a">Historia y Filosofía del Cine</marc:subfield>
+            <marc:subfield code="b"></marc:subfield>
+            <marc:subfield code="c">Teo de León Margaritt ; prol. Alberto F. Ratto</marc:subfield>
+            <marc:subfield code="h"></marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="260"  ind1=" " ind2=" " >
+            <marc:subfield code="c">1947</marc:subfield>
+            <marc:subfield code="b">Impulso</marc:subfield>
+            <marc:subfield code="a">Buenos Aires</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="300"  ind1=" " ind2=" " >
+            <marc:subfield code="a">688 pág. ; 27 cm.</marc:subfield>
+            <marc:subfield code="b"></marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="490"  ind1="0" ind2=" " >
+            <marc:subfield code="a">La joya</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Acervo Documental: 1 ej.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">REPERTORIO DE INDIZACION (tesauro): Lista de Encabezamientos de Materia para Bibliotecas. OEA. Bogotá, 1985.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="500"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Operador: MI</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="508"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Autor: Margaritt Teo de León</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="508"  ind1=" " ind2=" " >
+            <marc:subfield code="a">Autor: Ratto Alberto F.</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="518"  ind1=" " ind2=" " >
+            <marc:subfield code="a">alta:2017 02 22</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="650"  ind1=" " ind2="4 " >
+            <marc:subfield code="a">CINE</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="653"  ind1=" " ind2=" " >
+            <marc:subfield code="a">HISTORIA</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="653"  ind1=" " ind2=" " >
+            <marc:subfield code="a">FILOSOFÍA</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="942"  ind1=" " ind2="" >
+            <marc:subfield code="c">BK</marc:subfield>
+        </marc:datafield>
+        <marc:datafield tag="952"  ind1=" " ind2=" " >
+            <marc:subfield code="p">00005453</marc:subfield>
+            <marc:subfield code="g">$1000.-</marc:subfield>
+            <marc:subfield code="t">1 ej.</marc:subfield>
+            <marc:subfield code="e">Donación</marc:subfield>
+            <marc:subfield code="f">Préstamo</marc:subfield>
+        </marc:datafield>
+    </marc:record>
+</marc:collection>

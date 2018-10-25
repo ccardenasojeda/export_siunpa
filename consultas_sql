@@ -1,0 +1,125 @@
+SELECT b.bibid, b.create_dt, b.call_nmbr1, b.call_nmbr2, b.call_nmbr3, b.title, b.title_remainder, 
+	   b.responsibility_stmt, b.`author`, b.topic1, b.topic2,b.topic3, b.topic4, b.topic5,
+	   mt.description as tipo_material, cdm.description as tipo_coleccion, bf.tag, bf.subfield_cd,bf.field_data
+
+FROM biblio b
+
+INNER JOIN material_type_dm mt ON b.`material_cd`   = mt.code AND mt.code = 2
+
+INNER JOIN collection_dm   cdm ON b.`collection_cd` = cdm.code
+
+INNER JOIN biblio_field bf ON b.bibid = bf.bibid
+
+WHERE b.bibid = 100170
+
+
+SELECT
+   bc.bibid,
+   bc.barcode_nmbr,
+   bc.status_begin_dt,
+   bc.copy_volumen,
+   bc.copy_tomo,
+   bc.copy_proveedor,
+   bc.copy_precio,
+   bc.copy_cod_loc, 
+   bcn.anio,
+   bcn.estado,
+   bcn.numeros
+FROM
+    biblio b
+INNER JOIN
+    material_type_dm mt
+ON
+    b.`material_cd` = mt.code AND mt.code = 2
+INNER JOIN
+    collection_dm cdm
+ON
+    b.`collection_cd` = cdm.code
+INNER JOIN
+    biblio_field bf
+ON
+    b.bibid = bf.bibid
+INNER JOIN biblio_copy bc 
+ON b.bibid = bc.bibid
+LEFT JOIN biblio_copy_num bcn ON bcn.bibid = b.bibid
+WHERE
+    b.bibid = 100170
+
+/***************************************************************************************/
+SELECT b.bibid, usm.tag, usm.subfield_cd, b.title_remainder as field_data 
+
+FROM biblio b INNER JOIN material_type_dm mt ON b.`material_cd` = mt.code AND mt.code = 2 
+
+INNER JOIN collection_dm cdm ON b.`collection_cd` = cdm.code 
+
+INNER JOIN usmarc_subfield_dm usm ON usm.tag = 245 AND usm.subfield_cd = 'b' 
+
+ORDER BY `b`.`bibid` ASC
+
+SELECT bf.tag, bf.subfield_cd,bf.field_data
+FROM biblio b
+INNER JOIN material_type_dm mt ON b.`material_cd`   = mt.code AND mt.code = 2
+INNER JOIN collection_dm   cdm ON b.`collection_cd` = cdm.code
+left JOIN biblio_field_copy bf ON b.bibid = bf.bibid 
+WHERE bf.tag = 41
+
+/*******MUESTRA LOS LIBROS QUE NO TIENEN EL TAG CARGADO******/
+SELECT b.bibid, usm.tag, usm.subfield_cd, ' ' as field_data 
+
+FROM (SELECT bi.* FROM biblio bi WHERE bi.bibid NOT IN (SELECT DISTINCT bci.bibid From biblio_field_copy bci where bci.tag = 41 ORDER BY bci.bibid)) b 
+
+INNER JOIN material_type_dm mt ON b.`material_cd` = mt.code AND mt.code = 2 
+
+INNER JOIN collection_dm cdm ON b.`collection_cd` = cdm.code 
+
+INNER JOIN usmarc_subfield_dm usm ON usm.tag = 41 AND usm.subfield_cd = 'a' 
+
+ORDER BY `b`.`bibid` ASC
+
+/*********************libros UACO**********/
+SELECT
+bc.bibid, bc.barcode_nmbr, bc.status_begin_dt, bc.copy_volumen, bc.copy_tomo,
+bc.copy_proveedor, bc.copy_precio, bc.copy_cod_loc, bcn.anio, bcn.estado, bcn.numeros,
+bi.indice, mt.description as tipo_maetrial, cdm.description as tipo_coleccion,
+bcl.description as uuaa
+FROM biblio b
+INNER JOIN material_type_dm mt     ON b.`material_cd`   = mt.code AND mt.code = 2
+INNER JOIN collection_dm cdm       ON b.`collection_cd` = cdm.code 
+INNER JOIN biblio_copy bc          ON b.bibid           = bc.bibid
+LEFT JOIN  biblio_copy_num bcn     ON bcn.bibid         = b.bibid
+LEFT JOIN  biblio_index bi         ON b.bibid           = bi.bibid
+INNER JOIN biblio_cod_library bcl  ON bc.copy_cod_loc = bcl.code  
+WHERE bc.copy_cod_loc = 2
+GROUP BY bc.barcode_nmbr
+/************************************************************************/
+SELECT bf.bibid, bf.tag, bf.subfield_cd, bf.field_data, mt.description 
+FROM biblio b 
+INNER JOIN material_type_dm mt ON b.`material_cd` = mt.code AND mt.code = 2 
+INNER JOIN collection_dm cdm ON b.`collection_cd` = cdm.code 
+INNER JOIN biblio_field_copy bf ON b.bibid = bf.bibid 
+WHERE bf.tag = 20 AND bf.field_data <> '' 
+ORDER BY `bf`.`bibid` ASC
+/*********MUESTRA ISBNS de LIBROS SEPARDOS CON | y distinto de VACIO*************************/
+SELECT bf.bibid, bf.tag, bf.subfield_cd, bf.field_data, mt.description 
+FROM biblio b 
+INNER JOIN material_type_dm mt ON b.`material_cd` = mt.code AND mt.code = 2 
+INNER JOIN collection_dm cdm ON b.`collection_cd` = cdm.code 
+INNER JOIN biblio_field_copy bf ON b.bibid = bf.bibid 
+WHERE bf.tag = 20 AND bf.field_data <> '' AND bf.field_data like '%|%'
+ORDER BY `bf`.`bibid` ASC
+
+// muestra isbns de LIBROS no vacios 
+
+SELECT bf.bibid, bf.tag, bf.subfield_cd, bf.field_data, mt.description 
+FROM biblio b 
+INNER JOIN material_type_dm mt ON b.`material_cd` = mt.code AND mt.code = 2 
+INNER JOIN collection_dm cdm ON b.`collection_cd` = cdm.code 
+INNER JOIN biblio_field_copy bf ON b.bibid = bf.bibid 
+WHERE bf.tag = 20 AND bf.field_data <> '' 
+ORDER BY `bf`.`bibid` ASC
+
+/******MUESTRA SOLO LOS ISBNS QUE ESTAN ENTRE CORCHETES***************/
+SELECT * FROM (SELECT * 
+FROM `biblio_field` 
+WHERE `tag` = 20 AND `field_data` NOT LIKE '%[sic]%') as bb
+WHERE bb.field_data LIKE '%[%' AND bb.field_data LIKE '%]%'

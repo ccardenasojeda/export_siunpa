@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ1</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200404290000000</controlfield>
+    <controlfield tag="008">040429|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="082" ind1=" " ind2=" ">
+      <subfield code="a">81'42 C566t</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Ciapuscio, Guiomar Elena</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Tipos textuales</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">1a ed.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b">UBA, Ciclo Básico Común</subfield>
+      <subfield code="c">1994</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">141 p.</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">LI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_UART</subfield>
+      <subfield code="b">BIB_UART</subfield>
+      <subfield code="d"/>
+      <subfield code="y">LI</subfield>
+      <subfield code="p">03-01448</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_UASJ</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d"/>
+      <subfield code="y">LI</subfield>
+      <subfield code="p">04-31845</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_UARG</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d"/>
+      <subfield code="y">LI</subfield>
+      <subfield code="p">05-14873</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_UARG</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d"/>
+      <subfield code="y">LI</subfield>
+      <subfield code="p">05-14874</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_UARG</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d"/>
+      <subfield code="y">LI</subfield>
+      <subfield code="p">05-15116</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_UASJ</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d"/>
+      <subfield code="y">LI</subfield>
+      <subfield code="p">11-32111</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_UARG</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d"/>
+      <subfield code="y">LI</subfield>
+      <subfield code="p">12-20240</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_UASJ</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d"/>
+      <subfield code="y">LI</subfield>
+      <subfield code="p">18-32192</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ2</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200404290000000</controlfield>
+    <controlfield tag="008">040429|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="082" ind1=" " ind2=" ">
+      <subfield code="a">316.26 M345i</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Marx, Karl</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Engels, Friedrich</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">La ideología alemana</subfield>
+      <subfield code="c">Roces, Wenceslao, tr. del alemán|Acosta, Néstor, cuidado de la ed.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b">Pueblos Unidos</subfield>
+      <subfield code="b">Cartago</subfield>
+      <subfield code="c">1985</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">746 p.</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Subtítulo: Crítica de la novísima filosofía alemana en las personas de sus representantes Feuerbach, B. Bauer y Stirner, y del socialismo alemán en las de sus diferentes profetas</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">LI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_UACO</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d"/>
+      <subfield code="y">LI</subfield>
+      <subfield code="p">02-20373</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_UACO</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d"/>
+      <subfield code="y">LI</subfield>
+      <subfield code="p">02-20374</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ3</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200404290000000</controlfield>
+    <controlfield tag="008">040429|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="082" ind1=" " ind2=" ">
+      <subfield code="a">63 J828s7</subfield>
+    </datafield>
+    <datafield tag="110" ind1=" " ind2=" ">
+      <subfield code="a">Jornadas de Investigación en Ciencias Agropecuarias (7 : 2000 : Córdoba)</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">VII jornadas de investigación en ciencias agropecuarias</subfield>
+      <subfield code="b">28, 29 y 30 de noviembre de 2000</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Córdoba</subfield>
+      <subfield code="b">Secretaría de Ciencia y Técnica, Universidad Nacional de Córdoba</subfield>
+      <subfield code="c">2000</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">LI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_UARG</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d"/>
+      <subfield code="y">LI</subfield>
+      <subfield code="p">05-20473</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ4</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200404290000000</controlfield>
+    <controlfield tag="008">040429|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="082" ind1=" " ind2=" ">
+      <subfield code="a">336.5 A691c</subfield>
+    </datafield>
+    <datafield tag="110" ind1=" " ind2=" ">
+      <subfield code="a">Argentina. Ministerio de Economía y Obras y Servicios Públicos. Dirección de Gastos Sociales Consolidados</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Caracterización y evolución del gasto público social</subfield>
+      <subfield code="b">período 1980-1997</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b">Ministerio de Economía y Obras y Servicios Públicos</subfield>
+      <subfield code="c">1999</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">240 p.</subfield>
+      <subfield code="a">248 p.</subfield>
+      <subfield code="b">cuadros</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">LI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_UARG</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d"/>
+      <subfield code="y">LI</subfield>
+      <subfield code="p">05-20461</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ5</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200404290000000</controlfield>
+    <controlfield tag="008">040429|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="082" ind1=" " ind2=" ">
+      <subfield code="a">378.4 U588c</subfield>
+    </datafield>
+    <datafield tag="110" ind1=" " ind2=" ">
+      <subfield code="a">Universidad de Buenos Aires. Secretaría de Planificación</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Censo de estudiantes 2000</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b">UBA</subfield>
+      <subfield code="c">2001</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">258,[20] p.</subfield>
+      <subfield code="b">cuadros</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">LI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_UARG</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d"/>
+      <subfield code="y">LI</subfield>
+      <subfield code="p">05-20466</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ6</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200404290000000</controlfield>
+    <controlfield tag="008">040429|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="082" ind1=" " ind2=" ">
+      <subfield code="a">378.4 U588ce</subfield>
+    </datafield>
+    <datafield tag="110" ind1=" " ind2=" ">
+      <subfield code="a">Universidad de Buenos Aires. Secretaría de Planificación</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Censo de docentes 2000</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b">UBA</subfield>
+      <subfield code="c">2001</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">127 p.</subfield>
+      <subfield code="b">cuadros</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">LI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_UARG</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d"/>
+      <subfield code="y">LI</subfield>
+      <subfield code="p">05-20467</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ7</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200404290000000</controlfield>
+    <controlfield tag="008">040429|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">CL</subfield>
+    </datafield>
+    <datafield tag="082" ind1=" " ind2=" ">
+      <subfield code="a">378.4 U588r</subfield>
+    </datafield>
+    <datafield tag="110" ind1=" " ind2=" ">
+      <subfield code="a">Universidad de Magallanes (Chile)</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Resumenes de proyectos</subfield>
+      <subfield code="b">1996</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">[Punta Arenas]</subfield>
+      <subfield code="b">Universidad de Magallanes</subfield>
+      <subfield code="c">1996</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">73 p.</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">LI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_UARG</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d"/>
+      <subfield code="y">LI</subfield>
+      <subfield code="p">05-20463</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ9</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200404290000000</controlfield>
+    <controlfield tag="008">040429|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="082" ind1=" " ind2=" ">
+      <subfield code="a">7.01 G934e</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Guerrero, Luis Juan</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Estética operatoria en sus tres direcciones</subfield>
+      <subfield code="b">II. Creación y ejecución de la obra de arte. Estética de las potencias artísticas</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b">Losada</subfield>
+      <subfield code="c">1956</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">292 p.</subfield>
+      <subfield code="b">il.</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">LI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_UARG</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d"/>
+      <subfield code="y">LI</subfield>
+      <subfield code="p">05-20502</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ10</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200404290000000</controlfield>
+    <controlfield tag="008">040429|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="082" ind1=" " ind2=" ">
+      <subfield code="a">378 M791p</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Monti, Ángel</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Principios éticos en la vida universitaria y criterios para su instrumentación</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">[Buenos Aires]</subfield>
+      <subfield code="b">Universidad Tecnológica Nacional</subfield>
+      <subfield code="c">2000</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">72 p.</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">LI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_UARG</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d"/>
+      <subfield code="y">LI</subfield>
+      <subfield code="p">05-20509</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ11</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200404290000000</controlfield>
+    <controlfield tag="008">040429|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="082" ind1=" " ind2=" ">
+      <subfield code="a">004 E921e</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Chisari, Omar O.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Balzarotti, Nora P.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Benitez, Daniel</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Oliveros, Santiago</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Evaluación del efecto del año 2000 sobre la productividad y la eficiencia de la economía argentina</subfield>
+      <subfield code="b">una estimación en equilibrio general</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b">Secretaría de la Función Pública</subfield>
+      <subfield code="c">1999</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">70 p.</subfield>
+      <subfield code="b">cuadros</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">LI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_UARG</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d"/>
+      <subfield code="y">LI</subfield>
+      <subfield code="p">05-20498</subfield>
+    </datafield>
+  </record>
+</collection>
