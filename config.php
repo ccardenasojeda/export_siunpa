@@ -9,10 +9,10 @@
  define("DB_HOST", "localhost");
 
  // Nombre de usuario de Base de datos
- define("DB_USER", "root");
+ define("DB_USER", "siunpa");
 
  // Clave de usuario de Base de datos
- define("DB_PASS", "G2h3j4%&");
+ define("DB_PASS", "siunpa");
 
  // Nombre de la tabla sobre la cual se trabajara
  define("DB_NAME", "openbiblio_siunpa");
