@@ -3985,6 +3985,24 @@
       <subfield code="b">Editorial de la Municipalidad de Córdoba</subfield>
       <subfield code="c">1988</subfield>
     </datafield>
+    <datafield tag="505" ind1="0" ind2="0">
+      <subfield code="g">p. 5-41</subfield>
+      <subfield code="g">- SARMIENTO, DOMINGO FAUSTINO - ESPAÑA - AMERICA LATINA - CRISIS CULTURAL - HISTORIA DE AMERICA - SIGLO XIX</subfield>
+      <subfield code="r">Biagini, Hugo Edgardo</subfield>
+      <subfield code="t">Biagini, Hugo Edgardo</subfield>
+    </datafield>
+    <datafield tag="505" ind1="0" ind2="0">
+      <subfield code="g">p. 63-90</subfield>
+      <subfield code="g">- LITERATURA ARGENTINA - SARMIENTO, DOMINGO FAUSTINO - CORDOBA (ARGENTINA) - CRITICA LITERARIA</subfield>
+      <subfield code="r">Paulinelli, María Elena</subfield>
+      <subfield code="t">Paulinelli, María Elena</subfield>
+    </datafield>
+    <datafield tag="505" ind1="0" ind2="0">
+      <subfield code="g">p. 43-61</subfield>
+      <subfield code="g">SARMIENTO, DOMINGO FAUSTINO - ALBERDI, JUAN BAUTISTA - CRITICA LITERARIA</subfield>
+      <subfield code="r">Scarano, Mónica Elsa un debate cultural</subfield>
+      <subfield code="t">Scarano, Mónica Elsa un debate cultural</subfield>
+    </datafield>
     <datafield tag="942" ind1=" " ind2=" ">
       <subfield code="c">LI</subfield>
     </datafield>
@@ -18129,8 +18147,8 @@
       <subfield code="p">05-26332</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_UACO</subfield>
-      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="a">BIB_UARG</subfield>
+      <subfield code="b">BIB_UARG</subfield>
       <subfield code="d">2005-08-23</subfield>
       <subfield code="y">LI</subfield>
       <subfield code="p">10-25052</subfield>
@@ -34647,6 +34665,12 @@
     <datafield tag="500" ind1=" " ind2=" ">
       <subfield code="a">Con: Ambición y angustia de los adolescentes (p. 180-366)</subfield>
     </datafield>
+    <datafield tag="505" ind1="0" ind2="0">
+      <subfield code="g">p. 179-366</subfield>
+      <subfield code="g">PSICOLOGIA EVOLUTIVA - PSICOLOGIA DE LA ADOLESCENCIA</subfield>
+      <subfield code="r">Ponce, Anibal</subfield>
+      <subfield code="t">Ponce, Anibal</subfield>
+    </datafield>
     <datafield tag="942" ind1=" " ind2=" ">
       <subfield code="c">LI</subfield>
     </datafield>
@@ -37435,8 +37459,8 @@
       <subfield code="p">05-40392</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_UACO</subfield>
-      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="a">BIB_UARG</subfield>
+      <subfield code="b">BIB_UARG</subfield>
       <subfield code="d">2007-10-30</subfield>
       <subfield code="y">LI</subfield>
       <subfield code="p">10-33725</subfield>
@@ -40697,8 +40721,8 @@
       <subfield code="p">03-01977</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_UACO</subfield>
-      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="a">BIB_UARG</subfield>
+      <subfield code="b">BIB_UARG</subfield>
       <subfield code="d">2005-08-23</subfield>
       <subfield code="y">LI</subfield>
       <subfield code="p">10-07454</subfield>
@@ -41976,8 +42000,8 @@
       <subfield code="p">02-06622</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_UACO</subfield>
-      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="a">BIB_UARG</subfield>
+      <subfield code="b">BIB_UARG</subfield>
       <subfield code="d">2005-08-23</subfield>
       <subfield code="y">LI</subfield>
       <subfield code="p">10-06622</subfield>
@@ -43303,8 +43327,8 @@
       <subfield code="p">02-06633</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_UACO</subfield>
-      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="a">BIB_UARG</subfield>
+      <subfield code="b">BIB_UARG</subfield>
       <subfield code="d">2005-08-23</subfield>
       <subfield code="y">LI</subfield>
       <subfield code="p">10-06634</subfield>
@@ -43405,8 +43429,8 @@
       <subfield code="p">02-04430</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_UACO</subfield>
-      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="a">BIB_UARG</subfield>
+      <subfield code="b">BIB_UARG</subfield>
       <subfield code="d">2005-08-23</subfield>
       <subfield code="y">LI</subfield>
       <subfield code="p">10-04430</subfield>
@@ -48002,8 +48026,8 @@
       <subfield code="p">02-07604</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_UACO</subfield>
-      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="a">BIB_UARG</subfield>
+      <subfield code="b">BIB_UARG</subfield>
       <subfield code="d">2005-08-23</subfield>
       <subfield code="y">LI</subfield>
       <subfield code="p">10-07605</subfield>
@@ -49484,15 +49508,15 @@
       <subfield code="p">02-05249</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_UACO</subfield>
-      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="a">BIB_UARG</subfield>
+      <subfield code="b">BIB_UARG</subfield>
       <subfield code="d">2005-08-23</subfield>
       <subfield code="y">LI</subfield>
       <subfield code="p">10-05250</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_UACO</subfield>
-      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="a">BIB_UARG</subfield>
+      <subfield code="b">BIB_UARG</subfield>
       <subfield code="d">2005-08-23</subfield>
       <subfield code="y">LI</subfield>
       <subfield code="p">10-05251</subfield>

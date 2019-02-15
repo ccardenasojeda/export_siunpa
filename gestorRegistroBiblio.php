@@ -137,5 +137,11 @@ class gestorRegistroBiblio {
         $resultado = $conexion->get_query($sql);
         return $resultado;
     }
+    static function datosAnalitica($bibid){
+        $sql = "SELECT * FROM `biblio_analitica` WHERE bibid = ".$bibid;
+        $conexion = new dbModelo();
+        $resultado = $conexion->get_query($sql);
+        return $resultado;
+    }
 
 }

@@ -20,6 +20,7 @@ function registro_MarcXml() {
         $datos_libro = $libro_dato;
         $datos_marc = gestorRegistroBiblio::datosMarcLibro($datos_libro['bibid']);
         $ejemplares_libro = gestorRegistroBiblio::ejemplaresLibro($datos_libro['bibid']);
+        $analitica_libro = gestorRegistroBiblio::datosAnalitica($datos_libro['bibid']);
 
         $marc_record = $xml->createElement('record');
         $marc_colection->appendChild($marc_record);
@@ -359,7 +360,29 @@ function registro_MarcXml() {
                     break;
             }
         }
-
+        foreach ($analitica_libro as $key => $value){
+            
+                 /*             * CAMPO 952 */
+            $marc_data_field = $xml->createElement('datafield');
+            $marc_record->appendChild($marc_data_field);
+            $marc_data_field->setAttribute('tag', '505');
+            $marc_data_field->setAttribute('ind1', '0');
+            $marc_data_field->setAttribute('ind2', '0');
+            
+            $marc_data_subfield = $xml->createElement('subfield', $value['ana_paginacion']);
+            $marc_data_field->appendChild($marc_data_subfield);
+            $marc_data_subfield->setAttribute('code', 'g'); //datos adicionales
+            $marc_data_subfield = $xml->createElement('subfield', $value['ana_materia']);
+            $marc_data_field->appendChild($marc_data_subfield);
+            $marc_data_subfield->setAttribute('code', 'g'); //datos adicionales
+            $marc_data_subfield = $xml->createElement('subfield', $value['ana_autor']);
+            $marc_data_field->appendChild($marc_data_subfield);
+            $marc_data_subfield->setAttribute('code', 'r'); //mension de respondabilidad
+            $marc_data_subfield = $xml->createElement('subfield', $value['ana_autor']);
+            $marc_data_field->appendChild($marc_data_subfield);
+            $marc_data_subfield->setAttribute('code', 't'); //titulo
+            
+        }
         /*         * **CAMPO 942 REGISTRO LOCAL DE KOHA**** */
         $marc_data_field = $xml->createElement('datafield');
         $marc_record->appendChild($marc_data_field);
@@ -382,350 +405,60 @@ function registro_MarcXml() {
 
             switch ($value['copy_cod_loc']) {
                 case 1: // RECTORADO
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_RECT');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'a'); //localizacion permanente
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_RECT');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'b'); //localizacion actual
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['copy_date_sptu']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'd');
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'LI');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'y'); //tipo de item koha
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['barcode_nmbr']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'p');
+                    itemSubcampos($xml, $marc_data_field, 'BIB_RECT', $value, 'LI');
                     break;
                 case 2://UACO
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UACO');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'a'); //localizacion permanente
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UACO');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'b'); //localizacion actual
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['copy_date_sptu']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'd');
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'LI');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'y'); //tipo de item koha
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['barcode_nmbr']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'p');
+                    itemSubcampos($xml, $marc_data_field, 'BIB_UACO', $value, 'LI');
                     break;
                 case 3://UART
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UART');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'a'); //localizacion permanente
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UART');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'b'); //localizacion actual
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['copy_date_sptu']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'd');
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'LI');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'y'); //tipo de item koha
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['barcode_nmbr']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'p');
+                    itemSubcampos($xml, $marc_data_field, 'BIB_UART', $value, 'LI');
                     break;
                 case 4://UASJ
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UASJ');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'a'); //localizacion permanente
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UASJ');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'b'); //localizacion actual
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['copy_date_sptu']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'd');
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'LI');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'y'); //tipo de item koha
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['barcode_nmbr']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'p');
+                    itemSubcampos($xml, $marc_data_field, 'BIB_UASJ', $value, 'LI');
                     break;
                 case 5://UARG
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UARG');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'a'); //localizacion permanente
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UARG');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'b'); //localizacion actual
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['copy_date_sptu']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'd');
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'LI');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'y'); //tipo de item koha
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['barcode_nmbr']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'p'); //codigo de barras
+                    itemSubcampos($xml, $marc_data_field, 'BIB_UARG', $value, 'LI');
                     break;
 
                 case 10:
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UACO');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'a'); //localizacion permanente
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UACO');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'b'); //localizacion actual
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['copy_date_sptu']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'd');
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'LI');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'y'); //tipo de item koha
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['barcode_nmbr']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'p');
+                    itemSubcampos($xml, $marc_data_field, 'BIB_UARG', $value, 'LI');
                     break;
-                case 11:
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UASJ');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'a'); //localizacion permanente
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UASJ');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'b'); //localizacion actual
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['copy_date_sptu']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'd');
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'LI');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'y'); //tipo de item koha
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['barcode_nmbr']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'p');
+                case 11://UASJ
+                    itemSubcampos($xml, $marc_data_field, 'BIB_UASJ', $value, 'LI');                  
                     break;
                 case 12:
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UARG');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'a'); //localizacion permanente
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UARG');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'b'); //localizacion actual
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['copy_date_sptu']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'd');
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'LI');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'y'); //tipo de item koha
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['barcode_nmbr']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'p'); //codigo de barras
+                    itemSubcampos($xml, $marc_data_field, 'BIB_UARG', $value, 'LI');
                     break;
                 case 13:
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UARG');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'a'); //localizacion permanente
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UARG');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'b'); //localizacion actual
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['copy_date_sptu']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'd');
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'LI');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'y'); //tipo de item koha
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['barcode_nmbr']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'p'); //codigo de barras
+                    itemSubcampos($xml, $marc_data_field, 'BIB_UARG', $value, 'LI');                   
                     break;
                 case 14:
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UARG');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'a'); //localizacion permanente
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UARG');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'b'); //localizacion actual
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['copy_date_sptu']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'd');
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'LI');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'y'); //tipo de item koha
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['barcode_nmbr']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'p'); //codigo de barras
+                    itemSubcampos($xml, $marc_data_field, 'BIB_UARG', $value, 'LI');
                     break;
                 case 15:
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UACO');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'a'); //localizacion permanente
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UACO');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'b'); //localizacion actual
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['copy_date_sptu']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'd');
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'LI');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'y'); //tipo de item koha
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['barcode_nmbr']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'p');
+                    itemSubcampos($xml, $marc_data_field, 'BIB_UACO', $value, 'LI');                   
                     break;
                 case 16:
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UACO');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'a'); //localizacion permanente
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UACO');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'b'); //localizacion actual
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['copy_date_sptu']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'd');
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'LI');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'y'); //tipo de item koha
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['barcode_nmbr']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'p');
+                    itemSubcampos($xml, $marc_data_field, 'BIB_UACO', $value, 'LI');                   
                     break;
                 case 17:
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UART');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'a'); //localizacion permanente
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UART');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'b'); //localizacion actual
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['copy_date_sptu']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'd');
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'LI');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'y'); //tipo de item koha
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['barcode_nmbr']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'p');
+                    itemSubcampos($xml, $marc_data_field, 'BIB_UART', $value, 'LI');                    
                     break;
                 case 18:
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UASJ');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'a'); //localizacion permanente
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UASJ');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'b'); //localizacion actual
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['copy_date_sptu']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'd');
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'LI');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'y'); //tipo de item koha
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['barcode_nmbr']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'p');
+                    itemSubcampos($xml, $marc_data_field, 'BIB_UASJ', $value, 'LI');                   
                     break;
                 case 19:
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UARG');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'a'); //localizacion permanente
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UARG');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'b'); //localizacion actual
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['copy_date_sptu']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'd');
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'LI');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'y'); //tipo de item koha
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['barcode_nmbr']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'p'); //codigo de barras
+                    itemSubcampos($xml, $marc_data_field, 'BIB_UARG', $value, 'LI');                  
                     break;
                 case 20:
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UARG');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'a'); //localizacion permanente
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'BIB_UARG');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'b'); //localizacion actual
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['copy_date_sptu']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'd');
-
-                    $marc_data_subfield = $xml->createElement('subfield', 'LI');
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'y'); //tipo de item koha
-
-                    $marc_data_subfield = $xml->createElement('subfield', $value['barcode_nmbr']);
-                    $marc_data_field->appendChild($marc_data_subfield);
-                    $marc_data_subfield->setAttribute('code', 'p'); //codigo de barras
+                    itemSubcampos($xml, $marc_data_field, 'BIB_UARG', $value, 'LI');                   
                     break;
-
                 default:
                     break;
             }
         }
+        
     }
-
-
     crearXML($xml);
 }
 
@@ -1031,7 +764,7 @@ function campo_247($consulta) {
 
 function campo_250($consulta) {
 
-    
+
     foreach ($consulta as $campo => $key) {
         if ($key['tag'] == 250 && !empty($key['field_data']) && $key['field_data'] != ' ') {
             var_dump($key['tag']);
@@ -1150,8 +883,6 @@ function campo_942($xml, $marc_record, $tipo_material) {
     $marc_data_subfield->setAttribute('code', 'c');
 }
 
-
-
 function campoR_subcampoNR($xml, $marc_record, $consulta) {
     //IMPORTANTE MUY MUCHO OJITO
     //SI EL CAMPO ES REPETIBLE SE MANTIENE ASI, PEEEEERO SI EL CAMPO NO ES REPETIBLE HAY QUE VER EL SUB 
@@ -1203,6 +934,28 @@ function subcampoR($xml, $marc_record, $campo) {
         $marc_data_subfield->setAttribute('code', $subcampo['subfield_cd']);
         $marc_data_field->appendChild($marc_data_subfield);
     }
+}
+
+function itemSubcampos($xml, $marc_data_field, $uuaa, $value, $tipo_material) {
+    $marc_data_subfield = $xml->createElement('subfield', $uuaa);
+    $marc_data_field->appendChild($marc_data_subfield);
+    $marc_data_subfield->setAttribute('code', 'a'); //localizacion permanente
+
+    $marc_data_subfield = $xml->createElement('subfield', $uuaa);
+    $marc_data_field->appendChild($marc_data_subfield);
+    $marc_data_subfield->setAttribute('code', 'b'); //localizacion actual
+
+    $marc_data_subfield = $xml->createElement('subfield', $value['copy_date_sptu']);
+    $marc_data_field->appendChild($marc_data_subfield);
+    $marc_data_subfield->setAttribute('code', 'd');
+
+    $marc_data_subfield = $xml->createElement('subfield', $tipo_material);
+    $marc_data_field->appendChild($marc_data_subfield);
+    $marc_data_subfield->setAttribute('code', 'y'); //tipo de item koha
+
+    $marc_data_subfield = $xml->createElement('subfield', $value['barcode_nmbr']);
+    $marc_data_field->appendChild($marc_data_subfield);
+    $marc_data_subfield->setAttribute('code', 'p');
 }
 
 function idioma($consulta) {
