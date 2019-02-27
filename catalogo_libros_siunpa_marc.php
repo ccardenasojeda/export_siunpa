@@ -2,6 +2,7 @@
 
 include 'gestorRegistroBiblio.php';
 
+
 registro_MarcXml();
 
 function registro_MarcXml() {

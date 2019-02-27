@@ -26,7 +26,7 @@ class gestorRegistroBiblio {
                 FROM biblio b
                 INNER JOIN material_type_dm mt ON b.`material_cd`   = mt.code AND mt.code = 2
                 INNER JOIN collection_dm   cdm ON b.`collection_cd` = cdm.code
-                LIMIT 1000";
+                ";
         $conexion = new dbModelo();
         $resultado = $conexion->get_query($sql);
        
