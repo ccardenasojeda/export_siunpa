@@ -8,7 +8,7 @@ include 'dbModelo.php';
  *Permite consultar el catalogo general de libros del SIUNPA
  * @author cristian
  */
-gestorCatalogoLibros::listadoDatosLibros();
+//gestorCatalogoLibros::listadoDatosLibros();
 //gestorCatalogoLibros::datosLibroId('1');
 //gestorCatalogoLibros::datosMarcLibro('1');
 //gestorCatalogoLibros::datosMarcLibroLengua('1');

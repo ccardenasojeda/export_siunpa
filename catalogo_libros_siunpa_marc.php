@@ -2,10 +2,36 @@
 
 include 'gestorRegistroBiblio.php';
 
+$libros = gestorRegistroBiblio::listadoDatosLibros();
+$input_array = $libros;
+$prueba = array_chunk($input_array, 2000, true);
+//var_dump($prueba);
+$_0=$prueba[0];
+$_1=$prueba[1];
+$_2=$prueba[2];
+$_3=$prueba[3];
+$_4=$prueba[4];
+$_5=$prueba[5];
+$_6=$prueba[6];
+$_7=$prueba[7];
+$_8=$prueba[8];
+$_9=$prueba[9];
+$_10=$prueba[10];
+$_11=$prueba[11];
+$_12=$prueba[12];
+$_13=$prueba[13];
 
-registro_MarcXml();
+//echo "<br>libros_siunpa_xml_marc_21_bibid_".reset($_4)['bibid']."_a_bibid_".end($_4)['bibid'];
+//$nombre_xml = "libros_siunpa_xml_marc_21_bibid_".reset($_4)['bibid']."_a_bibid_".end($_4)['bibid'];
+//registro_MarcXml($_4, $nombre_xml);
 
-function registro_MarcXml() {
+foreach ($prueba as $value) {
+    echo "<br>libros_siunpa_xml_marc_21_bibid_".reset($value)['bibid']."_a_bibid_".end($value)['bibid'];
+    $nombre_xml = "libros_siunpa_xml_marc_21_bibid_".reset($value)['bibid']."_a_bibid_".end($value)['bibid'];
+    registro_MarcXml($value, $nombre_xml);
+}
+
+function registro_MarcXml($libros, $nombre_xml) {
 
     /*     * ********DOCUMENTO XML********* */
     $xml = new DomDocument('1.0', 'UTF-8');
@@ -14,10 +40,10 @@ function registro_MarcXml() {
     $marc_colection->setAttribute('xmlns:xsi', 'http://www.w3.org/2001/XMLSchema-instance');
     $marc_colection->setAttribute('xsi:schemaLocation', 'http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd');
     $marc_colection->setAttribute('xmlns', 'http://www.loc.gov/MARC21/slim');
-    $libros_listado_10 = gestorRegistroBiblio::listadoDatosLibros();
-    //$libros_listado_10 = gestorRegistroBiblio::datosBiblio('2');
+    $libros_listado_10 = $libros;
+    
     foreach ($libros_listado_10 as $libro_dato) {
-        //var_dump($libro_dato['bibid']);
+        
         $datos_libro = $libro_dato;
         $datos_marc = gestorRegistroBiblio::datosMarcLibro($datos_libro['bibid']);
         $ejemplares_libro = gestorRegistroBiblio::ejemplaresLibro($datos_libro['bibid']);
@@ -460,7 +486,7 @@ function registro_MarcXml() {
         }
         
     }
-    crearXML($xml);
+    crearXML($xml, $nombre_xml);
 }
 
 function leader($tamanio, $pos_base, $peli = false) {
@@ -768,7 +794,7 @@ function campo_250($consulta) {
 
     foreach ($consulta as $campo => $key) {
         if ($key['tag'] == 250 && !empty($key['field_data']) && $key['field_data'] != ' ') {
-            var_dump($key['tag']);
+            //var_dump($key['tag']);
             if ($key['subfield_cd'] == 'a') {
                 $campo_250['tag'] = '250';
                 $campo_250 ['subfield_cd'] = 'a'; //$a - Mención de edición (NR) 
@@ -974,13 +1000,13 @@ function idioma($consulta) {
     return $idioma_marc;
 }
 
-function crearXML($xml) {
+function crearXML($xml, $nombre) {
     $xml->formatOutput = true;
     $el_xml = $xml->saveXML();
-    $xml->save('prueba_xml_marc.xml');
+    $xml->save($nombre.'.xml');
 
 
     //Mostramos el XML puro
-    echo "<p><b>El XML ha sido creado.... Mostrando en texto plano:</b></p>" .
-    htmlentities($el_xml) . "<br/><hr>";
+    echo "<p><b>El XML: ".$nombre." ha sido creado.... </b></p>";
+    //htmlentities($el_xml) . "<br/><hr>";
 }
