@@ -123,3 +123,56 @@ SELECT * FROM (SELECT *
 FROM `biblio_field` 
 WHERE `tag` = 20 AND `field_data` NOT LIKE '%[sic]%') as bb
 WHERE bb.field_data LIKE '%[%' AND bb.field_data LIKE '%]%'
+
+
+/************ISBN SIN SIGNOS***********************/
+
+SELECT *, if((`tag` = 20),replace(replace(replace(replace(replace(replace(replace(`field_data`,'-',''),'13:',''),' ',''),'sbn:',''),'isbn:',''),':',''),'i',''),`field_data`) AS `field_data_isbn`
+FROM `biblio_field_copy` 
+WHERE tag = 20 
+
+/*****materias de libros****/
+SELECT bibid,
+       CONCAT(REPLACE(topic1, '-', ''), '' ,REPLACE(topic2, '-', '|'),  ''  ,REPLACE(topic3, '-', '|'),  '' ,REPLACE(topic4, '-', '|'),  '' ,REPLACE(topic5, '-', '|')) as materias
+FROM `biblio` 
+WHERE material_cd = 2
+
+/********ARMA TAG 650 CON MATERIAS *********/
+SELECT b.bibid, usm.tag, usm.subfield_cd, ' ' as field_data, 
+CONCAT(REPLACE(b.topic1, '-', ''), '' ,REPLACE(b.topic2, '-', '|'),  ''  ,REPLACE(b.topic3, '-', '|'),  '' ,REPLACE(b.topic4, '-', '|'),  '' ,REPLACE(b.topic5, '-', '|')) as materias 
+
+FROM (SELECT bi.* FROM biblio bi WHERE bi.bibid NOT IN (SELECT DISTINCT bci.bibid From biblio_field_copy bci where bci.tag = 650 ORDER BY bci.bibid)) b 
+
+INNER JOIN material_type_dm mt ON b.`material_cd` = mt.code AND mt.code = 2 
+
+INNER JOIN collection_dm cdm ON b.`collection_cd` = cdm.code 
+
+INNER JOIN usmarc_subfield_dm usm ON usm.tag = 650 AND usm.subfield_cd = 'a' 
+
+ORDER BY `b`.`bibid` ASC
+
+/*******INSERTA TAG 650 biblio_field_copy******/
+
+INSERT INTO `biblio_field_copy`(`bibid`,`tag`, `subfield_cd`, `field_data`) 
+SELECT b.bibid, usm.tag, usm.subfield_cd, 
+CONCAT(REPLACE(b.topic1, '-', ''), '' ,REPLACE(b.topic2, '-', '|'),  ''  ,REPLACE(b.topic3, '-', '|'),  '' ,REPLACE(b.topic4, '-', '|'),  '' ,REPLACE(b.topic5, '-', '|')) as field_data 
+
+FROM (SELECT bi.* FROM biblio bi WHERE bi.bibid NOT IN (SELECT DISTINCT bci.bibid From biblio_field_copy bci where bci.tag = 650 ORDER BY bci.bibid)) b 
+
+INNER JOIN material_type_dm mt ON b.`material_cd` = mt.code AND mt.code = 2 
+
+INNER JOIN collection_dm cdm ON b.`collection_cd` = cdm.code 
+
+INNER JOIN usmarc_subfield_dm usm ON usm.tag = 650 AND usm.subfield_cd = 'a' 
+
+ORDER BY `b`.`bibid` ASC
+
+/****exportar desde sql a CVS*****/
+SELECT barcode INTO OUTFILE '/tmp/barcode_items.csv' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n' FROM items
+
+SELECT barcode 
+INTO OUTFILE '/tmp/barcode_items_3.csv' 
+FIELDS TERMINATED BY ',' 
+OPTIONALLY ENCLOSED BY ' ' 
+LINES TERMINATED BY '\n' 
+FROM items

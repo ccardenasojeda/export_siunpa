@@ -1,14 +1,19 @@
 <?php
 
 include 'gestorRegistroBiblio.php';
-$ln = "\n";
+//$ln = "\n";
 //$datos_marc = gestorRegistroBiblio::datosMarcLibro('346');
-$isbns_libros = gestorRegistroBiblio::isbnsLibros();
-$datos_marc = gestorRegistroBiblio::datosMarcLibro('98');
+//$isbns_libros = gestorRegistroBiblio::isbnsLibros();
+//$datos_marc = gestorRegistroBiblio::datosMarcLibro('98');
+
+$cadena = 'Esta | es la cadena | de ejemplo para | sustituir un caracter';
+echo $cadena;
+$resultado = str_replace("|", " ; ", $cadena);
+echo "La cadena resultante es: " . $resultado;
 //$idioma_marc = gestorRegistroBiblio::datosMarcLibroLengua('98'); //tag 41
 //var_dump($datos_marc);
 //autores($datos_marc);
-campo_100($datos_marc);
+//campo_100($datos_marc);
 
 //idioma($idioma_marc);
 //campo_020($datos_marc);

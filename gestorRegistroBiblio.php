@@ -106,8 +106,9 @@ class gestorRegistroBiblio {
                 LEFT JOIN  openbiblio_siunpa.biblio_index bi         ON b.bibid           = bi.bibid
                 INNER JOIN openbiblio_siunpa.biblio_cod_library bcl  ON bc.copy_cod_loc = bcl.code  
                 WHERE b.bibid = ".$bibid." GROUP BY bc.barcode_nmbr";
+        $sql2="select `bc`.`bibid` AS `bibid`,`bc`.`barcode_nmbr` AS `barcode_nmbr`,`bc`.`status_begin_dt` AS `status_begin_dt`,`bc`.`copy_volumen` AS `copy_volumen`,`bc`.`copy_tomo` AS `copy_tomo`,`bc`.`copy_proveedor` AS `copy_proveedor`,`bc`.`copy_precio` AS `copy_precio`,`bc`.`copy_cod_loc` AS `copy_cod_loc`,`bcn`.`anio` AS `anio`,`bcn`.`estado` AS `estado`,`bcn`.`numeros` AS `numeros`,`bi`.`indice` AS `indice`,`mt`.`code` AS `mt_code`,`mt`.`description` AS `tipo_maetrial`,`b`.`collection_cd` AS `collection_cd`,`cdm`.`description` AS `tipo_coleccion`,`bcl`.`description` AS `uuaa`,`bc`.`copy_date_sptu` AS `copy_date_sptu`,`bc`.`status_cd` AS `status_cd`,`sdm`.`description` AS `description`,`b`.`call_nmbr1` AS `signatura_top` from (((((((`openbiblio_siunpa`.`biblio` `b` join `openbiblio_siunpa`.`material_type_dm` `mt` on((`b`.`material_cd` = `mt`.`code`))) join `openbiblio_siunpa`.`collection_dm` `cdm` on((`b`.`collection_cd` = `cdm`.`code`))) join `openbiblio_siunpa`.`biblio_copy` `bc` on((`b`.`bibid` = `bc`.`bibid`))) left join `openbiblio_siunpa`.`biblio_copy_num` `bcn` on((`bcn`.`bibid` = `b`.`bibid`))) left join `openbiblio_siunpa`.`biblio_index` `bi` on((`b`.`bibid` = `bi`.`bibid`))) left join `openbiblio_siunpa`.`biblio_status_dm` `sdm` on((`bc`.`status_cd` = `sdm`.`code`))) join `openbiblio_siunpa`.`biblio_cod_library` `bcl` on((`bc`.`copy_cod_loc` = `bcl`.`code`))) WHERE b.bibid = ".$bibid." GROUP BY bc.barcode_nmbr";
         $conexion = new dbModelo();
-        $resultado = $conexion->get_query($sql);
+        $resultado = $conexion->get_query($sql2);
         
         return $resultado;
     }
