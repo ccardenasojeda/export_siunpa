@@ -3,33 +3,17 @@
 include 'gestorRegistroBiblio.php';
 
 $libros = gestorRegistroBiblio::listadoDatosLibros();
+$casset = gestorRegistroBiblio::listadoDatosMaterial(1);
+
 $input_array = $libros;
 $prueba = array_chunk($input_array, 1000, true);
-//var_dump($prueba);
-/**$_0=$prueba[0];
-$_1=$prueba[1];
-$_2=$prueba[2];
-$_3=$prueba[3];
-$_4=$prueba[4];
-$_5=$prueba[5];
-$_6=$prueba[6];
-$_7=$prueba[7];
-$_8=$prueba[8];
-$_9=$prueba[9];
-$_10=$prueba[10];
-$_11=$prueba[11];
-$_12=$prueba[12];
-$_13=$prueba[13];**/
 
-//echo "<br>libros_siunpa_xml_marc_21_bibid_".reset($_4)['bibid']."_a_bibid_".end($_4)['bibid'];
-//$nombre_xml = "libros_siunpa_xml_marc_21_bibid_".reset($_4)['bibid']."_a_bibid_".end($_4)['bibid'];
-//registro_MarcXml($_4, $nombre_xml);
 $cont = 1;
 foreach ($prueba as $value) {
     $nombre_xml = $cont."_BK_libros_xml_marc_21_bibid_".reset($value)['bibid']."_a_bibid_".end($value)['bibid'];
    // echo $nombre_xml.'<br>';
     //registro_MarcXml($value, $nombre_xml);
-    if($cont == 1){registro_MarcXml($value, $nombre_xml);}
+    //if($cont == 1){registro_MarcXml($value, $nombre_xml);}
     
     $cont++;
 }
