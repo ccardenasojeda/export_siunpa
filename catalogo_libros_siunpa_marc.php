@@ -240,6 +240,13 @@ function registro_MarcXml_Material($material, $nombre_xml, $directorio, $tipo_re
                         subcampoR($xml, $marc_record, $campo_250);
                     }
                     break;
+                case 255://titulo anterior - campo repetibe no obligatorio
+                    $campo_255 = campo_255($datos_marc);
+                    if (!empty($campo_255) && isset($campo_255)) {
+
+                        campoR_subcampoNR($xml, $marc_record, $campo_255);
+                    }
+                    break;
 
                 case 260:
                     /** CAMPO 260  PUBLICACIÓN, DISTRIBUCIÓN, ETC.* */ //campo y subcampo repetibles no obligatorio
@@ -419,6 +426,24 @@ function registro_MarcXml_Material($material, $nombre_xml, $directorio, $tipo_re
 
                     if (!empty($campo_500) && isset($campo_500)) {
                         campoR_subcampoNR($xml, $marc_record, $campo_500);
+                    }
+
+                    break;
+
+                 case 504:// NOTA DE BIBLIOGRAFÍA, ETC.
+                    $campo_504 = campo_504($datos_marc);
+
+                    if (!empty($campo_504) && isset($campo_504)) {
+                        campoR_subcampoNR($xml, $marc_record, $campo_504);
+                    }
+
+                    break;
+
+                 case 505://  NOTA DE CONTENIDO CON FORMATO
+                    $campo_505 = campo_505($datos_marc);
+
+                    if (!empty($campo_505) && isset($campo_505)) {
+                        campoR_subcampoNR($xml, $marc_record, $campo_505);
                     }
 
                     break;
@@ -1429,6 +1454,25 @@ function campo_250($consulta) {
     return $listado_edicion;
 }
 
+function campo_255($consulta) {
+
+    foreach ($consulta as $campo => $key) {
+        if ($key['tag'] == 255 && !empty($key['field_data']) && $key['field_data'] != ' ') {
+
+            $titulos = explode('|', $key['field_data']);
+            foreach ($titulos as $campo2 => $dato) {
+
+                //$titulo = str_replace('-', '', $dato, $contador);
+                $campo_255['tag'] = '255';
+                $campo_255['subfield_cd'] = $key['subfield_cd'];
+                $campo_255['field_data'] = $dato.'.';
+                $listado_titulos [] = $campo_255;
+            }
+        }
+    }
+    return $listado_titulos;
+}
+
 /* * *CAMPO NOTA GENERAL R NO*** */
 
 function campo_500($consulta) {
@@ -1450,6 +1494,42 @@ function campo_500($consulta) {
     return $listado_500;
 }
 
+function campo_504($consulta) {
+
+    foreach ($consulta as $campo => $key) {
+        if ($key['tag'] == 504 && !empty($key['field_data']) && $key['field_data'] != ' ') {
+
+            $notas = explode('|', $key['field_data']);
+            foreach ($notas as $campo2 => $dato) {
+
+                $campo_504['tag'] = '504';
+                $campo_504['subfield_cd'] = $key['subfield_cd'];
+                $campo_504['field_data'] = $dato;
+                $listado_504 [] = $campo_504;
+            }
+        }
+    }
+
+    return $listado_504;
+}
+function campo_505($consulta) {
+
+    foreach ($consulta as $campo => $key) {
+        if ($key['tag'] == 505 && !empty($key['field_data']) && $key['field_data'] != ' ') {
+
+            $notas = explode('|', $key['field_data']);
+            foreach ($notas as $campo2 => $dato) {
+
+                $campo_505['tag'] = '505';
+                $campo_505['subfield_cd'] = $key['subfield_cd'];
+                $campo_505['field_data'] = $dato;
+                $listado_505 [] = $campo_505;
+            }
+        }
+    }
+
+    return $listado_505;
+}
 /* * *CAMPO SUMARIO - RESUMEN - ETC GENERAL R NO*** */
 
 function campo_520($consulta) {

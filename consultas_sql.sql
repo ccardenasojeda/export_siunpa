@@ -109,7 +109,7 @@ INNER JOIN biblio_field_copy bf ON b.bibid = bf.bibid
 WHERE bf.tag = 20 AND bf.field_data <> '' AND bf.field_data like '%|%'
 ORDER BY `bf`.`bibid` ASC
 
-// muestra isbns de LIBROS no vacios 
+/**muestra isbns de LIBROS no vacios **/
 
 SELECT bf.bibid, bf.tag, bf.subfield_cd, bf.field_data, mt.description 
 FROM biblio b 
@@ -138,37 +138,9 @@ SELECT bibid,
 FROM `biblio` 
 WHERE material_cd = 2
 
-/********ARMA TAG 650 CON MATERIAS *********/
-SELECT b.bibid, usm.tag, usm.subfield_cd, ' ' as field_data, 
-CONCAT(REPLACE(b.topic1, '-', ''), '' ,REPLACE(b.topic2, '-', '|'),  ''  ,REPLACE(b.topic3, '-', '|'),  '' ,REPLACE(b.topic4, '-', '|'),  '' ,REPLACE(b.topic5, '-', '|')) as materias 
 
-FROM (SELECT bi.* FROM biblio bi WHERE bi.bibid NOT IN (SELECT DISTINCT bci.bibid From biblio_field_copy bci where bci.tag = 650 ORDER BY bci.bibid)) b 
+/****EXPORTAR desde sql a CVS*****/
 
-INNER JOIN material_type_dm mt ON b.`material_cd` = mt.code AND mt.code = 2 
-
-INNER JOIN collection_dm cdm ON b.`collection_cd` = cdm.code 
-
-INNER JOIN usmarc_subfield_dm usm ON usm.tag = 650 AND usm.subfield_cd = 'a' 
-
-ORDER BY `b`.`bibid` ASC
-
-/*******INSERTA TAG 650 biblio_field_copy******/
-
-INSERT INTO `biblio_field_copy`(`bibid`,`tag`, `subfield_cd`, `field_data`) 
-SELECT b.bibid, usm.tag, usm.subfield_cd, 
-CONCAT(REPLACE(b.topic1, '-', ''), '' ,REPLACE(b.topic2, '-', '|'),  ''  ,REPLACE(b.topic3, '-', '|'),  '' ,REPLACE(b.topic4, '-', '|'),  '' ,REPLACE(b.topic5, '-', '|')) as field_data 
-
-FROM (SELECT bi.* FROM biblio bi WHERE bi.bibid NOT IN (SELECT DISTINCT bci.bibid From biblio_field_copy bci where bci.tag = 650 ORDER BY bci.bibid)) b 
-
-INNER JOIN material_type_dm mt ON b.`material_cd` = mt.code AND mt.code = 2 
-
-INNER JOIN collection_dm cdm ON b.`collection_cd` = cdm.code 
-
-INNER JOIN usmarc_subfield_dm usm ON usm.tag = 650 AND usm.subfield_cd = 'a' 
-
-ORDER BY `b`.`bibid` ASC
-
-/****exportar desde sql a CVS*****/
 SELECT barcode INTO OUTFILE '/tmp/barcode_items.csv' FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"' LINES TERMINATED BY '\n' FROM items
 
 SELECT barcode 
@@ -177,6 +149,39 @@ FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY ' ' 
 LINES TERMINATED BY '\n' 
 FROM items
+
+
+/*****************CAMPO 40 $c***********/
+
+INSERT INTO `biblio_field_copy`(`bibid`,`tag`, `subfield_cd`, `field_data`)
+SELECT b.bibid, usm.tag, usm.subfield_cd, 'SIUNPA' as field_data 
+
+FROM (SELECT bi.* FROM biblio bi WHERE bi.bibid NOT IN (SELECT DISTINCT bci.bibid From biblio_field_copy bci where bci.tag = 40 AND bci.subfield_cd = 'c' ORDER BY bci.bibid)) b 
+
+INNER JOIN material_type_dm mt ON b.`material_cd` = mt.code AND mt.code = 1
+
+INNER JOIN collection_dm cdm ON b.`collection_cd` = cdm.code 
+
+INNER JOIN usmarc_subfield_dm usm ON usm.tag = 40 AND usm.subfield_cd = 'c' 
+
+ORDER BY `b`.`bibid` ASC
+
+
+/*****************CAMPO 80 $a Clasificacion Decimal Universal***********/
+
+INSERT INTO `biblio_field_copy`(`bibid`,`tag`, `subfield_cd`, `field_data`)
+SELECT b.bibid, usm.tag, usm.subfield_cd, b.call_nmbr1 as field_data 
+
+FROM (SELECT bi.* FROM biblio bi WHERE bi.bibid NOT IN (SELECT DISTINCT bci.bibid From biblio_field_copy bci where bci.tag = 80 AND bci.subfield_cd = 'a' ORDER BY bci.bibid)) b 
+
+INNER JOIN material_type_dm mt ON b.`material_cd` = mt.code AND mt.code = 1
+
+INNER JOIN collection_dm cdm ON b.`collection_cd` = cdm.code 
+
+INNER JOIN usmarc_subfield_dm usm ON usm.tag = 80 AND usm.subfield_cd = 'a' 
+
+ORDER BY `b`.`bibid` ASC
+
 
 /******INSERTA Autor CAMPO 100 $a para tipos de material (1) casset en biblio_field_copy****/
 
@@ -196,7 +201,7 @@ ORDER BY `b`.`bibid` ASC
 /******INSERTA Autor CAMPO 245 $a para tipos de material casset en biblio_field_copy****/
 
 INSERT INTO `biblio_field_copy`(`bibid`,`tag`, `subfield_cd`, `field_data`)
-SELECT b.bibid, usm.tag, usm.subfield_cd, b.responsibility_stmt as field_data 
+SELECT b.bibid, usm.tag, usm.subfield_cd, b.title as field_data 
 
 FROM (SELECT bi.* FROM biblio bi WHERE bi.bibid NOT IN (SELECT DISTINCT bci.bibid From biblio_field_copy bci where bci.tag = 245 AND bci.subfield_cd = 'a' ORDER BY bci.bibid)) b 
 
@@ -211,7 +216,7 @@ ORDER BY `b`.`bibid` ASC
 /******INSERTA Autor CAMPO 245 $b para tipos de material casset en biblio_field_copy****/
 
 INSERT INTO `biblio_field_copy`(`bibid`,`tag`, `subfield_cd`, `field_data`)
-SELECT b.bibid, usm.tag, usm.subfield_cd, b.responsibility_stmt as field_data 
+SELECT b.bibid, usm.tag, usm.subfield_cd, b.title_remainder as field_data 
 
 FROM (SELECT bi.* FROM biblio bi WHERE bi.bibid NOT IN (SELECT DISTINCT bci.bibid From biblio_field_copy bci where bci.tag = 245 AND bci.subfield_cd = 'b' ORDER BY bci.bibid)) b 
 
@@ -255,32 +260,35 @@ INNER JOIN usmarc_subfield_dm usm ON usm.tag = 650 AND usm.subfield_cd = 'a'
 
 ORDER BY `b`.`bibid` ASC
 
-/*****************CAMPO 40 $c***********/
 
-INSERT INTO `biblio_field_copy`(`bibid`,`tag`, `subfield_cd`, `field_data`)
-SELECT b.bibid, usm.tag, usm.subfield_cd, 'SIUNPA' as field_data 
 
-FROM (SELECT bi.* FROM biblio bi WHERE bi.bibid NOT IN (SELECT DISTINCT bci.bibid From biblio_field_copy bci where bci.tag = 40 AND bci.subfield_cd = 'c' ORDER BY bci.bibid)) b 
+/********ARMA TAG 650 CON MATERIAS consulta para validar los registeros que no poseen este campo*********/
+SELECT b.bibid, usm.tag, usm.subfield_cd, ' ' as field_data, 
+CONCAT(REPLACE(b.topic1, '-', ''), '' ,REPLACE(b.topic2, '-', '|'),  ''  ,REPLACE(b.topic3, '-', '|'),  '' ,REPLACE(b.topic4, '-', '|'),  '' ,REPLACE(b.topic5, '-', '|')) as materias 
 
-INNER JOIN material_type_dm mt ON b.`material_cd` = mt.code AND mt.code = 1
+FROM (SELECT bi.* FROM biblio bi WHERE bi.bibid NOT IN (SELECT DISTINCT bci.bibid From biblio_field_copy bci where bci.tag = 650 ORDER BY bci.bibid)) b 
+
+INNER JOIN material_type_dm mt ON b.`material_cd` = mt.code AND mt.code = 2 
 
 INNER JOIN collection_dm cdm ON b.`collection_cd` = cdm.code 
 
-INNER JOIN usmarc_subfield_dm usm ON usm.tag = 40 AND usm.subfield_cd = 'c' 
+INNER JOIN usmarc_subfield_dm usm ON usm.tag = 650 AND usm.subfield_cd = 'a' 
 
 ORDER BY `b`.`bibid` ASC
 
-/*****************CAMPO 80 $a Clasificacion Decimal Universal***********/
 
-INSERT INTO `biblio_field_copy`(`bibid`,`tag`, `subfield_cd`, `field_data`)
-SELECT b.bibid, usm.tag, usm.subfield_cd, b.call_nmbr1 as field_data 
+/*******INSERTA TAG 650 biblio_field_copy para libros******/
 
-FROM (SELECT bi.* FROM biblio bi WHERE bi.bibid NOT IN (SELECT DISTINCT bci.bibid From biblio_field_copy bci where bci.tag = 80 AND bci.subfield_cd = 'a' ORDER BY bci.bibid)) b 
+INSERT INTO `biblio_field_copy`(`bibid`,`tag`, `subfield_cd`, `field_data`) 
+SELECT b.bibid, usm.tag, usm.subfield_cd, 
+CONCAT(REPLACE(b.topic1, '-', ''), '' ,REPLACE(b.topic2, '-', '|'),  ''  ,REPLACE(b.topic3, '-', '|'),  '' ,REPLACE(b.topic4, '-', '|'),  '' ,REPLACE(b.topic5, '-', '|')) as field_data 
 
-INNER JOIN material_type_dm mt ON b.`material_cd` = mt.code AND mt.code = 1
+FROM (SELECT bi.* FROM biblio bi WHERE bi.bibid NOT IN (SELECT DISTINCT bci.bibid From biblio_field_copy bci where bci.tag = 650 ORDER BY bci.bibid)) b 
+
+INNER JOIN material_type_dm mt ON b.`material_cd` = mt.code AND mt.code = 2 
 
 INNER JOIN collection_dm cdm ON b.`collection_cd` = cdm.code 
 
-INNER JOIN usmarc_subfield_dm usm ON usm.tag = 80 AND usm.subfield_cd = 'a' 
+INNER JOIN usmarc_subfield_dm usm ON usm.tag = 650 AND usm.subfield_cd = 'a' 
 
 ORDER BY `b`.`bibid` ASC

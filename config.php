@@ -15,6 +15,6 @@
  define("DB_PASS", "siunpa");
 
  // Nombre de la tabla sobre la cual se trabajara
- define("DB_NAME", "openbiblio_consultas");
+ define("DB_NAME", "openbiblio_siunpa");
 ?>
 
