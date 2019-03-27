@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ6173</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200606141127410</controlfield>
+    <controlfield tag="008">060614|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">San Julián</subfield>
+      <subfield code="b"> : Unidad Académica San Julián, UNPA</subfield>
+      <subfield code="c"> , 2004</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Material de cátedra de la carrera Profesorado para primer y segundo ciclo de EGB</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">DQ</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2006-04-17</subfield>
+      <subfield code="y">DQ</subfield>
+      <subfield code="p">04-mc0014</subfield>
+      <subfield code="i">04-mc0014</subfield>
+      <subfield code="g">10</subfield>
+      <subfield code="o">37.014 S243a</subfield>
+      <subfield code="e">Donación</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2006-04-17</subfield>
+      <subfield code="y">DQ</subfield>
+      <subfield code="p">04-mc0015</subfield>
+      <subfield code="i">04-mc0015</subfield>
+      <subfield code="g">10</subfield>
+      <subfield code="o">37.014 S243a</subfield>
+      <subfield code="e">Donación</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ6174</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200606160919000</controlfield>
+    <controlfield tag="008">060616|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">San Julián</subfield>
+      <subfield code="b"> : Unidad Académica San Julián, UNPA</subfield>
+      <subfield code="c"> , 2004</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Material de cátedra del Profesorado para primer y segundo ciclo de la EGB</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">DQ</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2006-04-17</subfield>
+      <subfield code="y">DQ</subfield>
+      <subfield code="p">04-mc0016</subfield>
+      <subfield code="i">04-mc0016</subfield>
+      <subfield code="g">0</subfield>
+      <subfield code="o">37.014 S243p</subfield>
+      <subfield code="e">Donación</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+  </record>
+</collection>

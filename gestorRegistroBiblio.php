@@ -81,6 +81,19 @@ class gestorRegistroBiblio {
         
         return $resultado;
     }
+     static function datosMarcLibroMaterial($bibid, $cod_mat)
+    {
+        $sql = "SELECT bf.tag, bf.subfield_cd,bf.field_data
+                FROM openbiblio_siunpa.biblio b
+                INNER JOIN openbiblio_siunpa.material_type_dm mt ON b.`material_cd`   = mt.code AND mt.code = ".$cod_mat."
+                INNER JOIN openbiblio_siunpa.collection_dm   cdm ON b.`collection_cd` = cdm.code
+                INNER JOIN openbiblio_siunpa.biblio_field_copy bf ON b.bibid = bf.bibid
+                WHERE b.bibid = " . $bibid . " ORDER BY bf.tag, bf.subfield_cd;";
+        $conexion = new dbModelo();
+        $resultado = $conexion->get_query($sql);
+        
+        return $resultado;
+    }
     static function datosMarcLibroIdioma()
     {
         $sql = "SELECT bf.tag, bf.subfield_cd,bf.field_data
