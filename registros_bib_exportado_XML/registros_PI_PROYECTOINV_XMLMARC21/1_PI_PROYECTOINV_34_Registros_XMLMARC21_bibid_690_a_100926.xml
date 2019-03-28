@@ -1,0 +1,2504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ690</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200411160000000</controlfield>
+    <controlfield tag="008">041116|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">371.13 T776t</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Marín, Elvira.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Piñero, Juana.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Oliva, Marisa.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Alaniz, Mariana.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Assat, Mónica.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Irusta, Ana.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Barbieri, Virginia.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Zapata, Francisco.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">El tratamiento de las representaciones del rol como dispositivo de formación en un contexto de innovación curricular</subfield>
+      <subfield code="b"> : informe de avance</subfield>
+      <subfield code="c"> / Alliaud, Andrea, dir. ; Suárez, Daniel, codir.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Río Turbio</subfield>
+      <subfield code="b"> : Unidad Académica Río Turbio, UNPA</subfield>
+      <subfield code="c"> , [200?]</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">[60] h. en varias foliaciones : </subfield>
+      <subfield code="b">gráf. ; </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> PAPEL DEL DOCENTE</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> FORMACION DE DOCENTES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> PERFECCIONAMIENTO DEL DOCENTE</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UART</subfield>
+      <subfield code="d">2005-08-23</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">03-26141</subfield>
+      <subfield code="i">03-26141</subfield>
+      <subfield code="g">6</subfield>
+      <subfield code="o">371.13 T776t</subfield>
+      <subfield code="e">Secretaría de Cienci</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ694</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200411170000000</controlfield>
+    <controlfield tag="008">041117|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">371.012 D583d</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Dinámicas institucionales en condiciones críticas</subfield>
+      <subfield code="b"> : el caso de la Cuenca Carbonífera de Río Turbio</subfield>
+      <subfield code="c"> / Reinoso, Marta, dir.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Río Turbio</subfield>
+      <subfield code="b"> : Unidad Académica Río Turbio, UNPA</subfield>
+      <subfield code="c"> , 2000</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">[120] h. en varias foliaciones : </subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Informe de avance año 2000</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ORGANIZACION DE LA EDUCACION  RIO TURBIO (SANTA CRUZ)</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> INSTITUCIONES EDUCACIONALES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> INVESTIGACION EDUCACIONAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> CULTURA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ESTUDIO DE CASOS</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UART</subfield>
+      <subfield code="d">2005-08-23</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">03-26142</subfield>
+      <subfield code="i">03-26142</subfield>
+      <subfield code="g">14</subfield>
+      <subfield code="o">371.012 D583d</subfield>
+      <subfield code="e">Proyecto de investig</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ5987</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200604241818320</controlfield>
+    <controlfield tag="008">060424|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">F371.13 R511i</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Richard, Aida del Carmen.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Vazquez, Norma Leticia.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Innovación pedagógica</subfield>
+      <subfield code="b"> : revisión de la práctica de la enseñanza para la mejora de la calidad educativa</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Caleta Olivia</subfield>
+      <subfield code="c"> , 1996</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Proyecto de investigación</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> INNOVACION PEDAGOGICA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> CALIDAD DE LA EDUCACION</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> FORMACION DE DOCENTES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> DESARROLLO PROFESIONAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> DOCENTES</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2006-03-28</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">02-x0085</subfield>
+      <subfield code="i">02-x0085</subfield>
+      <subfield code="g">3</subfield>
+      <subfield code="o">F371.13 R511i</subfield>
+      <subfield code="e">UACO</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ6011</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200604281402520</controlfield>
+    <controlfield tag="008">060428|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">F37.062 P335c</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Pautasso, Norman.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">La conducta del estudiante adolescente en el aula de la escuela secundaria</subfield>
+      <subfield code="b"> : el caso de un colegio secundario de la pcia. de Santa Cruz</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Puerto San Julián</subfield>
+      <subfield code="c"> , 1997</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Proyecto de investigación</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> CONDUCTA DEL ESTUDIANTE</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> PROYECTO DE INVESTIGACION</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2006-03-28</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">02-x0073</subfield>
+      <subfield code="i">02-x0073</subfield>
+      <subfield code="g">0.8</subfield>
+      <subfield code="o">F37.062 P335c</subfield>
+      <subfield code="e">UACO</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2006-03-28</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">02-x0075</subfield>
+      <subfield code="i">02-x0075</subfield>
+      <subfield code="g">0.8</subfield>
+      <subfield code="o">F37.062 P335c</subfield>
+      <subfield code="e">UACO</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ17400</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200611201754490</controlfield>
+    <controlfield tag="008">061120|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">621.22 I625i</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Investigación para el aprovechamiento de la energía de las mareas en San Julián, y evaluación de las posibles aplicaciones</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Puerto San Julián</subfield>
+      <subfield code="b"> : Unidad Académica San Julián, UNPA</subfield>
+      <subfield code="c"> , [2001?]</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Proyecto de investigación (1ª etapa)</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENERGIA DE LAS MAREAS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENERGIA HIDRAULICA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> SAN JULIAN (SANTA CRUZ)</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2006-04-17</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">04-30216</subfield>
+      <subfield code="i">04-30216</subfield>
+      <subfield code="g">4</subfield>
+      <subfield code="o">621.22 I625i</subfield>
+      <subfield code="e">Donación</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2006-04-17</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">04-30217</subfield>
+      <subfield code="i">04-30217</subfield>
+      <subfield code="g">4</subfield>
+      <subfield code="o">621.22 I625i</subfield>
+      <subfield code="e">Donación</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ17453</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200611281411330</controlfield>
+    <controlfield tag="008">061128|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">372.83 Z12d</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Zabala, Elisabet.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Gaggioli, Betiana.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Didáctica de las ciencias sociales I, un escenario dinámico</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Puerto San Julián</subfield>
+      <subfield code="b"> : Universidad Nacional de la Patagonia Austral</subfield>
+      <subfield code="c"> , 2003</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Proyecto de Innovación Pedagógica</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> CIENCIAS SOCIALES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EGB</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENSEÑANZA DE LAS CIENCIAS SOCIALES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> METODOS DE ENSEÑANZA</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2006-04-17</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">04-30205</subfield>
+      <subfield code="i">04-30205</subfield>
+      <subfield code="g">10</subfield>
+      <subfield code="o">372.83 Z12d</subfield>
+      <subfield code="e"/>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ17457</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200611281447440</controlfield>
+    <controlfield tag="008">061128|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">371.214 I584i</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Innovación pedagógica en el espacio curricular enseñanza y curriculum</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Puerto San Julián</subfield>
+      <subfield code="b"> : Unidad Académica San Julián, UNPA</subfield>
+      <subfield code="c"> , 2003</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Proyecto de Innovación pedagógica</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> CURRICULUM ESCOLAR</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> INNOVACION PEDAGOGICA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> FORMACION DE DOCENTES </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> DISEÑO CURRICULAR</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> DOCENTES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EDUCACION</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2006-04-17</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">04-30212</subfield>
+      <subfield code="i">04-30212</subfield>
+      <subfield code="g">12</subfield>
+      <subfield code="o">371.214 I584i</subfield>
+      <subfield code="e">Donación</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ18595</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200702161728270</controlfield>
+    <controlfield tag="008">070216|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">374.7 P618e</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Pierini, María de los Milagros.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Mancilla, Héctor Raúl.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Oyarzún, Carlos Jesús.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">La educación de adultos en Santa Cruz</subfield>
+      <subfield code="b"> : la Escuela nº 1</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Río Gallegos</subfield>
+      <subfield code="c"> , [2005?]</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Proyecto de Investigación 29/A130</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EDUCACION DE ADULTOS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> SANTA CRUZ (ARGENTINA)</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ESTUDIO DE CASO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> HISTORIA DE LA EDUCACION</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2006-10-17</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">05-31014</subfield>
+      <subfield code="i">05-31014</subfield>
+      <subfield code="g">15</subfield>
+      <subfield code="o">374.7 P618e</subfield>
+      <subfield code="e">PI 29/A130</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ18632</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200702221130150</controlfield>
+    <controlfield tag="008">070222|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">378.4 A169ac</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Andrade, Larry D..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Sarasa, Ariel Nicolás.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Valdemarín, Claudia P..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Malik de Tchara, Claudia.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Puebla, Roxana F..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Bedacarratx, Valeria.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Ramallo, Milena.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Acceso, permanencia y deserción de estudiantes en la Universidad Nacional de la Patagonia Austral. Estudio exploratorio de cohortes a partir de 1991</subfield>
+      <subfield code="c"> / Andrade, Larry D., coordinador ; Miranda, Estela M., dir.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Puerto San Julián</subfield>
+      <subfield code="b"> : Unidad Académica San Julián, UNPA</subfield>
+      <subfield code="c"> , 1998</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Informe final de investigación: análisis cuantitativo y cualitativo de la matrícula 1991-1997 en la UASJ</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> DESERCION ESCOLAR</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EMPLEO DEL ESTUDIANTE</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> DATO ESTADISTICO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> UNIVERSIDAD NACIONAL DE LA PATAGONIA AUSTRAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> SAN JULIAN (SANTA CRUZ)</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2006-06-15</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">04-30493</subfield>
+      <subfield code="i">04-30493</subfield>
+      <subfield code="g">21</subfield>
+      <subfield code="o">378.4 A169ac</subfield>
+      <subfield code="e">UASJ</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ18635</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200702221442030</controlfield>
+    <controlfield tag="008">070222|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">69.059.6 E826e</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Encinas, Juan Carlos.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Russo, José Domingo.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Tello, Jorge Eduardo.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Díaz, Juan Carlos.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Cabrera, Oscar.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Paz, Juan Marcelo.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Fernández, Flavia.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Caminos, Carlos.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Estudio y determinación de los parámetros que regulan y optimizan el efecto del CRAS</subfield>
+      <subfield code="c"> / Acosta, Celso Enrique, dir. del proyecto</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Puerto San Julián</subfield>
+      <subfield code="b"> : Unidad Académica San Julián, UNPA</subfield>
+      <subfield code="c"> , 2000</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Proyecto de investigación: Informe final</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> CRAS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> CEMENTO DEMOLEDOR</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> DEMOLICIONES</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2006-04-17</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">04-30224</subfield>
+      <subfield code="i">04-30224</subfield>
+      <subfield code="g">27</subfield>
+      <subfield code="o">69.059.6 E826e</subfield>
+      <subfield code="e">Donación</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2006-06-15</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">04-30536</subfield>
+      <subfield code="i">04-30536</subfield>
+      <subfield code="g">32</subfield>
+      <subfield code="o">69.059.6 E826e</subfield>
+      <subfield code="e">UASJ</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2006-06-15</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">04-30537</subfield>
+      <subfield code="i">04-30537</subfield>
+      <subfield code="g">32</subfield>
+      <subfield code="o">69.059.6 E826e</subfield>
+      <subfield code="e">UASJ</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ87588</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200802270813440</controlfield>
+    <controlfield tag="008">080227|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">CD639.2 U588t</subfield>
+    </datafield>
+    <datafield tag="110" ind1=" " ind2=" ">
+      <subfield code="a">Universidad Nacional de Cuyo. Proyecto de investigación 'El rol del Estado en un Territorio Marginal. El Caso de la Actividad Pesquera en Santa Cruz.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Trabajos relacionados con el Proyecto de investigación 'El rol del estado en un territorio marginal. El caso de la actividad pesquera en Santa Cruz'</subfield>
+      <subfield code="c"> / Cepparo, María Eugenia, dir.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">[Mendoza]</subfield>
+      <subfield code="b"> : Universidad Nacional de Cuyo</subfield>
+      <subfield code="c"> , 2006</subfield>
+    </datafield>
+    <datafield tag="505" ind1=" " ind2=" ">
+      <subfield code="a">Contiene un trabajo, dos posters y una presentación en Power Point</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> PESCA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> POLITICA DE ESTADO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> SANTA CRUZ</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2008-02-27</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">02-34347</subfield>
+      <subfield code="i">02-34347</subfield>
+      <subfield code="g">10</subfield>
+      <subfield code="o">CD639.2 U588t</subfield>
+      <subfield code="e">Donación SECyT UNPA</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UART</subfield>
+      <subfield code="d">2008-02-27</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">03-34348</subfield>
+      <subfield code="i">03-34348</subfield>
+      <subfield code="g">10</subfield>
+      <subfield code="o">CD639.2 U588t</subfield>
+      <subfield code="e">Donación SECyT UNPA</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2008-02-27</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">04-34345</subfield>
+      <subfield code="i">04-34345</subfield>
+      <subfield code="g">10</subfield>
+      <subfield code="o">CD639.2 U588t</subfield>
+      <subfield code="e">Donación SECyT UNPA</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2008-02-27</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">05-34346</subfield>
+      <subfield code="i">05-34346</subfield>
+      <subfield code="g">10</subfield>
+      <subfield code="o">CD639.2 U588t</subfield>
+      <subfield code="e">Donación SECyT UNPA</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ87734</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200803071058500</controlfield>
+    <controlfield tag="008">080307|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">331.5 M813e</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Montuschi, Luisa.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">El empleo en la Argentina</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="c"> , [1995?]</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Galardonado con el premio 'Raúl Floreal Matera' al mejor trabajo de investigación científica - CONICET, 1995</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Proyecto S-953/94 del Senador Nacional Felipe Ludueña. Resolución H.S.N. 343/95</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EMPLEO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MERCADO DE TRABAJO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> POLITICA LABORAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ARGENTINA</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2008-03-07</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">02-34523</subfield>
+      <subfield code="i">02-34523</subfield>
+      <subfield code="g">39</subfield>
+      <subfield code="o">331.5 M813e</subfield>
+      <subfield code="e">SIUNPA</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ87738</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200803071456150</controlfield>
+    <controlfield tag="008">080307|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">378 P338e</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Paviglianiti, Norma.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Riquelme, Graciela.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Estudio sobre planeamiento integral de la educación superior y universitaria de la provincia de Santa Cruz</subfield>
+      <subfield code="b"> : segundo informe parcial</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : Consejo Federal de Inversiones</subfield>
+      <subfield code="c"> , 1981</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> POLITICAS DE EDUCACION</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> REFORMA DE LA EDUCACION</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> LEGISLACION EDUCACIONAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENSEÑANZA SUPERIOR </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> UNIVERSIDADES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> SANTA CRUZ (ARGENTINA)</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2008-03-07</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">02-34530</subfield>
+      <subfield code="i">02-34530</subfield>
+      <subfield code="g">45</subfield>
+      <subfield code="o">378 P338e</subfield>
+      <subfield code="e">Desconocido</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2008-03-07</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">02-34591</subfield>
+      <subfield code="i">02-34591</subfield>
+      <subfield code="g">45</subfield>
+      <subfield code="o">378 P338e</subfield>
+      <subfield code="e">Desconocido</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ87749</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200803100947010</controlfield>
+    <controlfield tag="008">080310|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">331.52 C568g</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Cicciari, María Rosa.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Prado, Mariano.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Romero, Julio Cesar.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Gorosito. De obrero petrolero a socio</subfield>
+      <subfield code="b"> : cambios en la situación ocupacional de la región Santa Cruz norte entre 1993 y 1995</subfield>
+      <subfield code="c"> / Salvia, Agustín, dir.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Caleta Olivia</subfield>
+      <subfield code="b"> : Unidad Académica Caleta Olivia, UNPA</subfield>
+      <subfield code="c"> , 1996</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Proyecto de investigación 'Reestructuración económica y su impacto sobre el empleo en los mercados de trabajo regionales de la Patagonia Austral'</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EMPRESA PUBLICA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> PRIVATIZACION</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EMPLEO </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> YPF </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> CAMBIO ECONOMICO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MERCADO DE TRABAJO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> SANTA CRUZ (ARGENTINA)</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2008-03-07</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">02-34546</subfield>
+      <subfield code="i">02-34546</subfield>
+      <subfield code="g">49</subfield>
+      <subfield code="o">331.52 C568g</subfield>
+      <subfield code="e">Desconocido</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ87750</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200803101037060</controlfield>
+    <controlfield tag="008">080310|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">338.1 E271e</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Cicciari, María Rosa.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Prado, Mariano.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Schinelli, Daniel.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Vacca, Carlos.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Efectos y perspectivas de desarrollo en el litoral atlántico de la Patagonia Austral</subfield>
+      <subfield code="b"> : sectores que ganan, sociedades que pierden en el contexto de cambio estructural de los '90</subfield>
+      <subfield code="c"> / Salvia, Agustín, dir.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Río Gallegos</subfield>
+      <subfield code="a">Caleta Olivia</subfield>
+      <subfield code="b"> : Unidad Académica Río Gallegos, UNPA</subfield>
+      <subfield code="b"> : Unidad Académica Caleta Olivia, UNPA</subfield>
+      <subfield code="c"> , 2001</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Informe final del proyecto de investigación 29/B018</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">En el ejemplar nº 1 UACO (02-34547), no coincide el número de páginas</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ECONOMIA REGIONAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> DESARROLLO ECONOMICO Y SOCIAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MERCADO LABORAL </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> DESARROLLO REGIONAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> REGION PATAGONICA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> PROYECTO DE INVESTIGACION </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> SANTA CRUZ (ARGENTINA)</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2008-03-02</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">02-34547</subfield>
+      <subfield code="i">02-34547</subfield>
+      <subfield code="g">49</subfield>
+      <subfield code="o">338.1 E271e</subfield>
+      <subfield code="e">Coord. Académica Cicciari, María Rosa</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2008-03-07</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">02-34548</subfield>
+      <subfield code="i">02-34548</subfield>
+      <subfield code="g">49</subfield>
+      <subfield code="o">338.1 E271e</subfield>
+      <subfield code="e">Coord. Académica Cicciari, María Rosa</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2008-05-17</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">04-30415</subfield>
+      <subfield code="i">04-30415</subfield>
+      <subfield code="g">48</subfield>
+      <subfield code="o">338.1 E271e</subfield>
+      <subfield code="e">UASJ</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2008-08-28</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">05-16566</subfield>
+      <subfield code="i">05-16566</subfield>
+      <subfield code="g">0</subfield>
+      <subfield code="o">338.1 E271e</subfield>
+      <subfield code="e">MigracionUARG</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ87964</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200803311049370</controlfield>
+    <controlfield tag="008">080331|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">F633.2.033 U588e</subfield>
+    </datafield>
+    <datafield tag="110" ind1=" " ind2=" ">
+      <subfield code="a">Universidad Nacional de la Patagonia Austral. Unidad Académica Río Gallegos. Proyecto de Investigación 29A/157.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Efecto de la dinámica hídrica, edáfica y ambiental sobre la productividad y calidad forrajera de mallines en la Patagonia Austral</subfield>
+      <subfield code="b"> : informe técnico de avance del ciclo 2003/04, UARG-UNPA</subfield>
+      <subfield code="c"> / Utrilla, Víctor, dir.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Río Gallegos</subfield>
+      <subfield code="c"> , 2004</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> PASTIZAL NATURAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MALLINES </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> RELACIONES PLANTA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">SUELO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> RELACIONES PLANTA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">AGUA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> REGION PATAGONICA</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2008-03-26</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">05-34802</subfield>
+      <subfield code="i">05-34802</subfield>
+      <subfield code="g">18</subfield>
+      <subfield code="o">F633.2.033 U588e</subfield>
+      <subfield code="e">UARG</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ91024</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200904271459350</controlfield>
+    <controlfield tag="008">090427|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">ES</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">004.73 T787a</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Trejo, Natalia Bibiana.</subfield>
+    </datafield>
+    <datafield tag="110" ind1=" " ind2=" ">
+      <subfield code="a">Universidad Complutense de Madrid, Departamento de Arquitectura de Computadores y Automática, org..</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Aplicación de multicast IPv6. Seguro a servicios de información en entornos grid</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Madrid</subfield>
+      <subfield code="b"> : Universidad Complutense de Madrid</subfield>
+      <subfield code="c"> , 2008</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Proyecto de Fin de Máster en Investigación en Informática, 2008</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> PROTOCOLO DE COMUNICACION</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> REDES INFORMATICAS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TCP/IP</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2009-04-27</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">05-37581</subfield>
+      <subfield code="i">05-37581</subfield>
+      <subfield code="g">29</subfield>
+      <subfield code="o">004.73 T787a</subfield>
+      <subfield code="e">Donación DCEN/08</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ92251</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200912021529060</controlfield>
+    <controlfield tag="008">091202|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">620.92 P965i</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Oliva, Rafael.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Lescano, Jorge R..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Triñanes, Patricio.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Soto, Luis P..</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Identificación de patrones de producción, almacenamiento y consumo energético en sitios aislados equipados con suministro eólico, solar e híbrido</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Río Gallegos</subfield>
+      <subfield code="b"> : Unidad Académica Río Gallegos, UNPA</subfield>
+      <subfield code="c"> , 2005</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Tít de partida: Propuesta proyecto de investigación tipo I-2005</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENERGIA RENOVABLE</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENERGIA EOLICA </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENERGIA SOLAR</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TECNOLOGIA ENERGETICA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> RECURSOS ENERGETICOS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> SANTA CRUZ (ARGENTINA)</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2009-11-20</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">05-38543</subfield>
+      <subfield code="i">05-38543</subfield>
+      <subfield code="g">15</subfield>
+      <subfield code="o">620.92 P965i</subfield>
+      <subfield code="e">SecIP-UARG-UNPA</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ92298</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200912211116000</controlfield>
+    <controlfield tag="008">091221|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">338.1 P294p 1999</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Zárate, Rubén.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Artesi, Liliana.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Martínez Llaneza, Daniel Jorge.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Salazar, Alberto.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Oyarzún, Marcos.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Buzzi, Martín, colab..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Baeza, Brígida, colab..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Molina Zepeda, Diana, colab..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Alarcón Henríquez, Nancy, colab..</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">La Patagonia austral</subfield>
+      <subfield code="b"> : las nuevas condiciones de la integración horizontal. Los nuevos escenarios económico-sociales</subfield>
+      <subfield code="c"> / Rofman, Alejandro, dir. ; Zárate, Rubén, codir.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Río Gallegos</subfield>
+      <subfield code="b"> : Universidad Nacional de la Patagonia Austral</subfield>
+      <subfield code="c"> , 1999</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Informe final del proyecto de investigación</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ECONOMIA REGIONAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> INTEGRACION REGIONAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> INTEGRACION ECONOMICA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> DESARROLLO REGIONAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> REGION PATAGONICA</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2009-12-21</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">05-16926</subfield>
+      <subfield code="i">05-16926</subfield>
+      <subfield code="g">30</subfield>
+      <subfield code="o">338.1 P294p 1999</subfield>
+      <subfield code="e">Desconocido</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ92299</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200912211126420</controlfield>
+    <controlfield tag="008">091221|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">338.2 C745c 1</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Martínez Llaneza, Daniel Jorge.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Cuadra, Dante.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Jaremchuk, Daniel.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Mansilla, Claudia.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Las condiciones de viabilidad para la aplicación de la formación de recursos humanos y la innovación tecnológica en políticas de desarrollo local</subfield>
+      <subfield code="b"> : primer informe de avance</subfield>
+      <subfield code="c"> / Zárate, Rubén, dir. ; Artesi, Liliana, codir.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Río Gallegos</subfield>
+      <subfield code="b"> : Unidad Académica Río Gallegos, UNPA</subfield>
+      <subfield code="c"> , 2000</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> UNIVERSIDADES  RECURSOS HUMANOS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> PLANIFICACION DE LA EDUCACION</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> DESARROLLO LOCAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> POLITICA DE DESARROLLO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> REGION PATAGONICA</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2009-12-21</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">05-16924</subfield>
+      <subfield code="i">05-16924</subfield>
+      <subfield code="g">29</subfield>
+      <subfield code="o">338.2 C745c 1</subfield>
+      <subfield code="e">Desconocido</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ92300</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200912211145420</controlfield>
+    <controlfield tag="008">091221|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">338.2 C745c 2</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Martínez Llaneza, Daniel Jorge.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Cuadra, Dante.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Jaremchuk, Daniel.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Prado, Mariano.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Vaca, Javier.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Las condiciones de viabilidad para la aplicación de la formación de recursos humanos y la innovación tecnológica en políticas de desarrollo local</subfield>
+      <subfield code="b"> : segundo informe de avance</subfield>
+      <subfield code="c"> / Zárate, Rubén, dir. ; Artesi, Liliana, codir.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Río Gallegos</subfield>
+      <subfield code="b"> : Unidad Académica Río Gallegos, UNPA</subfield>
+      <subfield code="c"> , 2001</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> UNIVERSIDADES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> PLANIFICACION DE LA EDUCACION</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> DESARROLLO LOCAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> POLITICA DE DESARROLLO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> REGION PATAGONICA</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2009-12-21</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">05-16925</subfield>
+      <subfield code="i">05-16925</subfield>
+      <subfield code="g">30</subfield>
+      <subfield code="o">338.2 C745c 2</subfield>
+      <subfield code="e">Desconocido</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ92320</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201002101441550</controlfield>
+    <controlfield tag="008">100210|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">338.1 P294p 1997</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Zárate, Rubén.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Artesi, Liliana.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Martínez Llaneza, Daniel Jorge.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Salazar, Alberto.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Oyarzún, Marcos.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Buzzi, Martín.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">La Patagonia austral</subfield>
+      <subfield code="b"> : las nuevas condiciones de la integración horizontal. Los nuevos escenarios económico-sociales</subfield>
+      <subfield code="c"> / Rofman, Alejandro, dir. ; Zárate, Rubén, codir.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Río Gallegos</subfield>
+      <subfield code="b"> : Universidad Nacional de la Patagonia Austral</subfield>
+      <subfield code="c"> , 1997</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Informe de la primera etapa del proyecto de investigación</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ECONOMIA REGIONAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> INTEGRACION REGIONAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> INTEGRACION ECONOMICA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> DESARROLLO REGIONAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> REGION PATAGONICA</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2010-02-11</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">05-38590</subfield>
+      <subfield code="i">05-38590</subfield>
+      <subfield code="g">45</subfield>
+      <subfield code="o">338.1 P294p 1997</subfield>
+      <subfield code="e">SecIP-UARG-UNPA</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2010-02-10</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">05-38600</subfield>
+      <subfield code="i">05-38600</subfield>
+      <subfield code="g">30</subfield>
+      <subfield code="o">338.1 P294p 1997</subfield>
+      <subfield code="e">SecIP-UARG-UNPA</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ93399</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201009141527230</controlfield>
+    <controlfield tag="008">100914|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">504.062 C961re</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Cuadra, Dante.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Alvárez, Hebe.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Recursos naturales renovables de Santa Cruz</subfield>
+      <subfield code="b"> : su marco legal provincial y su correlato con la legislación nacional</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Río Gallegos</subfield>
+      <subfield code="c"> , 2002</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">En portada: Proyecto 29A/082</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> RECURSOS NATURALES  CONSERVACION DE LA NATURALEZA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> RECURSOS RENOVABLES </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> SANTA CRUZ (ARGENTINA)</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> DERECHO AMBIENTAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> LEGISLACION</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> CONSERVACION DE LOS RECURSOS</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2010-09-21</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">05-39872</subfield>
+      <subfield code="i">05-39872</subfield>
+      <subfield code="g">45</subfield>
+      <subfield code="o">504.062 C961re</subfield>
+      <subfield code="e">Donación</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ93880</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201103301525040</controlfield>
+    <controlfield tag="008">110330|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">004.415.2 G993p</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Guzmán, Carlos Javier.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Proyecto de control de tiempos</subfield>
+      <subfield code="b"> : versión final</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">[Caleta Olivia]</subfield>
+      <subfield code="c"> , 2009</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">[20] h. en varias paginaciones : </subfield>
+      <subfield code="a">[5] h. : </subfield>
+      <subfield code="a">17, [4] h. : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="a">23, [40] h. : </subfield>
+      <subfield code="b">cuadros ; </subfield>
+      <subfield code="a">[80] h. en varias foliaciones : </subfield>
+      <subfield code="b">cuadros ; </subfield>
+      <subfield code="a">55 h. : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="a">95 h. : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="a">[211] h. en varías paginaciones : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="a">1 CD ROM : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="a">83 h. : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="a">vi, 241 h. : </subfield>
+      <subfield code="b">cuadros ; </subfield>
+      <subfield code="a">1 v. (en varias paginaciones) : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="a">[ca. 200 h.] : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="a">18 h. : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="a">vii, 59 p. : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="a">[87] h. en varias foliaciones : </subfield>
+      <subfield code="a">155 h. : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="a">[177] h. en varias foliaciones : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="a">[142] h. en varias foliaciones : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="a">[125] h. en varias foliaciones : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="a">[127] h. : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="a">[97] h. en varias foliaciones : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="e">2 CD-ROM en bolsillo</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> DESARROLLO DE SOFTWARE</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> DISEÑO DE SISTEMAS</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2011-03-29</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">02-40640</subfield>
+      <subfield code="i">02-40640</subfield>
+      <subfield code="g">25</subfield>
+      <subfield code="o">004.415.2 G993p</subfield>
+      <subfield code="e">Desconocido</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ94201</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201107111501460</controlfield>
+    <controlfield tag="008">110711|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">728.6 E794e</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Estancias del noreste de la provincia de Santa Cruz, su historia y su patrimonio en la primera mitad del siglo XX</subfield>
+      <subfield code="c"> / Lolich, Liliana, dir. ; Tagliorette, Alicia, co-dir.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">[Caleta Olivia]</subfield>
+      <subfield code="c"> , [2001?]</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">242 h. : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="e">1 portafolio (hojas sueltas)</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ARQUITECTURA RURAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> PATRIMONIO CULTURAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ESTANCIAS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> REGION PATAGONICA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TURISMO RURAL</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2011-05-13</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">02-40819</subfield>
+      <subfield code="i">02-40819</subfield>
+      <subfield code="g">120</subfield>
+      <subfield code="o">728.6 E794e</subfield>
+      <subfield code="e">Donación</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ94261</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201108111442090</controlfield>
+    <controlfield tag="008">110811|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">314.74(828) P294p</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Torres, Susana B..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Cabral Márquez, Daniel.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">García, Alicia.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Cicciari, María Rosa.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Sampaoli, Patricia.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Rodríguez, Mario.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Troiano, Marcelo.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Patagonia Austral e inmigración en el siglo XX</subfield>
+      <subfield code="b"> : estrategias identitarias y relaciones interetnicas</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Caleta Olivia</subfield>
+      <subfield code="c"> , [2001?]</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Informe final del proyecto de investigación 29/B005</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> INMIGRACION</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> REGION PATAGONICA</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2011-08-11</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">02-40823</subfield>
+      <subfield code="i">02-40823</subfield>
+      <subfield code="g">20</subfield>
+      <subfield code="o">314.74(828) P294p</subfield>
+      <subfield code="e">Donación</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ96903</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201302180844320</controlfield>
+    <controlfield tag="008">130218|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">37(091)(828.6) P437e</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Pereyra, Alicia Esther.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Pinto, Silvia Elida.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Las escuelas de artes y oficios en Comodoro Rivadavia durante la gobernación militar (1945-1955)</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Caleta Olivia</subfield>
+      <subfield code="c"> , 2007</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Informe final del proyecto de investigación 29/B065</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EDUCACION ARTISTICA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENSEÑANZA DE LAS ARTES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> HISTORIA DE LA EDUCACION</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> COMODORO RIVADAVIA (CHUBUT)</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2013-02-18</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">02-43842</subfield>
+      <subfield code="i">02-43842</subfield>
+      <subfield code="g">15</subfield>
+      <subfield code="o">37(091)(828.6) P437e</subfield>
+      <subfield code="e">Secretaría de investigación y postgrado</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ96904</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201302180852200</controlfield>
+    <controlfield tag="008">130218|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">316.346.32-053.6</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Richard, Aída.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Silva, Mirian.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Viotti, Margarita.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">El mundo actual</subfield>
+      <subfield code="b"> : valores e implicaciones educativas de los jóvenes al culminar la escolaridad obligatoria</subfield>
+      <subfield code="c"> / Porta, Luis, dir.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Caleta Olivia</subfield>
+      <subfield code="c"> , [2005?]</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Informe final del Proyecto de investigación 29/B063</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> SOCIOLOGIA DE LA JUVENTUD</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> VALORES </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENSEÑANZA DE VALORES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENSEÑANZA SECUNDARIA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> SANTA CRUZ (ARGENTINA)</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2013-02-18</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">02-43843</subfield>
+      <subfield code="i">02-43843</subfield>
+      <subfield code="g">15</subfield>
+      <subfield code="o">316.346.32-053.6</subfield>
+      <subfield code="e">Secretaría de investigación y postgrado</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ96905</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201302180943300</controlfield>
+    <controlfield tag="008">130218|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">165 C744c</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Leno, María José.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">López, Dora Elisa.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Sargiotto, Viviana Beatriz.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Vázquez, Norma Leticia.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">El concepto de mundo de la vida en el desarrollo de las Ciencias Sociales</subfield>
+      <subfield code="c"> / Di Gregori, María Cristina, dir.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Caleta Olivia</subfield>
+      <subfield code="c"> , 2006</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Informe final del proyecto de investigación 29/B060</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EPISTEMOLOGIA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TEORIA DEL CONOCIMIENTO</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2013-02-18</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">02-43841</subfield>
+      <subfield code="i">02-43841</subfield>
+      <subfield code="g">15</subfield>
+      <subfield code="o">165 C744c</subfield>
+      <subfield code="e">Secretaría de investigación y postgrado</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ96906</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201302181017130</controlfield>
+    <controlfield tag="008">130218|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">665.61 C117e</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Cabral Marques, Daniel Antonio.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Las empresas estatales extractivas y la configuración de identidades sociales ligadas al mundo del trabajo en la Patagonia Austral (1907-1955)</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Caleta Olivia</subfield>
+      <subfield code="c"> , [2005?]</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Informe final del proyecto de investigación 29/B061</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> INDUSTRIA PETROLERA  YPF</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> REGION PATAGONICA </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ARGENTINA</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2013-02-18</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">02-43838</subfield>
+      <subfield code="i">02-43838</subfield>
+      <subfield code="g">10</subfield>
+      <subfield code="o">665.61 C117e</subfield>
+      <subfield code="e">Secretaría de investigación y postgrado</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ96907</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201302181038590</controlfield>
+    <controlfield tag="008">130218|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">331.5 M135n</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Mc Donald, Eduardo.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Nuevos escenarios laborales, nuevas tecnologías y cambios en relación al mundo de la educación y el trabajo</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Caleta Olivia</subfield>
+      <subfield code="c"> , 2009</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">En portada: Reseña de investigación</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Proyecto de investigación 29/B093</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MERCADO DE TRABAJO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EDUCACION Y TRABAJO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EDUCACION TECNOLOGICA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TECNOLOGIA DE LA INFORMACION</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2013-02-18</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">02-43840</subfield>
+      <subfield code="i">02-43840</subfield>
+      <subfield code="g">10</subfield>
+      <subfield code="o">331.5 M135n</subfield>
+      <subfield code="e">Proyecto de investigación y postgrado</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ97418</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201304170920500</controlfield>
+    <controlfield tag="008">130417|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">R657(038) B389c</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Beceria, Clotilde Julia.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Boiero, María Elvira.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Rizzo, Marta María.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">La cuestión terminológica en la contabilidad</subfield>
+      <subfield code="b"> : el espacio económico del Mercosur</subfield>
+      <subfield code="c"> / Lopes de Sa, Antonio, dir. ; Gil, Jorge Manuel, dir.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Caleta Olivia</subfield>
+      <subfield code="c"> , 1998</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Información extraída de la página de la SECYT, UNPA</subfield>
+    </datafield>
+    <datafield tag="505" ind1=" " ind2=" ">
+      <subfield code="a">Informe final del proyecto de investigación 29/B007</subfield>
+    </datafield>
+    <datafield tag="505" ind1=" " ind2=" ">
+      <subfield code="a">Contenido: Sector 1.  Informe sobre términos seleccionados y definidos - Sector 2. Material de elaboración propia utilizado en la investigación - Sector 3. Informe sobre producción complementaria</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> CONTABILIDAD</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MERCOSUR </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> VOCABULARIO</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2013-04-17</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">02-44514</subfield>
+      <subfield code="i">02-44514</subfield>
+      <subfield code="g">45</subfield>
+      <subfield code="o">R657(038) B389c</subfield>
+      <subfield code="e">SECYT</subfield>
+      <subfield code="8">CR</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2013-04-17</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">02-44515</subfield>
+      <subfield code="i">02-44515</subfield>
+      <subfield code="g">45</subfield>
+      <subfield code="o">R657(038) B389c</subfield>
+      <subfield code="e">SECYT</subfield>
+      <subfield code="8">CR</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2013-04-17</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">02-44516</subfield>
+      <subfield code="i">02-44516</subfield>
+      <subfield code="g">45</subfield>
+      <subfield code="o">R657(038) B389c</subfield>
+      <subfield code="e">SECYT</subfield>
+      <subfield code="8">CR</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ100639</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201709080934350</controlfield>
+    <controlfield tag="008">170908|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">634.73 J371b</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Jara, Isabel.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Berries del sur</subfield>
+      <subfield code="b"> : frutas finas - producción de arándanos</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">[Río Gallegos]</subfield>
+      <subfield code="b"> : [Unidad Académica Río Gallegos, UNPA]</subfield>
+      <subfield code="c"> , 2014</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Formulación de proyectos</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">En cub. y portada: Donde encuentren una flecha, donde miren el cielo y vean la cruz del sur, allí seguro habrá un Tehuelche...</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ARANDANO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> VACCINIUM CORYMBOSUM</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2017-09-08</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">05-48860</subfield>
+      <subfield code="i">05-48860</subfield>
+      <subfield code="g">350</subfield>
+      <subfield code="o">634.73 J371b</subfield>
+      <subfield code="e">Sec. Académica</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ100926</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201711141112050</controlfield>
+    <controlfield tag="008">171114|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">050 S211e</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Sánchez, Alejandra Soledad.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Editorial CIVA</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Río Gallegos</subfield>
+      <subfield code="c"> , 2013</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Seminario de Administración, Proyecto Final para el título de la  Licenciatura en Administración, Universidad Nacional de la Patagonia Austral, 2013</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EDITORIAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> REVISTAS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> RIO GALLEGOS (SANTA CRUZ)</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">PI</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2017-11-14</subfield>
+      <subfield code="y">PI</subfield>
+      <subfield code="p">05-49241</subfield>
+      <subfield code="i">05-49241</subfield>
+      <subfield code="g">250</subfield>
+      <subfield code="o">050 S211e</subfield>
+      <subfield code="e">Lurbe - Acuerdo 227/16</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+</collection>

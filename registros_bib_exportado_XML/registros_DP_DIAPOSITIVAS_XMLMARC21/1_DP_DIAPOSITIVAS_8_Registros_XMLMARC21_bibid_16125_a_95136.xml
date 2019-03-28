@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ16125</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200610111355510</controlfield>
+    <controlfield tag="008">061011|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Enciclopedia didáctica audiovisual, Biología y anatomía</subfield>
+      <subfield code="b"> : Biología y anatomía</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : Cida Editora</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">SALUD</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">ENFERMERIA</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">DP</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2006-10-12</subfield>
+      <subfield code="y">DP</subfield>
+      <subfield code="p">04-D00007</subfield>
+      <subfield code="i">04-D00007</subfield>
+      <subfield code="g"/>
+      <subfield code="o"/>
+      <subfield code="e"/>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ16126</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200610111355510</controlfield>
+    <controlfield tag="008">061011|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Enciclopedia didáctica audiovisual</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : Cida Editora</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">ENFERMERIA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">ENFERMERIA BASICA</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">DP</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2006-10-12</subfield>
+      <subfield code="y">DP</subfield>
+      <subfield code="p">04-D00008</subfield>
+      <subfield code="i">04-D00008</subfield>
+      <subfield code="g"/>
+      <subfield code="o"/>
+      <subfield code="e"/>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ95131</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201205081354140</controlfield>
+    <controlfield tag="008">120508|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">372.8.034 D948s</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Duran, Jorge M..</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Salud familiar</subfield>
+      <subfield code="c"> / Melgarejo, Daniel, il. ; Irvini, Gabriel, il.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : Centro Integral de Diapositivas Audiovisuales, CIDA</subfield>
+      <subfield code="c"> , [198-?]</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">5 h. : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="e">12 diapositivas</subfield>
+    </datafield>
+    <datafield tag="440" ind1=" " ind2=" ">
+      <subfield code="a">Educación para la salud</subfield>
+      <subfield code="v">Carpeta no. 945</subfield>
+    </datafield>
+    <datafield tag="490" ind1=" " ind2=" ">
+      <subfield code="a">Educación para la salud</subfield>
+      <subfield code="v">Carpeta no. 945</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Para tercer nivel (10 a 12 años)</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EDUCACION PARA LA SALUD  EDUCACION SEXUAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EGB </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MATERIAL DIDACTICO</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">DP</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2012-05-08</subfield>
+      <subfield code="y">DP</subfield>
+      <subfield code="p">04-42456</subfield>
+      <subfield code="i">04-42456</subfield>
+      <subfield code="g">70</subfield>
+      <subfield code="o">372.8.034 D948s</subfield>
+      <subfield code="e">UASJ</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ95132</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201205081440470</controlfield>
+    <controlfield tag="008">120508|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">613.2 D948a</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Duran, Jorge M..</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Alimentación y nutrición</subfield>
+      <subfield code="c"> / Melgarejo, Daniel, il. ; Irvini, Gabriel, il.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : Centro Integral de Diapositivas Audiovisuales, CIDA</subfield>
+      <subfield code="c"> , [198-?]</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">6 p. : </subfield>
+      <subfield code="b">col. ; </subfield>
+      <subfield code="e">12 diapositivas</subfield>
+    </datafield>
+    <datafield tag="440" ind1=" " ind2=" ">
+      <subfield code="a">Educación para la salud</subfield>
+      <subfield code="v">Carpeta no. 942</subfield>
+    </datafield>
+    <datafield tag="490" ind1=" " ind2=" ">
+      <subfield code="a">Educación para la salud</subfield>
+      <subfield code="v">Carpeta no. 942</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Para tercer nivel (10 a 12 años)</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> NUTRICION</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ALIMENTOS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EGB</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EDUCACION PARA LA SALUD</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MATERIAL DIDACTICO</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">DP</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2012-05-08</subfield>
+      <subfield code="y">DP</subfield>
+      <subfield code="p">04-42458</subfield>
+      <subfield code="i">04-42458</subfield>
+      <subfield code="g">59</subfield>
+      <subfield code="o">613.2 D948a</subfield>
+      <subfield code="e">UASJ</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ95133</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201205081638410</controlfield>
+    <controlfield tag="008">120508|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">616-01 D948p</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Duran, Jorge M..</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Protección de la salud y control de enfermedades</subfield>
+      <subfield code="c"> / Puccio, Rómulo A., dir. ; Melgarejo, Daniel, il. ; Irvini, Gabriel, il.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : Centro Integral de Diapositivas Audiovisuales, CIDA</subfield>
+      <subfield code="c"> , [198-?]</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="b">col. ; </subfield>
+      <subfield code="c">4 h. + </subfield>
+      <subfield code="e">12 diapositivas</subfield>
+    </datafield>
+    <datafield tag="440" ind1=" " ind2=" ">
+      <subfield code="a">Educación para la salud</subfield>
+      <subfield code="v">Carpeta no. 946</subfield>
+    </datafield>
+    <datafield tag="490" ind1=" " ind2=" ">
+      <subfield code="a">Educación para la salud</subfield>
+      <subfield code="v">Carpeta no. 946</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EDUCACION PARA LA SALUD</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EDUCACION SANITARIA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> PREVENCION DE ENFERMEDADES </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EGB</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MATERIAL DIDACTICO</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">DP</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2012-05-08</subfield>
+      <subfield code="y">DP</subfield>
+      <subfield code="p">04-42454</subfield>
+      <subfield code="i">04-42454</subfield>
+      <subfield code="g">70</subfield>
+      <subfield code="o">616-01 D948p</subfield>
+      <subfield code="e">UASJ</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ95134</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201205081647000</controlfield>
+    <controlfield tag="008">120508|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">613.4 D948sa</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Duran, Jorge M..</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Salud personal</subfield>
+      <subfield code="c"> / Melgarejo, Daniel, il. ; Irvini, Gabriel, il.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : Centro Integral de Diapositivas Audiovisuales, CIDA</subfield>
+      <subfield code="c"> , [198-?]</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">4 h. : </subfield>
+      <subfield code="b">col. ; </subfield>
+      <subfield code="e">12 diapositivas</subfield>
+    </datafield>
+    <datafield tag="440" ind1=" " ind2=" ">
+      <subfield code="a">Educación para la salud</subfield>
+      <subfield code="v">Carpeta no. 944</subfield>
+    </datafield>
+    <datafield tag="490" ind1=" " ind2=" ">
+      <subfield code="a">Educación para la salud</subfield>
+      <subfield code="v">Carpeta no. 944</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Para tercer nivel (10 a 12 años)</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> HIGIENE</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EGB </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MATERIAL DIDACTICO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EDUCACION PARA LA SALUD</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">DP</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2012-05-08</subfield>
+      <subfield code="y">DP</subfield>
+      <subfield code="p">04-42455</subfield>
+      <subfield code="i">04-42455</subfield>
+      <subfield code="g">70</subfield>
+      <subfield code="o">613.4 D948sa</subfield>
+      <subfield code="e">UASJ</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ95135</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201205081656500</controlfield>
+    <controlfield tag="008">120508|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">611.7 A639a</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Aparato locomotor del ser humano</subfield>
+      <subfield code="c"> / Melgarejo, Daniel, il. ; Irvini, Gabriel, il.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : Centro Integral de Diapositivas Audiovisuales, CIDA</subfield>
+      <subfield code="c"> , [198-?]</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">7 h. : </subfield>
+      <subfield code="e">24 diapositivas</subfield>
+    </datafield>
+    <datafield tag="440" ind1=" " ind2=" ">
+      <subfield code="a">Educación para la salud</subfield>
+      <subfield code="v">Carpeta no. 523</subfield>
+    </datafield>
+    <datafield tag="490" ind1=" " ind2=" ">
+      <subfield code="a">Educación para la salud</subfield>
+      <subfield code="v">Carpeta no. 523</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Tít. de partida: Biología y anatomía</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Para tercer nivel (10 a 12 años)</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> APARATO LOCOMOTOR</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EGB </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MATERIAL DIDACTICO</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">DP</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2012-05-08</subfield>
+      <subfield code="y">DP</subfield>
+      <subfield code="p">04-42453</subfield>
+      <subfield code="i">04-42453</subfield>
+      <subfield code="g">70</subfield>
+      <subfield code="o">611.7 A639a</subfield>
+      <subfield code="e">UASJ</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ95136</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201205081701410</controlfield>
+    <controlfield tag="008">120508|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">613.5 D948s</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Duran, Jorge M..</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Salud y ambiente</subfield>
+      <subfield code="c"> / Melgarejo, Daniel, il. ; Irvini, Gabriel, il. ; Puccio, Rómulo A.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : Centro Integral de Diapositivas Audiovisuales, CIDA</subfield>
+      <subfield code="c"> , [198-?]</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">4 p. : </subfield>
+      <subfield code="b">col. ; </subfield>
+      <subfield code="e">12 diapositivas</subfield>
+    </datafield>
+    <datafield tag="440" ind1=" " ind2=" ">
+      <subfield code="a">Educación para la salud</subfield>
+      <subfield code="v">Carpeta no. 923</subfield>
+    </datafield>
+    <datafield tag="490" ind1=" " ind2=" ">
+      <subfield code="a">Educación para la salud</subfield>
+      <subfield code="v">Carpeta no. 923</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Para segundo nivel (8 a 10 años)</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MEDIO AMBIENTE</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> HIGIENE DE LA VIVIENDA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EDUCACION PARA LA SALUD</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EGB </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MATERIAL DIDACTICO</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">DP</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2012-05-08</subfield>
+      <subfield code="y">DP</subfield>
+      <subfield code="p">04-42457</subfield>
+      <subfield code="i">04-42457</subfield>
+      <subfield code="g">70</subfield>
+      <subfield code="o">613.5 D948s</subfield>
+      <subfield code="e">UASJ</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+  </record>
+</collection>

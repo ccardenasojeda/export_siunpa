@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ1286</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200409150000000</controlfield>
+    <controlfield tag="008">040915|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">0815101872</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">US</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">R61(038) M894m</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a"/>
+      <subfield code="c"> / Anderson, Kenneth N., rev. y ed.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Saint Louis, MO</subfield>
+      <subfield code="b"> : Mosby</subfield>
+      <subfield code="c"> , c1995</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">16 discos de computador : </subfield>
+      <subfield code="b">3½ plg., il. ; </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MEDICINA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> DICCIONARIO</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">CF</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2005-08-23</subfield>
+      <subfield code="y">CF</subfield>
+      <subfield code="p">05-25133</subfield>
+      <subfield code="i">05-25133</subfield>
+      <subfield code="g">50</subfield>
+      <subfield code="o">R61(038) M894m</subfield>
+      <subfield code="e">UARG</subfield>
+      <subfield code="8">CR</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ95531</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201206291642540</controlfield>
+    <controlfield tag="008">120629|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9789871242689</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">37.018.43 E562e</subfield>
+    </datafield>
+    <datafield tag="110" ind1=" " ind2=" ">
+      <subfield code="a">Encuentro Patagónico de Educación y Tecnología (2012 : El Calafate).</subfield>
+    </datafield>
+    <datafield tag="710" ind1=" " ind2=" ">
+      <subfield code="a">Jornadas de Tesistas de Posgrado en TIC y en Educación (2 : 2012 : El Calafate).</subfield>
+    </datafield>
+    <datafield tag="710" ind1=" " ind2=" ">
+      <subfield code="a">Jornadas de la Evaluación de la Maestría en Educación en Entornos Virtuales (3 : 2012 : El Calafate).</subfield>
+    </datafield>
+    <datafield tag="710" ind1=" " ind2=" ">
+      <subfield code="a">Jornadas de Educación y TIC: La enseñanza y el aprendizaje en entornos virtuales (2012 : El Calafate).</subfield>
+    </datafield>
+    <datafield tag="710" ind1=" " ind2=" ">
+      <subfield code="a">Jornadas Estudiantiles de Aprendizaje a Distancia (2012 : El Calafate).</subfield>
+    </datafield>
+    <datafield tag="710" ind1=" " ind2=" ">
+      <subfield code="a">Universidad Nacional de la Patagonia Austral, org..</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Encuentro Patagónico de Educación y Tecnología</subfield>
+      <subfield code="b"> : El Calafate, 12 al 14 de Marzo de 2012</subfield>
+      <subfield code="c"> / Bain, María Elena, comp. ; Alvarado, Andrea, comp.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Río Gallegos</subfield>
+      <subfield code="b"> : Universidad Nacional de la Patagonia Austral, UNPA</subfield>
+      <subfield code="c"> , 2012</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Índice digital de las publicaciones del Encuentro y las Jornadas</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Los trabajos se presentan en formato pdf y Shockwave Flash Object (sfw)</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Sitio web complementario: http://educacionytecnologia.unpa.edu.ar/</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EDUCACION SUPERIOR</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TECNOLOGIA EDUCACIONAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TECNOLOGIA DE LA INFORMACION</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> UNIVERSIDADES </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EDUCACION A DISTANCIA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENSEÑANZA VIRTUAL</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">CF</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2012-06-29</subfield>
+      <subfield code="y">CF</subfield>
+      <subfield code="p">02-42739</subfield>
+      <subfield code="i">02-42739</subfield>
+      <subfield code="g">89</subfield>
+      <subfield code="o">37.018.43 E562e</subfield>
+      <subfield code="e">Secretaría General Académica</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UART</subfield>
+      <subfield code="d">2012-06-29</subfield>
+      <subfield code="y">CF</subfield>
+      <subfield code="p">03-42740</subfield>
+      <subfield code="i">03-42740</subfield>
+      <subfield code="g">89</subfield>
+      <subfield code="o">37.018.43 E562e</subfield>
+      <subfield code="e">Secretaría General Académica</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2012-06-29</subfield>
+      <subfield code="y">CF</subfield>
+      <subfield code="p">04-42741</subfield>
+      <subfield code="i">04-42741</subfield>
+      <subfield code="g">89</subfield>
+      <subfield code="o">37.018.43 E562e</subfield>
+      <subfield code="e">Secretaría General Académica</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2012-06-29</subfield>
+      <subfield code="y">CF</subfield>
+      <subfield code="p">05-42738</subfield>
+      <subfield code="i">05-42738</subfield>
+      <subfield code="g">89</subfield>
+      <subfield code="o">37.018.43 E562e</subfield>
+      <subfield code="e">Secretaría General Académica</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">SAT_TRUN</subfield>
+      <subfield code="d">2012-06-29</subfield>
+      <subfield code="y">CF</subfield>
+      <subfield code="p">10-42744</subfield>
+      <subfield code="i">10-42744</subfield>
+      <subfield code="g">89</subfield>
+      <subfield code="o">37.018.43 E562e</subfield>
+      <subfield code="e">Secretaría General Académica</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">SAT_PBNA</subfield>
+      <subfield code="d">2012-06-29</subfield>
+      <subfield code="y">CF</subfield>
+      <subfield code="p">11-42743</subfield>
+      <subfield code="i">11-42743</subfield>
+      <subfield code="g">89</subfield>
+      <subfield code="o">37.018.43 E562e</subfield>
+      <subfield code="e">Secretaría General Académica</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">SAT_CLFT</subfield>
+      <subfield code="d">2012-06-29</subfield>
+      <subfield code="y">CF</subfield>
+      <subfield code="p">12-42742</subfield>
+      <subfield code="i">12-42742</subfield>
+      <subfield code="g">89</subfield>
+      <subfield code="o">37.018.43 E562e</subfield>
+      <subfield code="e">Secretaría General Académica</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">SAT_PMDN </subfield>
+      <subfield code="d">2012-06-29</subfield>
+      <subfield code="y">CF</subfield>
+      <subfield code="p">15-42745</subfield>
+      <subfield code="i">15-42745</subfield>
+      <subfield code="g">89</subfield>
+      <subfield code="o">37.018.43 E562e</subfield>
+      <subfield code="e">Secretaría General Académica</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">SAT_PDES</subfield>
+      <subfield code="d">2012-06-29</subfield>
+      <subfield code="y">CF</subfield>
+      <subfield code="p">16-42749</subfield>
+      <subfield code="i">16-42749</subfield>
+      <subfield code="g">89</subfield>
+      <subfield code="o">37.018.43 E562e</subfield>
+      <subfield code="e">Secretaría General Académica</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">SAT_RGRA</subfield>
+      <subfield code="d">2012-06-29</subfield>
+      <subfield code="y">CF</subfield>
+      <subfield code="p">17-42747</subfield>
+      <subfield code="i">17-42747</subfield>
+      <subfield code="g">89</subfield>
+      <subfield code="o">37.018.43 E562e</subfield>
+      <subfield code="e">Secretaría General Académica</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">SAT_GREG</subfield>
+      <subfield code="d">2012-06-29</subfield>
+      <subfield code="y">CF</subfield>
+      <subfield code="p">18-42746</subfield>
+      <subfield code="i">18-42746</subfield>
+      <subfield code="g">89</subfield>
+      <subfield code="o">37.018.43 E562e</subfield>
+      <subfield code="e">Secretaría General Académica</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">SAT_USHU</subfield>
+      <subfield code="d">2012-06-29</subfield>
+      <subfield code="y">CF</subfield>
+      <subfield code="p">19-42748</subfield>
+      <subfield code="i">19-42748</subfield>
+      <subfield code="g">89</subfield>
+      <subfield code="o">37.018.43 E562e</subfield>
+      <subfield code="e">Secretaría General Académica</subfield>
+      <subfield code="8">MM</subfield>
+    </datafield>
+  </record>
+</collection>

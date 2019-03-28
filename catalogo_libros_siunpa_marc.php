@@ -1,49 +1,225 @@
 <?php
 
 include 'gestorRegistroBiblio.php';
+//Modifica el tamanio de memoria para ejecutar las consultas
+ini_set('memory_limit', '8192M');
 
-//$libros = gestorRegistroBiblio::listadoDatosLibros();
-$casset   = gestorRegistroBiblio::listadoDatosMaterial(1);
-$libros   = gestorRegistroBiblio::listadoDatosMaterial(2);
-$cd       = gestorRegistroBiblio::listadoDatosMaterial(3);
-$disquete = gestorRegistroBiblio::listadoDatosMaterial(4);
-$folleto  = gestorRegistroBiblio::listadoDatosMaterial(5);
-$publicacion_periodica  = gestorRegistroBiblio::listadoDatosMaterial(6);
-$cartografia  = gestorRegistroBiblio::listadoDatosMaterial(7);
-$video_dvd  = gestorRegistroBiblio::listadoDatosMaterial(8);
-$separata  = gestorRegistroBiblio::listadoDatosMaterial(9);
-$monografia  = gestorRegistroBiblio::listadoDatosMaterial(10);
-$tesina  = gestorRegistroBiblio::listadoDatosMaterial(11);
-$tesis  = gestorRegistroBiblio::listadoDatosMaterial(12);
-$mat_catedra  = gestorRegistroBiblio::listadoDatosMaterial(13);
-$proyecto_inv  = gestorRegistroBiblio::listadoDatosMaterial(14);
-$conjunto  = gestorRegistroBiblio::listadoDatosMaterial(15);
-$arch_comp  = gestorRegistroBiblio::listadoDatosMaterial(16);
-$diapositivas  = gestorRegistroBiblio::listadoDatosMaterial(18);
-$fotografia  = gestorRegistroBiblio::listadoDatosMaterial(19);
-$partitura  = gestorRegistroBiblio::listadoDatosMaterial(23);
+$codigo = 1;
+$txt = fopen("archivos_generados.txt", "w");
+fwrite($txt, "\n***********************************ARCHIVOS GENERADOS*******************************\n" . PHP_EOL);
 
-$input_array = $disquete;
-$material = array_chunk($input_array, 1000, true);
-//var_dump($material);
-
-$cont = 1;
-foreach ($material as $value) {
-    //$nombre_xml = $cont."_BK_libros_xml_marc_21_bibid_".reset($value)['bibid']."_a_bibid_".end($value)['bibid'];
-    //$nombre_xml = $cont."_CS_cassete_xml_marc_21_bibid_".reset($value)['bibid']."_a_bibid_".end($value)['bibid'];
-    $nombre_xml = $cont."_DQ_disquete_xml_marc_21_bibid_".reset($value)['bibid']."_a_bibid_".end($value)['bibid'];
-    //echo $nombre_xml.'<br>';
-    //registro_MarcXml($value, $nombre_xml);
-    //registro_MarcXml_Material($value, $nombre_xml, 'cd_xml', 'CD', 1);
-    //registro_MarcXml_Material($value, $nombre_xml, 'cassete_xml', 'CS', 3);
-    registro_MarcXml_Material($value, $nombre_xml, 'disquete_xml', 'DQ', 4);    
+while ($codigo < 24) {
     
+    $registros = gestorRegistroBiblio::listadoDatosMaterial($codigo);
+    //Permite dividir los registros en subarreglos de 1000 en caso que supere este numero.
+    $datos = array_chunk($registros, 1000, true);
+
+    switch ($codigo) {
+
+        case 1: //CASSETE
+            
+            $texto = "Tipo de Registro: CASSETE ---- Cantidad de Registros: ".sizeof($registros). " ------ Cantidad archivos a generar: ".sizeof($datos);            
+            $path = 'registros_bib_exportado_XML/registros_CS_CASSETE_XMLMARC21';
+            if (!file_exists($path)) {
+                mkdir($path, 0777, true);
+            }
+            generarRegistrosBibliograficosXML($datos, 'CS', $codigo, "CASSETE", $path);
+            break;
+        case 2: //LIBROS
+            $texto = "Tipo de Registro: LIBROS ---- Cantidad de Registros: ".sizeof($registros). " ------ Cantidad archivos a generar: ".sizeof($datos);
+            $path = 'registros_bib_exportado_XML/registros_BK_LIBROS_XMLMARC21';
+            if (!file_exists($path)) {
+                mkdir($path, 0777, true);
+            }
+            generarRegistrosBibliograficosXML($datos, 'BK', $codigo, "LIBROS", $path);
+            break;
+        case 3: //CDs
+            $texto = "Tipo de Registro: CDs ---- Cantidad de Registros: ".sizeof($registros). " ------ Cantidad archivos a generar: ".sizeof($datos);
+            $path = 'registros_bib_exportado_XML/registros_CD_CDs_XMLMARC21';
+            if (!file_exists($path)) {
+                mkdir($path, 0777, true);
+            }
+            generarRegistrosBibliograficosXML($datos, 'CD', $codigo, "CDs", $path);
+            break;
+        case 4: //DISQUETE
+            $texto = "Tipo de Registro: DISQUETE ---- Cantidad de Registros: ".sizeof($registros). " ------ Cantidad archivos a generar: ".sizeof($datos);
+            $path = 'registros_bib_exportado_XML/registros_DQ_DISQUETE_XMLMARC21';
+            if (!file_exists($path)) {
+                mkdir($path, 0777, true);
+            }
+            generarRegistrosBibliograficosXML($datos, 'DQ', $codigo, "DISQUETE", $path);
+            
+            break;
+        case 5: //FOLLETO
+            $texto = "Tipo de Registro: FOLLETO ---- Cantidad de Registros: ".sizeof($registros). " ------ Cantidad archivos a generar: ".sizeof($datos);
+            $path = 'registros_bib_exportado_XML/registros_FL_FOLLETO_XMLMARC21';
+            if (!file_exists($path)) {
+                mkdir($path, 0777, true);
+            }
+            generarRegistrosBibliograficosXML($datos, 'FL', $codigo, "FOLLETO", $path);
+
+            break;
+        case 6: //PUBLICACIÓN PERIÓDICA
+            $texto = "Tipo de Registro: PUBLICACIÓN PERIÓDICA ---- Cantidad de Registros: ".sizeof($registros). " ------ Cantidad archivos a generar: ".sizeof($datos);
+            $path = 'registros_bib_exportado_XML/registros_CR_PUBLICACION_PERIODICA_XMLMARC21';
+            if (!file_exists($path)) {
+                mkdir($path, 0777, true);
+            }
+            generarRegistrosBibliograficosXML($datos, 'CR', $codigo, "PUBLICACION_PERIODICA", $path);
+            
+            break;
+        case 7: //CARTOGRAFIA
+            $texto = "Tipo de Registro: CARTOGRAFIA ---- Cantidad de Registros: ".sizeof($registros). " ------ Cantidad archivos a generar: ".sizeof($datos);
+            $path = 'registros_bib_exportado_XML/registros_CAR_CARTOGRAFIA_XMLMARC21';
+            if (!file_exists($path)) {
+                mkdir($path, 0777, true);
+            }
+            generarRegistrosBibliograficosXML($datos, 'CAR', $codigo, "CARTOGRAFIA", $path);
+            
+            break;
+        case 8: //VIDEO/DVD
+            $texto = "Tipo de Registro: VIDEO/DVD ---- Cantidad de Registros: ".sizeof($registros). " ------ Cantidad archivos a generar: ".sizeof($datos);
+            $path = 'registros_bib_exportado_XML/registros_VD_VIDEODVD_XMLMARC21';
+            if (!file_exists($path)) {
+                mkdir($path, 0777, true);
+            }
+            generarRegistrosBibliograficosXML($datos, 'VD', $codigo, "VIDEODVD", $path);
+
+            break;
+        case 9: //SEPARATA
+            $texto =  "Tipo de Registro: SEPARATA ---- Cantidad de Registros: ".sizeof($registros). " ------ Cantidad archivos a generar: ".sizeof($datos);
+
+            $texto = "Tipo de Registro: VIDEO/DVD ---- Cantidad de Registros: ".sizeof($registros). " ------ Cantidad archivos a generar: ".sizeof($datos);
+            $path = 'registros_bib_exportado_XML/registros_SP_SEPARATA_XMLMARC21';
+            if (!file_exists($path)) {
+                mkdir($path, 0777, true);
+            }
+            generarRegistrosBibliograficosXML($datos, 'SP', $codigo, "SEPARATA", $path);
+            
+            break;
+        case 10: //MONOGRAFÍA
+            $texto = "Tipo de Registro: MONOGRAFÍA ---- Cantidad de Registros: ".sizeof($registros). " ------ Cantidad archivos a generar: ".sizeof($datos);
+            $path = 'registros_bib_exportado_XML/registros_MN_MONOGRAFIA_XMLMARC21';
+            if (!file_exists($path)) {
+                mkdir($path, 0777, true);
+            }
+            generarRegistrosBibliograficosXML($datos, 'MN', $codigo, "MONOGRAFIA", $path);
+
+            break;
+        case 11: //TESINA
+            $texto = "Tipo de Registro: TESINA ---- Cantidad de Registros: ".sizeof($registros). " ------ Cantidad archivos a generar: ".sizeof($datos);
+            $path = 'registros_bib_exportado_XML/registros_TN_TESINA_XMLMARC21';
+            if (!file_exists($path)) {
+                mkdir($path, 0777, true);
+            }
+            generarRegistrosBibliograficosXML($datos, 'TN', $codigo, "TESINA", $path);
+            
+            break;
+        case 12: //TESIS
+            $texto = "Tipo de Registro: TESIS ---- Cantidad de Registros: ".sizeof($registros). " ------ Cantidad archivos a generar: ".sizeof($datos);
+
+            $path = 'registros_bib_exportado_XML/registros_TS_TESIS_XMLMARC21';
+            if (!file_exists($path)) {
+                mkdir($path, 0777, true);
+            }
+            generarRegistrosBibliograficosXML($datos, 'TS', $codigo, "TESIS", $path);
+            
+            break;
+        case 13: //MAT CATEDRA
+            $texto = "Tipo de Registro: MAT CATEDRA ---- Cantidad de Registros: ".sizeof($registros). " ------ Cantidad archivos a generar: ".sizeof($datos);
+            $path = 'registros_bib_exportado_XML/registros_MC_MATCATEDRA_XMLMARC21';
+            if (!file_exists($path)) {
+                mkdir($path, 0777, true);
+            }
+            generarRegistrosBibliograficosXML($datos, 'MC', $codigo, "MATCATEDRA", $path);
+            break;
+        case 14: //PROYECTO INV 
+            $texto = "Tipo de Registro: PROYECTO INV ---- Cantidad de Registros: ".sizeof($registros). " ------ Cantidad archivos a generar: ".sizeof($datos);
+            $path = 'registros_bib_exportado_XML/registros_PI_PROYECTOINV_XMLMARC21';
+            if (!file_exists($path)) {
+                mkdir($path, 0777, true);
+            }
+            generarRegistrosBibliograficosXML($datos, 'PI', $codigo, "PROYECTOINV", $path);
+            
+            break;
+        case 15: //CONJUNTO
+            $texton = "Tipo de Registro: CONJUNTO ---- Cantidad de Registros: ".sizeof($registros). " ------ Cantidad archivos a generar: ".sizeof($datos);
+            $path = 'registros_bib_exportado_XML/registros_CN_CONJUNTO_XMLMARC21';
+            if (!file_exists($path)) {
+                mkdir($path, 0777, true);
+            }
+            generarRegistrosBibliograficosXML($datos, 'CN', $codigo, "CONJUNTO", $path);
+            
+            break;
+        case 16: //ARCHIVO DE COMPUTADOR 
+            $texto = "Tipo de Registro: ARCHIVO DE COMPUTADOR ---- Cantidad de Registros: ".sizeof($registros). " ------ Cantidad archivos a generar: ".sizeof($datos);
+            $path = 'registros_bib_exportado_XML/registros_CF_ARCHIVODECOMPUTADOR_XMLMARC21';
+            if (!file_exists($path)) {
+                mkdir($path, 0777, true);
+            }
+            generarRegistrosBibliograficosXML($datos, 'CF', $codigo, "ARCHIVODECOMPUTADOR", $path);
+            break;
+        case 18: //DIAPOSITIVAS
+            $texto = "Tipo de Registro: DIAPOSITIVAS ---- Cantidad de Registros: ".sizeof($registros). " ------ Cantidad archivos a generar: ".sizeof($datos);
+            $path = 'registros_bib_exportado_XML/registros_DP_DIAPOSITIVAS_XMLMARC21';
+            if (!file_exists($path)) {
+                mkdir($path, 0777, true);
+            }
+            generarRegistrosBibliograficosXML($datos, 'DP', $codigo, "DIAPOSITIVAS", $path);
+            
+            break;
+        case 19: //FOTOGRAFÍA
+            $texto = "Tipo de Registro: FOTOGRAFÍA ---- Cantidad de Registros: ".sizeof($registros). " ------ Cantidad archivos a generar: ".sizeof($datos);
+            $path = 'registros_bib_exportado_XML/registros_FT_FOTOGRAFIA_XMLMARC21';
+            if (!file_exists($path)) {
+                mkdir($path, 0777, true);
+            }
+            generarRegistrosBibliograficosXML($datos, 'FT', $codigo, "FOTOGRAFIA", $path);
+            
+            break;
+        case 23: //PARTITURA
+            $texto = "Tipo de Registro: PARTITURA ---- Cantidad de Registros: ".sizeof($registros). " ------ Cantidad archivos a generar: ".sizeof($datos);
+            $path = 'registros_bib_exportado_XML/registros_PAR_PARTITURA_XMLMARC21';
+            if (!file_exists($path)) {
+                mkdir($path, 0777, true);
+            }
+            generarRegistrosBibliograficosXML($datos, 'PAR', $codigo, "PARTITURA", $path);
+            
+            break;
+        
+        default:
+            # code...
+            break;
+    }
+    
+    if($codigo == 17 || $codigo == 20 || $codigo == 21|| $codigo == 22){
+        
+    }else{fwrite($txt, $texto."\n" . PHP_EOL);}
+    if($codigo == 23){fclose($txt);}
+        
+    $codigo++;
+}
+
+
+
+function generarRegistrosBibliograficosXML($reg_bib, $tipo_reg,$cod_mat, $desc_reg, $directorio){
+    
+    
+    //Contador para la cantidad de archivos que se generan y usar en el nombre.
+    $cont = 1;
+    foreach ($reg_bib as $value) {
+    $nombre_xml = $cont."_".$tipo_reg."_".$desc_reg."_".sizeof($value)."_Registros_XMLMARC21_bibid_".reset($value)['bibid']."_a_".end($value)['bibid'];
+    
+    echo $nombre_xml.'<br>';
+        
+    generarRegistroBibliograficoMARC21($value, $nombre_xml, $directorio, $tipo_reg, $cod_mat);
     //if($cont == 1){registro_MarcXml($value, $nombre_xml);}
     
     $cont++;
+    }
 }
 
-function registro_MarcXml_Material($material, $nombre_xml, $directorio, $tipo_reg, $cod_mat) {
+function generarRegistroBibliograficoMARC21($material, $nombre_xml, $directorio, $tipo_reg, $cod_mat) {
 
     /*     * ********DOCUMENTO XML********* */
     $xml = new DomDocument('1.0', 'UTF-8');
@@ -52,14 +228,21 @@ function registro_MarcXml_Material($material, $nombre_xml, $directorio, $tipo_re
     $marc_colection->setAttribute('xmlns:xsi', 'http://www.w3.org/2001/XMLSchema-instance');
     $marc_colection->setAttribute('xsi:schemaLocation', 'http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd');
     $marc_colection->setAttribute('xmlns', 'http://www.loc.gov/MARC21/slim');
-    $libros_listado_10 = $material;
-    
-    foreach ($libros_listado_10 as $libro_dato) {
+
+        
+    foreach ($material as $libro_dato) {
         
         $datos_libro      = $libro_dato;
+
+        /**Consulta que permite traer todos los registros MARC21 argados en la tabla biblio_field_copy**/
         $datos_marc       = gestorRegistroBiblio::datosMarcLibroMaterial($datos_libro['bibid'], $cod_mat);
-        $ejemplares_libro = gestorRegistroBiblio::ejemplaresLibro($datos_libro['bibid']);//consulta que trae cualquier tipo de ejemplar no solo libros
-        //$analitica_libro  = gestorRegistroBiblio::datosAnalitica($datos_libro['bibid']);
+
+        /**Consulta por cualquier tipo de material, no solo por libros**/
+        $ejemplares_libro = gestorRegistroBiblio::ejemplaresLibro($datos_libro['bibid']);
+        
+        if($cod_mat == 2){//Pregunta si el regsitro es un libro para traer las analiticas
+            $analitica_libro  = gestorRegistroBiblio::datosAnalitica($datos_libro['bibid']);
+        }
 
         $marc_record = $xml->createElement('record');
         $marc_colection->appendChild($marc_record);
@@ -557,555 +740,7 @@ function registro_MarcXml_Material($material, $nombre_xml, $directorio, $tipo_re
     crearXML($xml, $nombre_xml, $directorio);
 }
 
-function registro_MarcXml_libros($libros, $nombre_xml) {
 
-    /*     * ********DOCUMENTO XML********* */
-    $xml = new DomDocument('1.0', 'UTF-8');
-    $marc_colection = $xml->createElement('collection');
-    $xml->appendChild($marc_colection);
-    $marc_colection->setAttribute('xmlns:xsi', 'http://www.w3.org/2001/XMLSchema-instance');
-    $marc_colection->setAttribute('xsi:schemaLocation', 'http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd');
-    $marc_colection->setAttribute('xmlns', 'http://www.loc.gov/MARC21/slim');
-    $libros_listado_10 = $libros;
-    
-    foreach ($libros_listado_10 as $libro_dato) {
-        
-        $datos_libro      = $libro_dato;
-        $datos_marc       = gestorRegistroBiblio::datosMarcLibro($datos_libro['bibid']);
-        $ejemplares_libro = gestorRegistroBiblio::ejemplaresLibro($datos_libro['bibid']);
-        $analitica_libro  = gestorRegistroBiblio::datosAnalitica($datos_libro['bibid']);
-
-        $marc_record = $xml->createElement('record');
-        $marc_colection->appendChild($marc_record);
-
-        /*         * crea el leader con la cabecera del registro* */
-        $tamanio = 1000; //generar por sistema debe calcularse a partir de los datos generados por el sistema
-        $pos_base = 260; //generar por sistema debe calcularse a partir del ultimo leader
-        $cabecera = leader($tamanio, $pos_base); // Llama al metodo que gener el leader
-        //Agrega cabecera al archivo XML
-        $marc_leader = $xml->createElement('leader', $cabecera);
-        $marc_record->appendChild($marc_leader);
-
-        //Agrega campo 001 al XML - nro de control se compone de identificador de nro control + id 
-        $campo_001 = 'YPZ' . $datos_libro['bibid']; // Código CAICYT Biblioteca UARG + id bibliografico Open
-        //identificador del nuemro de control
-        $campo_003 = 'YPZ'; // Código CAICYT Biblioteca UARG
-        //Agrega campo 001 al archivo XML
-        $marc_ctrl_field = $xml->createElement('controlfield', $campo_001);
-        $marc_record->appendChild($marc_ctrl_field);
-        $marc_ctrl_field->setAttribute('tag', '001');
-
-        //Agrega campo 003 al archivo XML
-        $marc_ctrl_field = $xml->createElement('controlfield', $campo_003);
-        $marc_record->appendChild($marc_ctrl_field);
-        $marc_ctrl_field->setAttribute('tag', '003');
-
-        //Genera la fecha del campo 005  a partir de la creacion del registro en el sistema anterior
-        $date = new DateTime($datos_libro['create_dt']);
-        $campo_005 = $date->format('YmdHis');
-
-        //Agrega campo 005 al archivo XML
-        $marc_ctrl_field = $xml->createElement('controlfield', $campo_005 . '0');
-        $marc_record->appendChild($marc_ctrl_field);
-        $marc_ctrl_field->setAttribute('tag', '005');
-
-        //Genera campo 008
-        $idioma = idioma($datos_marc)[0];
-        if (empty($idioma) || isset($idioma)) {
-            $idioma = 'spa';
-        }
-        $campo_008 = campo_control_008(substr($date->format('Ymd'), -6), "", "", "b", $idioma);
-
-        //Agrega campo 008 al archivo XML
-        $marc_ctrl_field = $xml->createElement('controlfield', $campo_008);
-        $marc_record->appendChild($marc_ctrl_field);
-        $marc_ctrl_field->setAttribute('tag', '008');
-
-        /*         * **********CARGA DEL LOS DATOS BIBLIOGRAFICOS*********** */
-
-        /** Agrega al archivo XML los campos existentes  * */
-        foreach ($datos_marc as $campo => $dato) {
-
-            switch ($dato['tag']) {
-
-                case 20: // ISBN no obligatorio
-                    $campo_020 = campo_020($datos_marc);
-                    if (!empty($campo_020) && isset($campo_020)) {
-                        campoR_subcampoNR($xml, $marc_record, $campo_020);
-                    }
-                    break;
-
-                case 22: // ISSN no obligatorio
-                    $campo_022 = campo_022($datos_marc);
-                    if (!empty($campo_022) && isset($campo_022)) {
-                        campoR_subcampoNR($xml, $marc_record, $campo_022);
-                    }
-                    break;
-
-                case 40: //fuente de la catalogacion - obligatorio OBLIGATORIO 
-                    //- se completo en tabla biblio_field_copi con SIUNPA
-                    $campo_040 = campo_040($dato);
-                    campoNR_subcampoNR($xml, $marc_record, $campo_040);
-                    break;
-
-                case 41: //Codigo de Lengua - No Obligatorio
-                    $campo_041 = campo_041($datos_marc);
-                    if (!empty($campo_041) && isset($campo_041)) {
-                        subcampoR($xml, $marc_record, $campo_041);
-                    }
-                    break;
-
-                case 44: //Codigo de pais - no obligatorio
-                    $campo_044 = campo_044($datos_marc);
-                    if (!empty($campo_044) && isset($campo_044)) {
-                        subcampoR($xml, $marc_record, $campo_044);
-                    }
-                    break;
-
-                case 80://campo de signatura - no obligatorio Este campo pertenece a la clasificacion decimal universal
-                    $campo_080 = campo_080($datos_marc);
-                    if (!empty($campo_080) && isset($campo_080)) {
-                        campoR_subcampoNR($xml, $marc_record, $campo_080);
-                    }
-                    break;
-                case 100://ENTRADA PRINCIPAL--NOMBRE DE PERSONA - Autor - campo no obligatorio
-                    $campo_100 = campo_100($datos_marc); //Si tiene mas de un autor completa con el campo 700
-                    if (!empty($campo_100) && isset($campo_100)) {
-                        campoR_subcampoNR($xml, $marc_record, $campo_100);
-                    }
-                    break;
-
-                case 110://- ENTRADA PRINCIPAL--NOMBRE DE ENTIDAD CORPORATIVA  - campo no obligatorio
-                    $campo_110 = campo_110($datos_marc); //Si tiene mas de un autor completa con el campo 710
-                    if (!empty($campo_110) && isset($campo_110)) {
-                        campoR_subcampoNR($xml, $marc_record, $campo_110);
-                    }
-                    break;
-                case 240: //Titulo Uniforme - Campo no obligatorio - 
-                    $campo_240 = campo_240($datos_marc); //Si tiene mas de un titulo uniforme completa con el campo 730
-
-                    if (!empty($campo_240) && isset($campo_240)) {
-                        //crea los campos xml del registro en el campo 240 y 730 de ser necesario
-                        campoR_subcampoNR($xml, $marc_record, $campo_240);
-                    }
-                    break;
-                case 245: //Mension de Titulo - este campo es obligatorio si no esta se debe crear vacio
-
-                    if ($dato['subfield_cd'] == 'a' && !empty($dato['field_data'])) {
-                        /**subcampo $a titulo**/
-                        $campo_245['tag'] = '245';
-                        $campo_245['subfield_cd'] = $dato['subfield_cd'];
-                        $campo_245['field_data'] = $dato['field_data'];
-                        $list [] = $campo_245;
-                    } else {
-                        if ($dato['subfield_cd'] == 'a' && empty($dato['field_data'])) {
-                            /**subcampo $a cuando esta vacio se pone informacion para completar **/
-                            $campo_245['tag'] = '245';
-                            $campo_245['subfield_cd'] = $dato['subfield_cd'];
-                            $campo_245['field_data'] = 'completar titulo obligatorio.';
-                            $list [] = $campo_245;
-                        } else {
-                            if ($dato['subfield_cd'] == 'b' && !empty($dato['field_data'])) {
-                                /**subcampo $b  resto del titulo o subtitulo**/
-                                $campo_245['tag'] = '245';
-                                $campo_245['subfield_cd'] = $dato['subfield_cd'];
-                                $campo_245['field_data'] = ' : '.$dato['field_data'];
-                                $list [] = $campo_245;
-                            } else {
-                                if ($dato['subfield_cd'] == 'c' && !empty($dato['field_data'])) {
-                                    /**subcampo $c mencion de responsabilidad**/
-                                    $resultado = str_replace("|", " ; ", $dato['field_data']);
-
-                                    $campo_245['tag'] = '245';
-                                    $campo_245['subfield_cd'] = $dato['subfield_cd'];
-                                    $campo_245['field_data'] = ' / '.$resultado;
-                                    $list [] = $campo_245;
-                                }
-                            }
-                        }
-                    }
-                    if ($dato['subfield_cd'] == 'c' && !empty($list)) {
-
-                        subcampoR($xml, $marc_record, $list);
-                        unset($list);
-                    }
-                    break;
-                case 246://variante del titulo - campo repetible no obligatorio
-                    $campo_246 = campo_246($datos_marc);
-
-                    if (!empty($campo_246) && isset($campo_246)) {
-
-                        campoR_subcampoNR($xml, $marc_record, $campo_246);
-                    }
-
-                    break;
-                case 247://titulo anterior - campo repetibe no obligatorio
-                    $campo_247 = campo_247($datos_marc);
-                    if (!empty($campo_247) && isset($campo_247)) {
-
-                        campoR_subcampoNR($xml, $marc_record, $campo_247);
-                    }
-                    break;
-                case 250://250 – MENCION DE EDICION (NR) 
-
-                    $campo_250 = campo_250($datos_marc);
-                    if (!empty($campo_250) && isset($campo_250)) {
-
-                        subcampoR($xml, $marc_record, $campo_250);
-                    }
-                    break;
-
-                case 260:
-                    /** CAMPO 260  PUBLICACIÓN, DISTRIBUCIÓN, ETC.* */ //campo y subcampo repetibles no obligatorio
-
-                    if ($dato['subfield_cd'] == 'a' && !empty($dato['field_data']) 
-                        && isset($dato['field_data']) && $dato['field_data'] != ' ') {
-
-                        $lugares = explode('|', $dato['field_data']);
-                        foreach ($lugares as $campo2 => $d) {
-
-                            $campo_260['tag'] = '260';
-                            $campo_260['subfield_cd'] = $dato['subfield_cd'];
-                            $campo_260['field_data'] = $d;
-                            $listado_260 [] = $campo_260;
-                        }
-                    } else {
-                        if ($dato['subfield_cd'] == 'b' && !empty($dato['field_data']) && isset($dato['field_data']) && $dato['field_data'] != ' ') {
-
-                            $editores = explode('|', $dato['field_data']);
-                            foreach ($editores as $campo3 => $d) {
-
-                                $campo_260['tag'] = '260';
-                                $campo_260['subfield_cd'] = $dato['subfield_cd'];
-                                $campo_260['field_data'] = ' : '.$d;
-                                $listado_260 [] = $campo_260;
-                            }
-                        } else {
-                            if ($dato['subfield_cd'] == 'c' && !empty($dato['field_data']) && isset($dato['field_data']) && $dato['field_data'] != ' ') {
-
-                                $fechas = explode('|', $dato['field_data']);
-                                foreach ($fechas as $campo3 => $d) {
-
-                                    $campo_260['tag'] = '260';
-                                    $campo_260['subfield_cd'] = $dato['subfield_cd'];
-                                    $campo_260['field_data'] = ' , '.$d;
-                                    $listado_260 [] = $campo_260;
-                                }
-                            }
-                        }
-                    }
-                    /***Para colocar la puntuacion correcta deberia validar los subcampos que tienen datos: 
-                    Ejemplos.: 
-                     $aLondon : $bMacmillan, $c1995.
-                     **/
-                    if ($dato['subfield_cd'] == 'c' && !empty($listado_260)) {
-                        //var_dump($listado_260);
-                        subcampoR($xml, $marc_record, $listado_260);
-                        unset($listado_260);
-                    }
-                    break;
-                case 300:
-                    /* * CAMPO 300 - DESCRIPCIÓN FÍSICA CAMPO REPETIBLE no OBLIGATORIO  * */
-                    if ($dato['subfield_cd'] == 'a' //subcampo repetible
-                            && !empty($dato['field_data']) && isset($dato['field_data']) && $dato['field_data'] != ' ') {
-
-                        $extensiones = explode('|', $dato['field_data']);
-                        foreach ($extensiones as $campo2 => $d) {
-
-                            $campo_300['tag'] = '300';
-                            $campo_300['subfield_cd'] = $dato['subfield_cd'];
-                            $campo_300['field_data'] = $d.' : ';
-                            $listado_300[] = $campo_300;
-                        }
-                    } else {
-                        if ($dato['subfield_cd'] == 'b' //subcampo NR
-                                && !empty($dato['field_data']) && isset($dato['field_data']) && $dato['field_data'] != ' ') {
-                            $campo_300['tag'] = '300';
-                            $campo_300['subfield_cd'] = $dato['subfield_cd'];
-                            $campo_300['field_data'] = $dato['field_data'].' ; ';
-                            $listado_300 [] = $campo_300;
-                        } else {
-                            if ($dato['subfield_cd'] == 'c' //subcampo NR
-                                    && !empty($dato['field_data']) && isset($dato['field_data']) && $dato['field_data'] != ' ') {
-                                $campo_300['tag'] = '300';
-                                $campo_300['subfield_cd'] = $dato['subfield_cd'];
-                                $campo_300['field_data'] = $dato['field_data'].' + ';
-                                $listado_300 [] = $campo_300;
-                            }else{
-                              if ($dato['subfield_cd'] == 'e' //subcampo NR
-                                    && !empty($dato['field_data']) && isset($dato['field_data']) && $dato['field_data'] != ' ') {
-                                $campo_300['tag'] = '300';
-                                $campo_300['subfield_cd'] = $dato['subfield_cd'];
-                                $campo_300['field_data'] = $dato['field_data'];
-                                $listado_300 [] = $campo_300;
-                            }  
-                            }
-                        }
-                    }
-                    /***para colocar la puntuacion deberia validar los subcampos que tiene cargado el arreglo de campo_300
-                    con las convinaciones posibles
-                    Ejemplos:
-                     $axxviii, 175 p.
-                     $a149 p. ; $c23 cm.
-                     $a11 v. : $bil. ; $c24 cm.
-                     $a396 p. ; $bil. ; $c30 cm. + $e1 cd-rom***/
-                    if ($dato['subfield_cd'] == 'e' && !empty($listado_300)) {
-
-                        subcampoR($xml, $marc_record, $listado_300);
-                        unset($listado_300);
-                    }
-                    break;
-
-                case 310:/** CAMPO NR y subcampo NR $a - PERIDIOCIDAD* */
-                    if (!empty($dato['field_data']) && isset($dato['field_data']) && $dato['field_data'] != ' ') {
-                        campoNR_subcampoNR($xml, $marc_record, $dato);
-                    }
-
-                    break;
-                case 440:// Revisar - este campo esta obsoleto - en su lugar se debe usar 490 - 8xx
-                    /** CAMPO 440 - MENCIÓN DE SERIE/PUNTO DE ACCESO ADICIONAL--TÍTULO   * */
-                    if ($dato['subfield_cd'] == 'n' //subcampo repetible
-                            && !empty($dato['field_data']) && isset($dato['field_data']) && $dato['field_data'] != ' ') {
-
-                        $extensiones = explode('|', $dato['field_data']);
-                        foreach ($extensiones as $campo2 => $d) {
-
-                            $campo_440['tag'] = '440';
-                            $campo_440['subfield_cd'] = $dato['subfield_cd'];
-                            $campo_440['field_data'] = $d;
-                            $listado_440[] = $campo_440;
-                        }
-                    } else {
-                        if ($dato['subfield_cd'] == 'a' //subcampo NR
-                                && !empty($dato['field_data']) && isset($dato['field_data']) && $dato['field_data'] != ' ') {
-                            $campo_440['tag'] = '440';
-                            $campo_440['subfield_cd'] = $dato['subfield_cd'];
-                            $campo_440['field_data'] = $dato['field_data'];
-                            $listado_440 [] = $campo_440;
-                            /**prueba campo 490 $a***/
-                            $campo_490['tag'] = '490';
-                            $campo_490['subfield_cd'] = $dato['subfield_cd'];
-                            $campo_490['field_data'] = $dato['field_data'];
-                            $listado_490 [] = $campo_490;
-
-                        } else {
-                            if ($dato['subfield_cd'] == 'v' //subcampo NR
-                                    && !empty($dato['field_data']) && isset($dato['field_data']) && $dato['field_data'] != ' ') {
-                                $campo_440['tag'] = '440';
-                                $campo_440['subfield_cd'] = $dato['subfield_cd'];
-                                $campo_440['field_data'] = $dato['field_data'];
-                                $listado_440 [] = $campo_440;
-                                /**prueba campo 490 $a***/
-                                $campo_490['tag'] = '490';
-                                $campo_490['subfield_cd'] = $dato['subfield_cd'];
-                                $campo_490['field_data'] = $dato['field_data'];
-                                $listado_490 [] = $campo_490;
-
-                            } else {
-                                if ($dato['subfield_cd'] == 'p' //subcampo repetible
-                                        && !empty($dato['field_data']) && isset($dato['field_data']) && $dato['field_data'] != ' ') {
-
-                                    $extensiones = explode('|', $dato['field_data']);
-                                    foreach ($extensiones as $campo2 => $p) {
-
-                                        $campo_440['tag'] = '440';
-                                        $campo_440['subfield_cd'] = $dato['subfield_cd'];
-                                        $campo_440['field_data'] = $p;
-                                        $listado_440[] = $campo_440;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    if ($dato['subfield_cd'] == 'v' && !empty($listado_440)) {
-
-                        subcampoR($xml, $marc_record, $listado_440);
-                        unset($listado_440);
-                    }
-                    if ($dato['subfield_cd'] == 'v' && !empty($listado_490)) {
-
-                        subcampoR($xml, $marc_record, $listado_490);
-                        unset($listado_490);
-                    }
-                    break;
-                case 500://CAMPO NOTA GENERAL
-                    $campo_500 = campo_500($datos_marc);
-
-                    if (!empty($campo_500) && isset($campo_500)) {
-                        campoR_subcampoNR($xml, $marc_record, $campo_500);
-                    }
-
-                    break;
-
-                case 520://RESUMEN - SUMARIO, ETC
-                    $campo_520 = campo_520($datos_marc);
-
-                    if (!empty($campo_520) && isset($campo_520)) {
-                        campoR_subcampoNR($xml, $marc_record, $campo_520);
-                    }
-
-                    break;
-                case 650:
-                    /** PUNTO DE ACCESO ADICIONAL DE MATERIA--TÉRMINO DE MATERIA**/
-                    $campo_650 = campo_650($datos_marc);
-                     if (!empty($campo_650) && isset($campo_650)) {
-                        campoR_subcampoNR($xml, $marc_record, $campo_650);
-                    }
-                    break;
-                case 786://FUENTE DE ARTICULO - ENTRADA/ENLACE A UNA FUENTE DE INFORMACIÓN 
-                    $campo_786 = campo_786($datos_marc);
-
-                    if (!empty($campo_786) && isset($campo_786)) {
-                        campoR_subcampoNR($xml, $marc_record, $campo_786);
-                    }
-
-                    break;
-                default:
-
-                    break;
-            }
-        }
-        /***ANALITICAS EN UN CAMPO DE NOTA 505*****/
-        foreach ($analitica_libro as $key => $value){
-            
-                 /*             * CAMPO 505  NOTA DE CONTENIDO CON FORMATO */
-            $marc_data_field = $xml->createElement('datafield');
-            $marc_record->appendChild($marc_data_field);
-            $marc_data_field->setAttribute('tag', '505');
-            $marc_data_field->setAttribute('ind1', '0');
-            $marc_data_field->setAttribute('ind2', '0');
-            
-            $marc_data_subfield = $xml->createElement('subfield', $value['ana_paginacion']);
-            $marc_data_field->appendChild($marc_data_subfield);
-            $marc_data_subfield->setAttribute('code', 'g'); //
-            $marc_data_subfield = $xml->createElement('subfield', $value['ana_materia']);
-            $marc_data_field->appendChild($marc_data_subfield);
-            $marc_data_subfield->setAttribute('code', 'g'); //
-            $marc_data_subfield = $xml->createElement('subfield', $value['ana_autor']);
-            $marc_data_field->appendChild($marc_data_subfield);
-            $marc_data_subfield->setAttribute('code', 'r'); //mension de respondabilidad
-             /*Genera subcampo $t NR -> Título*/
-            $titulo = $value['ana_titulo'];
-            $subtitulo = $value['ana_subtitulo'];
-            if($subtitulo != ''){
-                $titulo = $titulo.':'.$subtitulo;
-            }
-            $marc_data_subfield = $xml->createElement('subfield', $titulo);
-            $marc_data_field->appendChild($marc_data_subfield);
-            $marc_data_subfield->setAttribute('code', 't'); 
-            
-        }
-        /***ANALITICAS EN EL CAMPO 773  ENLACE AL DOCUMENTO FUENTE/ENTRADA DE REGISTRO ANFITRIÓN*****/
-        foreach ($analitica_libro as $key => $value){
-            
-            /*Genera campo 773*/
-            $marc_data_field = $xml->createElement('datafield');
-            $marc_record->appendChild($marc_data_field);
-            $marc_data_field->setAttribute('tag', '773');
-            $marc_data_field->setAttribute('ind1', '0');//Indicador = 0 (Se visualiza nota)
-            $marc_data_field->setAttribute('ind2', '#');//Indicador en # (Genera nota EN:)
-            /*Genera subcampo $a NR -> Encabezamiento principal*/
-            $marc_data_subfield = $xml->createElement('subfield', $value['ana_autor']);
-            $marc_data_field->appendChild($marc_data_subfield);
-            $marc_data_subfield->setAttribute('code', 'a'); 
-            /*Genera subcampo $g R -> Informacion relacionada*/
-            $marc_data_subfield = $xml->createElement('subfield', $value['ana_materia']);
-            $marc_data_field->appendChild($marc_data_subfield);
-            $marc_data_subfield->setAttribute('code', 'g'); 
-            /*Genera subcampo $h NR -> Descripcion fisica*/
-            $marc_data_subfield = $xml->createElement('subfield', $value['ana_paginacion']);
-            $marc_data_field->appendChild($marc_data_subfield);
-            $marc_data_subfield->setAttribute('code', 'h'); 
-            /*Genera subcampo $t NR -> Título*/
-            $titulo = $value['ana_titulo'];
-            $subtitulo = $value['ana_subtitulo'];
-            if($subtitulo != ''){
-                $titulo = $titulo.':'.$subtitulo;
-            }
-            $marc_data_subfield = $xml->createElement('subfield', $titulo);
-            $marc_data_field->appendChild($marc_data_subfield);
-            $marc_data_subfield->setAttribute('code', 't'); 
-            
-        }
-        /*         * **CAMPO 942 REGISTRO LOCAL DE KOHA**** */
-        $tipo_reg = 'BK';
-        $marc_data_field = $xml->createElement('datafield');
-        $marc_record->appendChild($marc_data_field);
-        $marc_data_field->setAttribute('tag', '942');
-        $marc_data_field->setAttribute('ind1', ' ');
-        $marc_data_field->setAttribute('ind2', ' ');
-        $marc_data_subfield = $xml->createElement('subfield', $tipo_reg);
-        $marc_data_field->appendChild($marc_data_subfield);
-        $marc_data_subfield->setAttribute('code', 'c');
-
-        /*         * CREA REGISTRO DE ITEMS PARA KOHA* */
-        foreach ($ejemplares_libro as $key => $value) {
-            //var_dump($value);
-            /*             * CAMPO 952 */
-            $marc_data_field = $xml->createElement('datafield');
-            $marc_record->appendChild($marc_data_field);
-            $marc_data_field->setAttribute('tag', '952');
-            $marc_data_field->setAttribute('ind1', ' ');
-            $marc_data_field->setAttribute('ind2', ' ');
-
-            switch ($value['copy_cod_loc']) {
-                case 1: // RECTORADO
-                    itemSubcampos($xml, $marc_data_field, 'BIB_RECT', $value, $tipo_reg);
-                    break;
-                case 2://UACO
-                    itemSubcampos($xml, $marc_data_field, 'BIB_UACO', $value, $tipo_reg);
-                    break;
-                case 3://UART
-                    itemSubcampos($xml, $marc_data_field, 'BIB_UART', $value, $tipo_reg);
-                    break;
-                case 4://UASJ
-                    itemSubcampos($xml, $marc_data_field, 'BIB_UASJ', $value, $tipo_reg);
-                    break;
-                case 5://UARG
-                    itemSubcampos($xml, $marc_data_field, 'BIB_UARG', $value, $tipo_reg);
-                    break;
-
-                case 10:// satelite pico truncado
-                    itemSubcampos($xml, $marc_data_field, 'SAT_TRUN', $value, $tipo_reg);
-                    break;
-                case 11://satelite piedrabuena
-                    itemSubcampos($xml, $marc_data_field, 'SAT_PBNA', $value, $tipo_reg);                  
-                    break;
-                case 12://satelite calafate
-                    itemSubcampos($xml, $marc_data_field, 'SAT_CLFT', $value, $tipo_reg);
-                    break;
-                case 13://Biblioteca APEP UARG
-                    itemSubcampos($xml, $marc_data_field, 'SAT_APEP', $value, $tipo_reg);                   
-                    break;
-                case 14://Biblioteca Austral de Psicoanálisis UARG
-                    itemSubcampos($xml, $marc_data_field, 'SAT_APSI ', $value, $tipo_reg);
-                    break;
-                case 15://Biblioteca Satélite Puerto Madryn
-                    itemSubcampos($xml, $marc_data_field, 'SAT_PMDN ', $value, $tipo_reg);                   
-                    break;
-                case 16:// Centro de Información Puerto Deseado
-                    itemSubcampos($xml, $marc_data_field, 'SAT_PDES', $value, $tipo_reg);                   
-                    break;
-                case 17://Biblioteca Satélite Río Grande
-                    itemSubcampos($xml, $marc_data_field, 'SAT_RGRA', $value, $tipo_reg);                    
-                    break;
-                case 18://Biblioteca Satélite Gobernador Gregores
-                    itemSubcampos($xml, $marc_data_field, 'SAT_GREG', $value, $tipo_reg);                   
-                    break;
-                case 19://Biblioteca Satélite Ushuaia
-                    itemSubcampos($xml, $marc_data_field, 'SAT_USHU', $value, $tipo_reg);                  
-                    break;
-                case 20://Biblioteca TeatrUNPA UARG
-                    itemSubcampos($xml, $marc_data_field, 'SAT_TEAT', $value, $tipo_reg);                   
-                    break;
-                default:
-                    break;
-            }
-        }
-        
-    }
-    crearXML($xml, $nombre_xml, '1000x27_registros_xml_BK');
-}
 
 function leader($tamanio, $pos_base, $peli = false) {
     $cabecera = str_pad($tamanio, 5, "0", STR_PAD_LEFT);
@@ -1729,12 +1364,15 @@ function idioma($consulta) {
             foreach ($cod_idioma as $campo => $dato) {
                 $idioma_marc[] = gestorRegistroBiblio::consultarIdiomaMarc($dato)[0]['marc'];
             }
+        }else{
+            $idioma_marc=NULL;
         }
     }
     return $idioma_marc;
 }
 
 function crearXML($xml, $nombre, $directorio) {
+
     $xml->formatOutput = true;
     $el_xml = $xml->saveXML();
     $xml->save($directorio.'/'.$nombre.'.xml');
@@ -1744,3 +1382,553 @@ function crearXML($xml, $nombre, $directorio) {
     echo "<p><b>El XML: ".$nombre." ha sido creado.... </b></p>";
     //htmlentities($el_xml) . "<br/><hr>";
 }
+/****function registro_MarcXml_libros($libros, $nombre_xml) {
+
+    //DOCUMENTO XML
+    $xml = new DomDocument('1.0', 'UTF-8');
+    $marc_colection = $xml->createElement('collection');
+    $xml->appendChild($marc_colection);
+    $marc_colection->setAttribute('xmlns:xsi', 'http://www.w3.org/2001/XMLSchema-instance');
+    $marc_colection->setAttribute('xsi:schemaLocation', 'http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd');
+    $marc_colection->setAttribute('xmlns', 'http://www.loc.gov/MARC21/slim');
+    $libros_listado_10 = $libros;
+    
+    foreach ($libros_listado_10 as $libro_dato) {
+        
+        $datos_libro      = $libro_dato;
+        $datos_marc       = gestorRegistroBiblio::datosMarcLibro($datos_libro['bibid']);
+        $ejemplares_libro = gestorRegistroBiblio::ejemplaresLibro($datos_libro['bibid']);
+        $analitica_libro  = gestorRegistroBiblio::datosAnalitica($datos_libro['bibid']);
+
+        $marc_record = $xml->createElement('record');
+        $marc_colection->appendChild($marc_record);
+
+        //crea el leader con la cabecera del registro
+        $tamanio = 1000; //generar por sistema debe calcularse a partir de los datos generados por el sistema
+        $pos_base = 260; //generar por sistema debe calcularse a partir del ultimo leader
+        $cabecera = leader($tamanio, $pos_base); // Llama al metodo que gener el leader
+        //Agrega cabecera al archivo XML
+        $marc_leader = $xml->createElement('leader', $cabecera);
+        $marc_record->appendChild($marc_leader);
+
+        //Agrega campo 001 al XML - nro de control se compone de identificador de nro control + id 
+        $campo_001 = 'YPZ' . $datos_libro['bibid']; // Código CAICYT Biblioteca UARG + id bibliografico Open
+        //identificador del nuemro de control
+        $campo_003 = 'YPZ'; // Código CAICYT Biblioteca UARG
+        //Agrega campo 001 al archivo XML
+        $marc_ctrl_field = $xml->createElement('controlfield', $campo_001);
+        $marc_record->appendChild($marc_ctrl_field);
+        $marc_ctrl_field->setAttribute('tag', '001');
+
+        //Agrega campo 003 al archivo XML
+        $marc_ctrl_field = $xml->createElement('controlfield', $campo_003);
+        $marc_record->appendChild($marc_ctrl_field);
+        $marc_ctrl_field->setAttribute('tag', '003');
+
+        //Genera la fecha del campo 005  a partir de la creacion del registro en el sistema anterior
+        $date = new DateTime($datos_libro['create_dt']);
+        $campo_005 = $date->format('YmdHis');
+
+        //Agrega campo 005 al archivo XML
+        $marc_ctrl_field = $xml->createElement('controlfield', $campo_005 . '0');
+        $marc_record->appendChild($marc_ctrl_field);
+        $marc_ctrl_field->setAttribute('tag', '005');
+
+        //Genera campo 008
+        $idioma = idioma($datos_marc)[0];
+        if (empty($idioma) || isset($idioma)) {
+            $idioma = 'spa';
+        }
+        $campo_008 = campo_control_008(substr($date->format('Ymd'), -6), "", "", "b", $idioma);
+
+        //Agrega campo 008 al archivo XML
+        $marc_ctrl_field = $xml->createElement('controlfield', $campo_008);
+        $marc_record->appendChild($marc_ctrl_field);
+        $marc_ctrl_field->setAttribute('tag', '008');
+
+        //CARGA DEL LOS DATOS BIBLIOGRAFICOS
+
+        // Agrega al archivo XML los campos existentes
+        foreach ($datos_marc as $campo => $dato) {
+
+            switch ($dato['tag']) {
+
+                case 20: // ISBN no obligatorio
+                    $campo_020 = campo_020($datos_marc);
+                    if (!empty($campo_020) && isset($campo_020)) {
+                        campoR_subcampoNR($xml, $marc_record, $campo_020);
+                    }
+                    break;
+
+                case 22: // ISSN no obligatorio
+                    $campo_022 = campo_022($datos_marc);
+                    if (!empty($campo_022) && isset($campo_022)) {
+                        campoR_subcampoNR($xml, $marc_record, $campo_022);
+                    }
+                    break;
+
+                case 40: //fuente de la catalogacion - obligatorio OBLIGATORIO 
+                    //- se completo en tabla biblio_field_copi con SIUNPA
+                    $campo_040 = campo_040($dato);
+                    campoNR_subcampoNR($xml, $marc_record, $campo_040);
+                    break;
+
+                case 41: //Codigo de Lengua - No Obligatorio
+                    $campo_041 = campo_041($datos_marc);
+                    if (!empty($campo_041) && isset($campo_041)) {
+                        subcampoR($xml, $marc_record, $campo_041);
+                    }
+                    break;
+
+                case 44: //Codigo de pais - no obligatorio
+                    $campo_044 = campo_044($datos_marc);
+                    if (!empty($campo_044) && isset($campo_044)) {
+                        subcampoR($xml, $marc_record, $campo_044);
+                    }
+                    break;
+
+                case 80://campo de signatura - no obligatorio Este campo pertenece a la clasificacion decimal universal
+                    $campo_080 = campo_080($datos_marc);
+                    if (!empty($campo_080) && isset($campo_080)) {
+                        campoR_subcampoNR($xml, $marc_record, $campo_080);
+                    }
+                    break;
+                case 100://ENTRADA PRINCIPAL--NOMBRE DE PERSONA - Autor - campo no obligatorio
+                    $campo_100 = campo_100($datos_marc); //Si tiene mas de un autor completa con el campo 700
+                    if (!empty($campo_100) && isset($campo_100)) {
+                        campoR_subcampoNR($xml, $marc_record, $campo_100);
+                    }
+                    break;
+
+                case 110://- ENTRADA PRINCIPAL--NOMBRE DE ENTIDAD CORPORATIVA  - campo no obligatorio
+                    $campo_110 = campo_110($datos_marc); //Si tiene mas de un autor completa con el campo 710
+                    if (!empty($campo_110) && isset($campo_110)) {
+                        campoR_subcampoNR($xml, $marc_record, $campo_110);
+                    }
+                    break;
+                case 240: //Titulo Uniforme - Campo no obligatorio - 
+                    $campo_240 = campo_240($datos_marc); //Si tiene mas de un titulo uniforme completa con el campo 730
+
+                    if (!empty($campo_240) && isset($campo_240)) {
+                        //crea los campos xml del registro en el campo 240 y 730 de ser necesario
+                        campoR_subcampoNR($xml, $marc_record, $campo_240);
+                    }
+                    break;
+                case 245: //Mension de Titulo - este campo es obligatorio si no esta se debe crear vacio
+
+                    if ($dato['subfield_cd'] == 'a' && !empty($dato['field_data'])) {
+                        //subcampo $a titulo
+                        $campo_245['tag'] = '245';
+                        $campo_245['subfield_cd'] = $dato['subfield_cd'];
+                        $campo_245['field_data'] = $dato['field_data'];
+                        $list [] = $campo_245;
+                    } else {
+                        if ($dato['subfield_cd'] == 'a' && empty($dato['field_data'])) {
+                            //subcampo $a cuando esta vacio se pone informacion para completar
+                            $campo_245['tag'] = '245';
+                            $campo_245['subfield_cd'] = $dato['subfield_cd'];
+                            $campo_245['field_data'] = 'completar titulo obligatorio.';
+                            $list [] = $campo_245;
+                        } else {
+                            if ($dato['subfield_cd'] == 'b' && !empty($dato['field_data'])) {
+                                //subcampo $b  resto del titulo o subtitulo
+                                $campo_245['tag'] = '245';
+                                $campo_245['subfield_cd'] = $dato['subfield_cd'];
+                                $campo_245['field_data'] = ' : '.$dato['field_data'];
+                                $list [] = $campo_245;
+                            } else {
+                                if ($dato['subfield_cd'] == 'c' && !empty($dato['field_data'])) {
+                                    //subcampo $c mencion de responsabilidad
+                                    $resultado = str_replace("|", " ; ", $dato['field_data']);
+
+                                    $campo_245['tag'] = '245';
+                                    $campo_245['subfield_cd'] = $dato['subfield_cd'];
+                                    $campo_245['field_data'] = ' / '.$resultado;
+                                    $list [] = $campo_245;
+                                }
+                            }
+                        }
+                    }
+                    if ($dato['subfield_cd'] == 'c' && !empty($list)) {
+
+                        subcampoR($xml, $marc_record, $list);
+                        unset($list);
+                    }
+                    break;
+                case 246://variante del titulo - campo repetible no obligatorio
+                    $campo_246 = campo_246($datos_marc);
+
+                    if (!empty($campo_246) && isset($campo_246)) {
+
+                        campoR_subcampoNR($xml, $marc_record, $campo_246);
+                    }
+
+                    break;
+                case 247://titulo anterior - campo repetibe no obligatorio
+                    $campo_247 = campo_247($datos_marc);
+                    if (!empty($campo_247) && isset($campo_247)) {
+
+                        campoR_subcampoNR($xml, $marc_record, $campo_247);
+                    }
+                    break;
+                case 250://250 – MENCION DE EDICION (NR) 
+
+                    $campo_250 = campo_250($datos_marc);
+                    if (!empty($campo_250) && isset($campo_250)) {
+
+                        subcampoR($xml, $marc_record, $campo_250);
+                    }
+                    break;
+
+                case 260:
+                    //CAMPO 260  PUBLICACIÓN, DISTRIBUCIÓN, ETC. campo y subcampo repetibles no obligatorio
+
+                    if ($dato['subfield_cd'] == 'a' && !empty($dato['field_data']) 
+                        && isset($dato['field_data']) && $dato['field_data'] != ' ') {
+
+                        $lugares = explode('|', $dato['field_data']);
+                        foreach ($lugares as $campo2 => $d) {
+
+                            $campo_260['tag'] = '260';
+                            $campo_260['subfield_cd'] = $dato['subfield_cd'];
+                            $campo_260['field_data'] = $d;
+                            $listado_260 [] = $campo_260;
+                        }
+                    } else {
+                        if ($dato['subfield_cd'] == 'b' && !empty($dato['field_data']) && isset($dato['field_data']) && $dato['field_data'] != ' ') {
+
+                            $editores = explode('|', $dato['field_data']);
+                            foreach ($editores as $campo3 => $d) {
+
+                                $campo_260['tag'] = '260';
+                                $campo_260['subfield_cd'] = $dato['subfield_cd'];
+                                $campo_260['field_data'] = ' : '.$d;
+                                $listado_260 [] = $campo_260;
+                            }
+                        } else {
+                            if ($dato['subfield_cd'] == 'c' && !empty($dato['field_data']) && isset($dato['field_data']) && $dato['field_data'] != ' ') {
+
+                                $fechas = explode('|', $dato['field_data']);
+                                foreach ($fechas as $campo3 => $d) {
+
+                                    $campo_260['tag'] = '260';
+                                    $campo_260['subfield_cd'] = $dato['subfield_cd'];
+                                    $campo_260['field_data'] = ' , '.$d;
+                                    $listado_260 [] = $campo_260;
+                                }
+                            }
+                        }
+                    }
+                    //Para colocar la puntuacion correcta deberia validar los subcampos que tienen datos: 
+                    //Ejemplos.: 
+                    //$aLondon : $bMacmillan, $c1995.
+                    
+                    if ($dato['subfield_cd'] == 'c' && !empty($listado_260)) {
+                        //var_dump($listado_260);
+                        subcampoR($xml, $marc_record, $listado_260);
+                        unset($listado_260);
+                    }
+                    break;
+                case 300:
+                    //CAMPO 300 - DESCRIPCIÓN FÍSICA CAMPO REPETIBLE no OBLIGATORIO
+                    if ($dato['subfield_cd'] == 'a' //subcampo repetible
+                            && !empty($dato['field_data']) && isset($dato['field_data']) && $dato['field_data'] != ' ') {
+
+                        $extensiones = explode('|', $dato['field_data']);
+                        foreach ($extensiones as $campo2 => $d) {
+
+                            $campo_300['tag'] = '300';
+                            $campo_300['subfield_cd'] = $dato['subfield_cd'];
+                            $campo_300['field_data'] = $d.' : ';
+                            $listado_300[] = $campo_300;
+                        }
+                    } else {
+                        if ($dato['subfield_cd'] == 'b' //subcampo NR
+                                && !empty($dato['field_data']) && isset($dato['field_data']) && $dato['field_data'] != ' ') {
+                            $campo_300['tag'] = '300';
+                            $campo_300['subfield_cd'] = $dato['subfield_cd'];
+                            $campo_300['field_data'] = $dato['field_data'].' ; ';
+                            $listado_300 [] = $campo_300;
+                        } else {
+                            if ($dato['subfield_cd'] == 'c' //subcampo NR
+                                    && !empty($dato['field_data']) && isset($dato['field_data']) && $dato['field_data'] != ' ') {
+                                $campo_300['tag'] = '300';
+                                $campo_300['subfield_cd'] = $dato['subfield_cd'];
+                                $campo_300['field_data'] = $dato['field_data'].' + ';
+                                $listado_300 [] = $campo_300;
+                            }else{
+                              if ($dato['subfield_cd'] == 'e' //subcampo NR
+                                    && !empty($dato['field_data']) && isset($dato['field_data']) && $dato['field_data'] != ' ') {
+                                $campo_300['tag'] = '300';
+                                $campo_300['subfield_cd'] = $dato['subfield_cd'];
+                                $campo_300['field_data'] = $dato['field_data'];
+                                $listado_300 [] = $campo_300;
+                            }  
+                            }
+                        }
+                    }
+                    //para colocar la puntuacion deberia validar los subcampos que tiene cargado el arreglo de campo_300
+                    //con las convinaciones posibles
+                    //Ejemplos:
+                    //$axxviii, 175 p.
+                    //$a149 p. ; $c23 cm.
+                    //$a11 v. : $bil. ; $c24 cm.
+                    //$a396 p. ; $bil. ; $c30 cm. + $e1 cd-rom
+                    
+                    if ($dato['subfield_cd'] == 'e' && !empty($listado_300)) {
+
+                        subcampoR($xml, $marc_record, $listado_300);
+                        unset($listado_300);
+                    }
+                    break;
+
+                case 310://CAMPO NR y subcampo NR $a - PERIDIOCIDAD
+                    if (!empty($dato['field_data']) && isset($dato['field_data']) && $dato['field_data'] != ' ') {
+                        campoNR_subcampoNR($xml, $marc_record, $dato);
+                    }
+
+                    break;
+                case 440:// Revisar - este campo esta obsoleto - en su lugar se debe usar 490 - 8xx
+                    //CAMPO 440 - MENCIÓN DE SERIE/PUNTO DE ACCESO ADICIONAL--TÍTULO
+                    if ($dato['subfield_cd'] == 'n' //subcampo repetible
+                            && !empty($dato['field_data']) && isset($dato['field_data']) && $dato['field_data'] != ' ') {
+
+                        $extensiones = explode('|', $dato['field_data']);
+                        foreach ($extensiones as $campo2 => $d) {
+
+                            $campo_440['tag'] = '440';
+                            $campo_440['subfield_cd'] = $dato['subfield_cd'];
+                            $campo_440['field_data'] = $d;
+                            $listado_440[] = $campo_440;
+                        }
+                    } else {
+                        if ($dato['subfield_cd'] == 'a' //subcampo NR
+                                && !empty($dato['field_data']) && isset($dato['field_data']) && $dato['field_data'] != ' ') {
+                            $campo_440['tag'] = '440';
+                            $campo_440['subfield_cd'] = $dato['subfield_cd'];
+                            $campo_440['field_data'] = $dato['field_data'];
+                            $listado_440 [] = $campo_440;
+                            //prueba campo 490 $a
+                            $campo_490['tag'] = '490';
+                            $campo_490['subfield_cd'] = $dato['subfield_cd'];
+                            $campo_490['field_data'] = $dato['field_data'];
+                            $listado_490 [] = $campo_490;
+
+                        } else {
+                            if ($dato['subfield_cd'] == 'v' //subcampo NR
+                                    && !empty($dato['field_data']) && isset($dato['field_data']) && $dato['field_data'] != ' ') {
+                                $campo_440['tag'] = '440';
+                                $campo_440['subfield_cd'] = $dato['subfield_cd'];
+                                $campo_440['field_data'] = $dato['field_data'];
+                                $listado_440 [] = $campo_440;
+                                //prueba campo 490 $a
+                                $campo_490['tag'] = '490';
+                                $campo_490['subfield_cd'] = $dato['subfield_cd'];
+                                $campo_490['field_data'] = $dato['field_data'];
+                                $listado_490 [] = $campo_490;
+
+                            } else {
+                                if ($dato['subfield_cd'] == 'p' //subcampo repetible
+                                        && !empty($dato['field_data']) && isset($dato['field_data']) && $dato['field_data'] != ' ') {
+
+                                    $extensiones = explode('|', $dato['field_data']);
+                                    foreach ($extensiones as $campo2 => $p) {
+
+                                        $campo_440['tag'] = '440';
+                                        $campo_440['subfield_cd'] = $dato['subfield_cd'];
+                                        $campo_440['field_data'] = $p;
+                                        $listado_440[] = $campo_440;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    if ($dato['subfield_cd'] == 'v' && !empty($listado_440)) {
+
+                        subcampoR($xml, $marc_record, $listado_440);
+                        unset($listado_440);
+                    }
+                    if ($dato['subfield_cd'] == 'v' && !empty($listado_490)) {
+
+                        subcampoR($xml, $marc_record, $listado_490);
+                        unset($listado_490);
+                    }
+                    break;
+                case 500://CAMPO NOTA GENERAL
+                    $campo_500 = campo_500($datos_marc);
+
+                    if (!empty($campo_500) && isset($campo_500)) {
+                        campoR_subcampoNR($xml, $marc_record, $campo_500);
+                    }
+
+                    break;
+
+                case 520://RESUMEN - SUMARIO, ETC
+                    $campo_520 = campo_520($datos_marc);
+
+                    if (!empty($campo_520) && isset($campo_520)) {
+                        campoR_subcampoNR($xml, $marc_record, $campo_520);
+                    }
+
+                    break;
+                case 650:
+                    //PUNTO DE ACCESO ADICIONAL DE MATERIA--TÉRMINO DE MATERIA
+                    $campo_650 = campo_650($datos_marc);
+                     if (!empty($campo_650) && isset($campo_650)) {
+                        campoR_subcampoNR($xml, $marc_record, $campo_650);
+                    }
+                    break;
+                case 786://FUENTE DE ARTICULO - ENTRADA/ENLACE A UNA FUENTE DE INFORMACIÓN 
+                    $campo_786 = campo_786($datos_marc);
+
+                    if (!empty($campo_786) && isset($campo_786)) {
+                        campoR_subcampoNR($xml, $marc_record, $campo_786);
+                    }
+
+                    break;
+                default:
+
+                    break;
+            }
+        }
+        //ANALITICAS EN UN CAMPO DE NOTA 505
+        foreach ($analitica_libro as $key => $value){
+            
+            //CAMPO 505  NOTA DE CONTENIDO CON FORMATO
+            $marc_data_field = $xml->createElement('datafield');
+            $marc_record->appendChild($marc_data_field);
+            $marc_data_field->setAttribute('tag', '505');
+            $marc_data_field->setAttribute('ind1', '0');
+            $marc_data_field->setAttribute('ind2', '0');
+            
+            $marc_data_subfield = $xml->createElement('subfield', $value['ana_paginacion']);
+            $marc_data_field->appendChild($marc_data_subfield);
+            $marc_data_subfield->setAttribute('code', 'g'); //
+            $marc_data_subfield = $xml->createElement('subfield', $value['ana_materia']);
+            $marc_data_field->appendChild($marc_data_subfield);
+            $marc_data_subfield->setAttribute('code', 'g'); //
+            $marc_data_subfield = $xml->createElement('subfield', $value['ana_autor']);
+            $marc_data_field->appendChild($marc_data_subfield);
+            $marc_data_subfield->setAttribute('code', 'r'); //mension de respondabilidad
+            //Genera subcampo $t NR -> Título
+            $titulo = $value['ana_titulo'];
+            $subtitulo = $value['ana_subtitulo'];
+            if($subtitulo != ''){
+                $titulo = $titulo.':'.$subtitulo;
+            }
+            $marc_data_subfield = $xml->createElement('subfield', $titulo);
+            $marc_data_field->appendChild($marc_data_subfield);
+            $marc_data_subfield->setAttribute('code', 't'); 
+            
+        }
+        //ANALITICAS EN EL CAMPO 773  ENLACE AL DOCUMENTO FUENTE/ENTRADA DE REGISTRO ANFITRIÓN
+        foreach ($analitica_libro as $key => $value){
+            
+            //Genera campo 773
+            $marc_data_field = $xml->createElement('datafield');
+            $marc_record->appendChild($marc_data_field);
+            $marc_data_field->setAttribute('tag', '773');
+            $marc_data_field->setAttribute('ind1', '0');//Indicador = 0 (Se visualiza nota)
+            $marc_data_field->setAttribute('ind2', '#');//Indicador en # (Genera nota EN:)
+            //Genera subcampo $a NR -> Encabezamiento principal
+            $marc_data_subfield = $xml->createElement('subfield', $value['ana_autor']);
+            $marc_data_field->appendChild($marc_data_subfield);
+            $marc_data_subfield->setAttribute('code', 'a'); 
+            //Genera subcampo $g R -> Informacion relacionada
+            $marc_data_subfield = $xml->createElement('subfield', $value['ana_materia']);
+            $marc_data_field->appendChild($marc_data_subfield);
+            $marc_data_subfield->setAttribute('code', 'g'); 
+            //Genera subcampo $h NR -> Descripcion fisica
+            $marc_data_subfield = $xml->createElement('subfield', $value['ana_paginacion']);
+            $marc_data_field->appendChild($marc_data_subfield);
+            $marc_data_subfield->setAttribute('code', 'h'); 
+            //Genera subcampo $t NR -> Título
+            $titulo = $value['ana_titulo'];
+            $subtitulo = $value['ana_subtitulo'];
+            if($subtitulo != ''){
+                $titulo = $titulo.':'.$subtitulo;
+            }
+            $marc_data_subfield = $xml->createElement('subfield', $titulo);
+            $marc_data_field->appendChild($marc_data_subfield);
+            $marc_data_subfield->setAttribute('code', 't'); 
+            
+        }
+        //CAMPO 942 REGISTRO LOCAL DE KOHA
+        $tipo_reg = 'BK';
+        $marc_data_field = $xml->createElement('datafield');
+        $marc_record->appendChild($marc_data_field);
+        $marc_data_field->setAttribute('tag', '942');
+        $marc_data_field->setAttribute('ind1', ' ');
+        $marc_data_field->setAttribute('ind2', ' ');
+        $marc_data_subfield = $xml->createElement('subfield', $tipo_reg);
+        $marc_data_field->appendChild($marc_data_subfield);
+        $marc_data_subfield->setAttribute('code', 'c');
+
+        //CREA REGISTRO DE ITEMS PARA KOHA
+        foreach ($ejemplares_libro as $key => $value) {
+            //var_dump($value);
+            //CAMPO 952
+            $marc_data_field = $xml->createElement('datafield');
+            $marc_record->appendChild($marc_data_field);
+            $marc_data_field->setAttribute('tag', '952');
+            $marc_data_field->setAttribute('ind1', ' ');
+            $marc_data_field->setAttribute('ind2', ' ');
+
+            switch ($value['copy_cod_loc']) {
+                case 1: // RECTORADO
+                    itemSubcampos($xml, $marc_data_field, 'BIB_RECT', $value, $tipo_reg);
+                    break;
+                case 2://UACO
+                    itemSubcampos($xml, $marc_data_field, 'BIB_UACO', $value, $tipo_reg);
+                    break;
+                case 3://UART
+                    itemSubcampos($xml, $marc_data_field, 'BIB_UART', $value, $tipo_reg);
+                    break;
+                case 4://UASJ
+                    itemSubcampos($xml, $marc_data_field, 'BIB_UASJ', $value, $tipo_reg);
+                    break;
+                case 5://UARG
+                    itemSubcampos($xml, $marc_data_field, 'BIB_UARG', $value, $tipo_reg);
+                    break;
+
+                case 10:// satelite pico truncado
+                    itemSubcampos($xml, $marc_data_field, 'SAT_TRUN', $value, $tipo_reg);
+                    break;
+                case 11://satelite piedrabuena
+                    itemSubcampos($xml, $marc_data_field, 'SAT_PBNA', $value, $tipo_reg);                  
+                    break;
+                case 12://satelite calafate
+                    itemSubcampos($xml, $marc_data_field, 'SAT_CLFT', $value, $tipo_reg);
+                    break;
+                case 13://Biblioteca APEP UARG
+                    itemSubcampos($xml, $marc_data_field, 'SAT_APEP', $value, $tipo_reg);                   
+                    break;
+                case 14://Biblioteca Austral de Psicoanálisis UARG
+                    itemSubcampos($xml, $marc_data_field, 'SAT_APSI ', $value, $tipo_reg);
+                    break;
+                case 15://Biblioteca Satélite Puerto Madryn
+                    itemSubcampos($xml, $marc_data_field, 'SAT_PMDN ', $value, $tipo_reg);                   
+                    break;
+                case 16:// Centro de Información Puerto Deseado
+                    itemSubcampos($xml, $marc_data_field, 'SAT_PDES', $value, $tipo_reg);                   
+                    break;
+                case 17://Biblioteca Satélite Río Grande
+                    itemSubcampos($xml, $marc_data_field, 'SAT_RGRA', $value, $tipo_reg);                    
+                    break;
+                case 18://Biblioteca Satélite Gobernador Gregores
+                    itemSubcampos($xml, $marc_data_field, 'SAT_GREG', $value, $tipo_reg);                   
+                    break;
+                case 19://Biblioteca Satélite Ushuaia
+                    itemSubcampos($xml, $marc_data_field, 'SAT_USHU', $value, $tipo_reg);                  
+                    break;
+                case 20://Biblioteca TeatrUNPA UARG
+                    itemSubcampos($xml, $marc_data_field, 'SAT_TEAT', $value, $tipo_reg);                   
+                    break;
+                default:
+                    break;
+            }
+        }
+        
+    }
+    crearXML($xml, $nombre_xml, '1000x27_registros_xml_BK');
+}****/

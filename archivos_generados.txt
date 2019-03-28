@@ -1,0 +1,41 @@
+
+***********************************ARCHIVOS GENERADOS*******************************
+
+Tipo de Registro: CASSETE ---- Cantidad de Registros: 5 ------ Cantidad archivos a generar: 1
+
+Tipo de Registro: LIBROS ---- Cantidad de Registros: 26717 ------ Cantidad archivos a generar: 27
+
+Tipo de Registro: CDs ---- Cantidad de Registros: 285 ------ Cantidad archivos a generar: 1
+
+Tipo de Registro: DISQUETE ---- Cantidad de Registros: 2 ------ Cantidad archivos a generar: 1
+
+Tipo de Registro: FOLLETO ---- Cantidad de Registros: 580 ------ Cantidad archivos a generar: 1
+
+Tipo de Registro: PUBLICACIÓN PERIÓDICA ---- Cantidad de Registros: 994 ------ Cantidad archivos a generar: 1
+
+Tipo de Registro: CARTOGRAFIA ---- Cantidad de Registros: 6 ------ Cantidad archivos a generar: 1
+
+Tipo de Registro: VIDEO/DVD ---- Cantidad de Registros: 616 ------ Cantidad archivos a generar: 1
+
+Tipo de Registro: VIDEO/DVD ---- Cantidad de Registros: 184 ------ Cantidad archivos a generar: 1
+
+Tipo de Registro: MONOGRAFÍA ---- Cantidad de Registros: 257 ------ Cantidad archivos a generar: 1
+
+Tipo de Registro: TESINA ---- Cantidad de Registros: 185 ------ Cantidad archivos a generar: 1
+
+Tipo de Registro: TESIS ---- Cantidad de Registros: 138 ------ Cantidad archivos a generar: 1
+
+Tipo de Registro: MAT CATEDRA ---- Cantidad de Registros: 126 ------ Cantidad archivos a generar: 1
+
+Tipo de Registro: PROYECTO INV ---- Cantidad de Registros: 34 ------ Cantidad archivos a generar: 1
+
+Tipo de Registro: PROYECTO INV ---- Cantidad de Registros: 34 ------ Cantidad archivos a generar: 1
+
+Tipo de Registro: ARCHIVO DE COMPUTADOR ---- Cantidad de Registros: 2 ------ Cantidad archivos a generar: 1
+
+Tipo de Registro: DIAPOSITIVAS ---- Cantidad de Registros: 8 ------ Cantidad archivos a generar: 1
+
+Tipo de Registro: FOTOGRAFÍA ---- Cantidad de Registros: 0 ------ Cantidad archivos a generar: 0
+
+Tipo de Registro: PARTITURA ---- Cantidad de Registros: 31 ------ Cantidad archivos a generar: 1
+

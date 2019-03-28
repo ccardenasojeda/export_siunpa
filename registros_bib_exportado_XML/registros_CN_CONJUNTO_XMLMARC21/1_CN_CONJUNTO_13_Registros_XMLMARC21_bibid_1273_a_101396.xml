@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ1273</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200409150000000</controlfield>
+    <controlfield tag="008">040915|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">0716666014</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">US</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">372.811.111 E127e</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Bruzzone, Catherine.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Castillo, Rigoberto.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Ossa, Elizabeth de la.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Fagan, Paul D..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Felicelli, Christine.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Early world of English</subfield>
+      <subfield code="b"> : curso de inglés para niños</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Chicago</subfield>
+      <subfield code="b"> : World Book</subfield>
+      <subfield code="c"> , 1993</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Contenido de la caja: 5 libros, 3 casetes, 2 videocasetes, 1 sobre con papel de calcar, 5 hojas de recortar, 1 afiche con juego de habilidad ; en caja 37 x 28 x 8 cm.</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Contenido: 1. Libro para los niños / Catherine Bruzzone -- 2. Guía para padres y maestros / Elizabeth de la Ossa -- 3. Videoguía 1-2 / Rigoberto Castillo, Elizabeth de la Ossa -- 4. Videocasetes (ca.30 min. ; son., col.) -- 5. Casetes / Paul D. Fagan -- 6. Diccionario bilingüe ilustrado / The Editors of National Textbook Company -- 7. Afiche / Christine Felicelli.</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENSEÑANZA DEL INGLES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENSEÑANZA DE IDIOMAS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENSEÑANZA PRIMARIA</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">CN</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2005-08-23</subfield>
+      <subfield code="y">CN</subfield>
+      <subfield code="p">02-22778</subfield>
+      <subfield code="i">02-22778</subfield>
+      <subfield code="g">260</subfield>
+      <subfield code="o">372.811.111 E127e</subfield>
+      <subfield code="e">UACO</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ5694</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200602171456540</controlfield>
+    <controlfield tag="008">060217|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">364.26 J829n3</subfield>
+    </datafield>
+    <datafield tag="110" ind1=" " ind2=" ">
+      <subfield code="a">Jornadas Nacionales sobre Universidad y Discapacidad (7: 2004 : Paraná).</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">La construcción social de la normalidad</subfield>
+      <subfield code="b"> : debates y perspectivas</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Paraná</subfield>
+      <subfield code="b"> : Universidad Nacional de Entre Ríos, Facultad de Trabajo Social, Programa de Extensión Universitaria</subfield>
+      <subfield code="c"> , 2004</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">1 portfolio : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="e">1 CD-ROM en bolsillo</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Contenido: Libro de resúmenes (93 p.) - CD-ROM - 8 h.</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> DISCAPACIDAD FISICA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> IMPEDIDO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> DERECHOS DE LOS IMPEDIDOS</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">CN</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2005-08-23</subfield>
+      <subfield code="y">CN</subfield>
+      <subfield code="p">05-29711</subfield>
+      <subfield code="i">05-29711</subfield>
+      <subfield code="g">38</subfield>
+      <subfield code="o">364.26 J829n3</subfield>
+      <subfield code="e">SIUNPA</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ88899</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200806111039090</controlfield>
+    <controlfield tag="008">080611|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9201260062</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">159.9.072 M981t</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Murray, Henry.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">... [et al.].</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Test de apercepción temática (TAT)</subfield>
+      <subfield code="b"> : manual para la aplicación</subfield>
+      <subfield code="c"> / Bernstein, Jaime, introd. al TAT ; Carnelli, Delia, tr.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : Paidós</subfield>
+      <subfield code="c"> , 1992</subfield>
+    </datafield>
+    <datafield tag="440" ind1=" " ind2=" ">
+      <subfield code="a">Biblioteca de psicometría y psicodiagnóstico</subfield>
+      <subfield code="v">8</subfield>
+    </datafield>
+    <datafield tag="490" ind1=" " ind2=" ">
+      <subfield code="a">Biblioteca de psicometría y psicodiagnóstico</subfield>
+      <subfield code="v">8</subfield>
+    </datafield>
+    <datafield tag="505" ind1=" " ind2=" ">
+      <subfield code="a">Contiene: Manual (112 p.) - 31 láminas sueltas</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> PSICOLOGIA INFANTIL  PSICODIAGNOSTICO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TEST DE PERSONALIDAD</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TECNICAS PROYECTIVAS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TAT</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">CN</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2008-06-11</subfield>
+      <subfield code="y">CN</subfield>
+      <subfield code="p">05-08782</subfield>
+      <subfield code="i">05-08782</subfield>
+      <subfield code="g">37</subfield>
+      <subfield code="o">159.9.072 M981t</subfield>
+      <subfield code="e">SUB. NAC./94</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2011-02-15</subfield>
+      <subfield code="y">CN</subfield>
+      <subfield code="p">05-40495</subfield>
+      <subfield code="i">05-40495</subfield>
+      <subfield code="g">38</subfield>
+      <subfield code="o">159.9.072 M981t</subfield>
+      <subfield code="e">APEP/10</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ89858</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200809261207000</controlfield>
+    <controlfield tag="008">080926|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">371.671 M294ma 5</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Guido, María Rita.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Blanco, María Imelda.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Palermo, Alejandro.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Bahbouth de Gutman, Raquel.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Fradkin, Raúl Osvaldo.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Mitre Saab, Jorge.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Espinoza, Ana.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Umerez, Norberto Daniel.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Fundamentos y propuestas didácticas del Manual Estrada 5º</subfield>
+      <subfield code="c"> / Jáuregui, Silvia Georgina, proyecto didáctico</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : Estrada</subfield>
+      <subfield code="c"> , [1994?]</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> LIBROS DE TEXTO  ACTIVIDADES DE APRENDIZAJE</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENSEÑANZA DE LA LENGUA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENSEÑANZA DE LAS CIENCIAS NATURALES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EGB </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENSEÑANZA DE LAS MATEMATICAS ·</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENSEÑANZA DE LAS CIENCIAS SOCIALES</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">CN</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2008-09-26</subfield>
+      <subfield code="y">CN</subfield>
+      <subfield code="p">02-03382</subfield>
+      <subfield code="i">02-03382</subfield>
+      <subfield code="g">39</subfield>
+      <subfield code="o">371.671 M294ma 5</subfield>
+      <subfield code="e">Donación Extensión</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ89859</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200809261308520</controlfield>
+    <controlfield tag="008">080926|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">371.671 M294ma 4</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Guido, María Rita.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Blanco, María Imelda.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Palermo, Alejandro.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Bahbouth de Gutman, Raquel.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Fradkin, Raúl Osvaldo.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Mitre Saab, Jorge.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Espinoza, Ana.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Umerez, Norberto Daniel.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Fundamentos y propuestas didácticas del Manual Estrada 4º</subfield>
+      <subfield code="c"> / Jáuregui, Silvia Georgina, proyecto didáctico</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : Estrada</subfield>
+      <subfield code="c"> , [1994?]</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> LIBROS DE TEXTO  ACTIVIDADES DE APRENDIZAJE</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENSEÑANZA DE LA LENGUA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENSEÑANZA DE LAS CIENCIAS NATURALES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EGB </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENSEÑANZA DE LAS MATEMATICAS ·</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENSEÑANZA DE LAS CIENCIAS SOCIALES</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">CN</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2008-09-26</subfield>
+      <subfield code="y">CN</subfield>
+      <subfield code="p">02-03379</subfield>
+      <subfield code="i">02-03379</subfield>
+      <subfield code="g">45</subfield>
+      <subfield code="o">371.671 M294ma 4</subfield>
+      <subfield code="e">Desconocido</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ90180</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200811031510140</controlfield>
+    <controlfield tag="008">081103|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">US</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">364.28 V795viol</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Violencia doméstica</subfield>
+      <subfield code="b"> : intervenciones para su prevención y tratamiento</subfield>
+      <subfield code="c"> / Banco Interamericano de Desarrollo (BID). Unidad de la Mujer en el Desarrollo, comp.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Washington, D.C.</subfield>
+      <subfield code="b"> : Banco Interamericano de Desarrollo, Unidad de la Mujer en el Desarrollo</subfield>
+      <subfield code="c"> , 2001</subfield>
+    </datafield>
+    <datafield tag="505" ind1=" " ind2=" ">
+      <subfield code="a">Contenido: Introducción - 1. Campaña de comunicación en Panamá - 2. Tratamiento de hombres agresores en países nórdicos - 3. Planes nacionales contra la violencia doméstica - 4. Capacitación a facilitadoras indígenas en Guatemala - 5. Refugios para mujeres en situación de violencia doméstica - 6. Capacitación para la aplicación de convenios internacionales - 7. Línea telefónica de emergencia en El Salvador - 8. Producción y uso de un video: vidas golpeadas, esperanzas destruidas - 9. Educación popular sobre masculinidad en Nicaragua</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> VIOLENCIA FAMILIAR</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> VIOLENCIA EN EL HOGAR</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MUJERES MALTRATADAS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> AMERICA LATINA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> CARIBE</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">CN</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2008-11-03</subfield>
+      <subfield code="y">CN</subfield>
+      <subfield code="p">04-36457</subfield>
+      <subfield code="i">04-36457</subfield>
+      <subfield code="g">22</subfield>
+      <subfield code="o">364.28 V795viol</subfield>
+      <subfield code="e">Donación México</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ93772</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201102161625560</controlfield>
+    <controlfield tag="008">110216|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">968853157X</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">159.9.072 B435te</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Bellak, Leopoldo.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Bellak, Sonya Sorel.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Test de apercepción infantil con figuras humanas (CAT-H)</subfield>
+      <subfield code="c"> / Bernstein, Jaime, supervisión y presentación</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : Paidós</subfield>
+      <subfield code="c"> , 1997</subfield>
+    </datafield>
+    <datafield tag="440" ind1=" " ind2=" ">
+      <subfield code="a">Evaluación Psicológica</subfield>
+      <subfield code="v">14</subfield>
+    </datafield>
+    <datafield tag="490" ind1=" " ind2=" ">
+      <subfield code="a">Evaluación Psicológica</subfield>
+      <subfield code="v">14</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Para niños de 4 a 10 años</subfield>
+    </datafield>
+    <datafield tag="505" ind1=" " ind2=" ">
+      <subfield code="a">Contiene: Manual (21 p.) - 1 cuaderno de análisis - 1 Forma abreviada del protocolo de registro y análisis del test de apercepción infantil - 10 láminas sueltas</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> PSICOLOGIA INFANTIL  PSICODIAGNOSTICO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TEST DE PERSONALIDAD</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> CAT</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">A</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TECNICAS PROYECTIVAS</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">CN</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2011-02-15</subfield>
+      <subfield code="y">CN</subfield>
+      <subfield code="p">05-40493</subfield>
+      <subfield code="i">05-40493</subfield>
+      <subfield code="g">18</subfield>
+      <subfield code="o">159.9.072 B435te</subfield>
+      <subfield code="e">APEP/10</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ93774</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201102161706010</controlfield>
+    <controlfield tag="008">110216|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">847174600X</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">ES</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">159.9.072 A625d12</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Anstey, Edgar.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Dominó D-48</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">12a ed.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Madrid</subfield>
+      <subfield code="b"> : TEA</subfield>
+      <subfield code="c"> , 1999</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">1 conjunto en sobre : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="a">1 carpeta (39 p. en 10 pliegos) : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="a">40 p. en carpeta : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="a">1 portafolio (10 folletos) : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="a">1 conjunto en sobre : </subfield>
+      <subfield code="a">1 conjunto en sobre : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="e">Contiene: Manual (27 p.) - 1 cuadernillo del test - 1 hoja de respuestas - 1 plantilla de corrección</subfield>
+    </datafield>
+    <datafield tag="440" ind1=" " ind2=" ">
+      <subfield code="a">Publicaciones de Psicología aplicada. Serie menor</subfield>
+      <subfield code="v">no. 1</subfield>
+    </datafield>
+    <datafield tag="490" ind1=" " ind2=" ">
+      <subfield code="a">Publicaciones de Psicología aplicada. Serie menor</subfield>
+      <subfield code="v">no. 1</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Tít. de cub.: D-48. Tests de dominós</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TEST DE DOMINOS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TESTS DE INTELIGENCIA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> PSICODIAGNOSTICO</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">CN</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2011-02-15</subfield>
+      <subfield code="y">CN</subfield>
+      <subfield code="p">05-40494</subfield>
+      <subfield code="i">05-40494</subfield>
+      <subfield code="g">18</subfield>
+      <subfield code="o">159.9.072 A625d12</subfield>
+      <subfield code="e">APEP/10</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ93775</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201102161729400</controlfield>
+    <controlfield tag="008">110216|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">8471744015</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">ES</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">159.9.072 C855t</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Coulacoglou, Carina.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Tests de los cuentos de hadas</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Madrid</subfield>
+      <subfield code="b"> : TEA</subfield>
+      <subfield code="c"> , 1995</subfield>
+    </datafield>
+    <datafield tag="440" ind1=" " ind2=" ">
+      <subfield code="a">Publicaciones de Psicología aplicada. Serie menor</subfield>
+      <subfield code="v">no. 237</subfield>
+    </datafield>
+    <datafield tag="490" ind1=" " ind2=" ">
+      <subfield code="a">Publicaciones de Psicología aplicada. Serie menor</subfield>
+      <subfield code="v">no. 237</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Tít. de partida: FTT</subfield>
+    </datafield>
+    <datafield tag="505" ind1=" " ind2=" ">
+      <subfield code="a">Contiene: Manual (83 p.) - 21 láminas sueltas - 20 cuaderno de anotación</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TEST DE PERSONALIDAD</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> PSICODIAGNOSTICO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TECNICAS PROYECTIVAS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> FTT</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">CN</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2011-02-16</subfield>
+      <subfield code="y">CN</subfield>
+      <subfield code="p">05-40488</subfield>
+      <subfield code="i">05-40488</subfield>
+      <subfield code="g">220</subfield>
+      <subfield code="o">159.9.072 C855t</subfield>
+      <subfield code="e">Donación APEP/10</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ93776</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201102161804590</controlfield>
+    <controlfield tag="008">110216|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">159.9.072 S444d</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Secadas, Francisco.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Decatest</subfield>
+      <subfield code="b"> : batería de tests de oficios</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Madrid</subfield>
+      <subfield code="b"> : TEA</subfield>
+      <subfield code="c"> , 1985</subfield>
+    </datafield>
+    <datafield tag="505" ind1=" " ind2=" ">
+      <subfield code="a">Contiene: 8 manuales (27 p.) - 1 manual del examinador (14 p.) - 1 perfil interpretativo del decatest - 6 plantillas</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TESTS DE SELECCION</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ORIENTACION VOCACIONAL</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">CN</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2011-02-15</subfield>
+      <subfield code="y">CN</subfield>
+      <subfield code="p">05-40491</subfield>
+      <subfield code="i">05-40491</subfield>
+      <subfield code="g">40</subfield>
+      <subfield code="o">159.9.072 S444d</subfield>
+      <subfield code="e">APEP/10</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ101392</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201805070859580</controlfield>
+    <controlfield tag="008">180507|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">371.382 T164t</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Tangram</subfield>
+      <subfield code="b"> : jueguitos imantados</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : CLAPS</subfield>
+      <subfield code="c"> , [201-]</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Edad sugerida +3</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Podes armar todos estos modelos ... y los que quieras inventar</subfield>
+    </datafield>
+    <datafield tag="505" ind1=" " ind2=" ">
+      <subfield code="a">Contiene: 1 caja de madera 21X24 cm + 4 goma eva en tangram</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> JUEGOS INFANTILES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> METODOS DE ENSEÑANZA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> JUEGOS EDUCATIVOS</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">CN</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2018-05-07</subfield>
+      <subfield code="y">CN</subfield>
+      <subfield code="p">04-49651</subfield>
+      <subfield code="i">04-49651</subfield>
+      <subfield code="g">1500</subfield>
+      <subfield code="o">371.382 T164t</subfield>
+      <subfield code="e">PI. 29/D062</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ101394</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201805070916560</controlfield>
+    <controlfield tag="008">180507|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">371.382 B624b</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Bitácora</subfield>
+      <subfield code="b"> : jueguitos imantados</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : CLAPS</subfield>
+      <subfield code="c"> , [201-]</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Tangram redondo</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Edad sugerida +3</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Podes armar todos estos modelos ... y los que quieras inventar</subfield>
+    </datafield>
+    <datafield tag="505" ind1=" " ind2=" ">
+      <subfield code="a">Contiene: 1 Caja de madera 21X24 cm + 4 goma eva en bitácora + 1 lám.</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> JUEGOS INFANTILES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> METODOS DE ENSEÑANZA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> JUEGOS EDUCATIVOS</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">CN</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2018-05-07</subfield>
+      <subfield code="y">CN</subfield>
+      <subfield code="p">04-49652</subfield>
+      <subfield code="i">04-49652</subfield>
+      <subfield code="g">1500</subfield>
+      <subfield code="o">371.382 B624b</subfield>
+      <subfield code="e">PI. 29/D062</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ101396</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201805070923510</controlfield>
+    <controlfield tag="008">180507|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">371.382 B624bi</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Bitácora</subfield>
+      <subfield code="b"> : jueguitos imantados</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : CLAPS</subfield>
+      <subfield code="c"> , [201-?]</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Tangram redondo</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Edad sugerida +3</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Podes armar todos estos modelos ... y los que quieras inventar</subfield>
+    </datafield>
+    <datafield tag="505" ind1=" " ind2=" ">
+      <subfield code="a">Contiene: 1 caja de acrílico 14x22 cm + 4 goma eva en bitácora + 1 lám.</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> JUEGOS INFANTILES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> METODOS DE ENSEÑANZA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> JUEGOS EDUCATIVOS</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">CN</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2018-05-07</subfield>
+      <subfield code="y">CN</subfield>
+      <subfield code="p">04-49653</subfield>
+      <subfield code="i">04-49653</subfield>
+      <subfield code="g">950</subfield>
+      <subfield code="o">371.382 B624bi</subfield>
+      <subfield code="e">PI. 29/D062</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+</collection>

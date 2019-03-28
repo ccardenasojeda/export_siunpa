@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ5305</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200510031353020</controlfield>
+    <controlfield tag="008">051003|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">631.44 C957s</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Cruzate, Gustavo A..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Moscatelli, Gustavo N..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Panigatti, José L..</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Suelos y ambientes</subfield>
+      <subfield code="b"> : Tucumán - Argentina</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : INTA</subfield>
+      <subfield code="c"> , 2005</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EDAFOLOGIA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TIPOS DE SUELOS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MEDIO AMBIENTE</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ESTUDIOS REGIONALES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TUCUMAN (ARGENTINA)</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">CAR</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2005-08-19</subfield>
+      <subfield code="y">CAR</subfield>
+      <subfield code="p">05-28759</subfield>
+      <subfield code="i">05-28759</subfield>
+      <subfield code="g">20</subfield>
+      <subfield code="o">631.44 C957s</subfield>
+      <subfield code="e">Canje y donación SIUNPA</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ6137</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200606021401490</controlfield>
+    <controlfield tag="008">060602|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">M912(828.8) A691p</subfield>
+    </datafield>
+    <datafield tag="110" ind1=" " ind2=" ">
+      <subfield code="a">Argentina. Armada. Servicio de Hidrografía Naval. División Fotogrametría.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Punta Loyola</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : Servicio de Hidrografía Naval</subfield>
+      <subfield code="c"> , 1968</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Escala 1:20.000 apróx.</subfield>
+    </datafield>
+    <datafield tag="505" ind1=" " ind2=" ">
+      <subfield code="a">Sobre 1: Fotografías Nos. 02 al 13, 16 a 23</subfield>
+    </datafield>
+    <datafield tag="505" ind1=" " ind2=" ">
+      <subfield code="a">Sobre 2: Fotografías Nos. 59 al 78</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> PUNTA LOYOLA (SANTA CRUZ)</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> GEOMORFOLOGIA </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> CARTOGRAFIA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> RIO GALLEGOS (SANTA CRUZ)</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> GEOGRAFIA DE SANTA CRUZ</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">CAR</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2006-06-01</subfield>
+      <subfield code="y">CAR</subfield>
+      <subfield code="p">05-30456</subfield>
+      <subfield code="i">05-30456</subfield>
+      <subfield code="g">40</subfield>
+      <subfield code="o">M912(828.8) A691p</subfield>
+      <subfield code="e">PI029/A060</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2006-06-01</subfield>
+      <subfield code="y">CAR</subfield>
+      <subfield code="p">05-30457</subfield>
+      <subfield code="i">05-30457</subfield>
+      <subfield code="g">40</subfield>
+      <subfield code="o">M912(828.8) A691p</subfield>
+      <subfield code="e">PI029/A060</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ6142</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200606061031140</controlfield>
+    <controlfield tag="008">060606|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">M912(828.8) A691r</subfield>
+    </datafield>
+    <datafield tag="110" ind1=" " ind2=" ">
+      <subfield code="a">Argentina. Armada. Servicio de Hidrografía Naval. División Fotogrametría.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Río Gallegos</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : Servicio de Hidrografía Naval</subfield>
+      <subfield code="c"> , 1999</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Escala 1:40.000 apróx.</subfield>
+    </datafield>
+    <datafield tag="505" ind1=" " ind2=" ">
+      <subfield code="a">Fotografías Nos. 153 a 158 y 160 a 166</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> GEOMORFOLOGIA  GEOGRAFIA DE SANTA CRUZ</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> RIO GALLEGOS (SANTA CRUZ)</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> CARTOGRAFIA</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">CAR</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2006-06-01</subfield>
+      <subfield code="y">CAR</subfield>
+      <subfield code="p">05-30455</subfield>
+      <subfield code="i">05-30455</subfield>
+      <subfield code="g">26</subfield>
+      <subfield code="o">M912(828.8) A691r</subfield>
+      <subfield code="e">PI029/A060</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ6144</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200606061112390</controlfield>
+    <controlfield tag="008">060606|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">M912(828.8) I598c</subfield>
+    </datafield>
+    <datafield tag="110" ind1=" " ind2=" ">
+      <subfield code="a">Instituto Nacional de Tecnología Agropecuaria (Argentina).</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">[Costas y estuario]</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : INTA</subfield>
+      <subfield code="c"> , 1968</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Escala 1:40.000</subfield>
+    </datafield>
+    <datafield tag="505" ind1=" " ind2=" ">
+      <subfield code="a">Contiene imágenes: P3-R4-14 a 19; P3-R5-2 a 9; P3-R6-11 a 18; P3-R7-1 a 7; P3-R8-33 a 41; P3-R9-19 a 27</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> CARTOGRAFIA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> GEOGRAFIA DE SANTA CRUZ</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> RIO GALLEGOS (SANTA CRUZ)</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">CAR</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2006-06-01</subfield>
+      <subfield code="y">CAR</subfield>
+      <subfield code="p">05-30458</subfield>
+      <subfield code="i">05-30458</subfield>
+      <subfield code="g">60</subfield>
+      <subfield code="o">M912(828.8) I598c</subfield>
+      <subfield code="e">PI029/A060</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ17268</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200611201056280</controlfield>
+    <controlfield tag="008">061120|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">completar signatura UART</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Departamento de cartografia.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Planisferio físico político</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : Mundo Cartográfico</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">CAR</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UART</subfield>
+      <subfield code="d">2006-11-20</subfield>
+      <subfield code="y">CAR</subfield>
+      <subfield code="p">03-01615</subfield>
+      <subfield code="i">03-01615</subfield>
+      <subfield code="g">0</subfield>
+      <subfield code="o">completar signatura UART</subfield>
+      <subfield code="e">DECANATO</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ19529</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200704031656520</controlfield>
+    <controlfield tag="008">070403|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9879445252</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">M912(82) G943g</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Guía mapa Argentina</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">1a ed.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : de Dios</subfield>
+      <subfield code="c"> , 2004</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Escala 1:5.700.000</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> GEOGRAFIA DE ARGENTINA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> CARTOGRAFIA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TURISMO</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">CAR</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UART</subfield>
+      <subfield code="d">2007-03-02</subfield>
+      <subfield code="y">CAR</subfield>
+      <subfield code="p">03-31703</subfield>
+      <subfield code="i">03-31703</subfield>
+      <subfield code="g">14.9</subfield>
+      <subfield code="o">M912(82) G943g</subfield>
+      <subfield code="e">UART</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+</collection>
