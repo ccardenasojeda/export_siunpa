@@ -26062,7 +26062,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_CLFT</subfield>
+      <subfield code="b">BIB_RECT</subfield>
       <subfield code="d">2004-03-08</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">12-23231</subfield>
@@ -26074,7 +26074,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_CLFT</subfield>
+      <subfield code="b">BIB_RECT</subfield>
       <subfield code="d">2006-03-08</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">12-23232</subfield>

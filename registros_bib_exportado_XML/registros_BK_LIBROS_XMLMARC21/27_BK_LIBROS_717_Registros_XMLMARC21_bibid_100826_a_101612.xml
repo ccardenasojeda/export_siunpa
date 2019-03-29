@@ -23591,6 +23591,7 @@
       <subfield code="a">7.031.2 E822e</subfield>
     </datafield>
     <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Estrategia de ordenamiento y gestión cuenca media e inferior del Río Pinturas</subfield>
       <subfield code="a">Estrategia de ordenamiento y gestión del área cuenca media e inferior del Río Pinturas</subfield>
     </datafield>
     <datafield tag="260" ind1=" " ind2=" ">
@@ -35144,16 +35145,16 @@
     <controlfield tag="005">201803231027290</controlfield>
     <controlfield tag="008">180323|###########||||||b||||||||||spa|d</controlfield>
     <datafield tag="020" ind1=" " ind2=" ">
-      <subfield code="a">[9789500011334]</subfield>
+      <subfield code="a">9789872437909</subfield>
     </datafield>
     <datafield tag="040" ind1=" " ind2=" ">
       <subfield code="c">SIUNPA</subfield>
     </datafield>
     <datafield tag="041" ind1=" " ind2=" ">
-      <subfield code="a">spa</subfield>
+      <subfield code="a">978-987-24379-0-9</subfield>
     </datafield>
     <datafield tag="044" ind1=" " ind2=" ">
-      <subfield code="a">AR</subfield>
+      <subfield code="a">978-987-24379-0-9</subfield>
     </datafield>
     <datafield tag="080" ind1=" " ind2=" ">
       <subfield code="a">81'28 Y952y</subfield>
@@ -35163,21 +35164,15 @@
       <subfield code="c"> / Nacach, Gabriela, coord. ; Pérez, Paula, coord. ; Presman, Jéssica, coord. ; Candito, Cintia Verónica, il. ; Moreno, Emilio, il.</subfield>
     </datafield>
     <datafield tag="246" ind1=" " ind2=" ">
-      <subfield code="a">Quilmes.</subfield>
-    </datafield>
-    <datafield tag="246" ind1=" " ind2=" ">
-      <subfield code="a">Con nuestra voz recordamos.</subfield>
+      <subfield code="a">978-987-24379-0-9.</subfield>
     </datafield>
     <datafield tag="260" ind1=" " ind2=" ">
-      <subfield code="a">Buenos Aires</subfield>
-      <subfield code="b"> : Ministerio de Educación</subfield>
-      <subfield code="c"> , 2015</subfield>
+      <subfield code="a">978-987-24379-0-9</subfield>
+      <subfield code="b"> : 978-987-24379-0-9</subfield>
+      <subfield code="c"> , 978-987-24379-0-9</subfield>
     </datafield>
     <datafield tag="500" ind1=" " ind2=" ">
-      <subfield code="a">En lenguas: Huarpe - Diaguita - Diaguita-calchaquí</subfield>
-    </datafield>
-    <datafield tag="500" ind1=" " ind2=" ">
-      <subfield code="a">Copy left: Biblioteca Nacional del Maestro</subfield>
+      <subfield code="a">978-987-24379-0-9</subfield>
     </datafield>
     <datafield tag="650" ind1=" " ind2=" ">
       <subfield code="a"> LENGUAS INDIGENAS  HUARPE  DIAGUITA</subfield>
@@ -35453,7 +35448,7 @@
       <subfield code="a">Colección con nuestra voz. Escritos plurilingües de docentes, alumnos, miembros de pueblos originarios y hablantes de lenguas indígenas</subfield>
       <subfield code="a">Colección con nuestra voz. Escritos plurilingües de docentes, alumnos, miembros de pueblos originarios y hablantes de lenguas indígenas</subfield>
       <subfield code="a">Colección con nuestra voz. Escritos plurilingües de docentes, alumnos, miembros de pueblos originarios y hablantes de lenguas indígenas</subfield>
-      <subfield code="a">Colección con nuestra voz. Escritos plurilingües de docentes, alumnos, miembros de pueblos originarios y hablantes de lenguas indígenas</subfield>
+      <subfield code="a">978-987-24379-0-9</subfield>
       <subfield code="a">Berkeley physics course</subfield>
       <subfield code="v">3</subfield>
     </datafield>
@@ -35465,7 +35460,7 @@
       <subfield code="a">Colección con nuestra voz. Escritos plurilingües de docentes, alumnos, miembros de pueblos originarios y hablantes de lenguas indígenas</subfield>
       <subfield code="a">Colección con nuestra voz. Escritos plurilingües de docentes, alumnos, miembros de pueblos originarios y hablantes de lenguas indígenas</subfield>
       <subfield code="a">Colección con nuestra voz. Escritos plurilingües de docentes, alumnos, miembros de pueblos originarios y hablantes de lenguas indígenas</subfield>
-      <subfield code="a">Colección con nuestra voz. Escritos plurilingües de docentes, alumnos, miembros de pueblos originarios y hablantes de lenguas indígenas</subfield>
+      <subfield code="a">978-987-24379-0-9</subfield>
       <subfield code="a">Berkeley physics course</subfield>
       <subfield code="v">3</subfield>
     </datafield>
@@ -51369,7 +51364,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_RGRA</subfield>
+      <subfield code="b">BIB_RECT</subfield>
       <subfield code="d">2018-07-31</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">17-49787</subfield>

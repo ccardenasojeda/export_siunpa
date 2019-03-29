@@ -2829,7 +2829,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_RGRA</subfield>
+      <subfield code="b">BIB_RECT</subfield>
       <subfield code="d">2005-06-15</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">17-28063</subfield>
@@ -8100,7 +8100,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_CLFT</subfield>
+      <subfield code="b">BIB_RECT</subfield>
       <subfield code="d">2005-02-18</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">12-26795</subfield>
@@ -8784,7 +8784,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_PMDN </subfield>
+      <subfield code="b">BIB_RECT</subfield>
       <subfield code="d">2005-02-18</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">15-26783</subfield>
@@ -8796,7 +8796,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_PMDN </subfield>
+      <subfield code="b">BIB_RECT</subfield>
       <subfield code="d">2005-02-18</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">15-26784</subfield>
@@ -9592,7 +9592,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_CLFT</subfield>
+      <subfield code="b">BIB_RECT</subfield>
       <subfield code="d">2003-08-20</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">12-25239</subfield>
@@ -10409,7 +10409,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_RGRA</subfield>
+      <subfield code="b">BIB_RECT</subfield>
       <subfield code="d">2005-08-10</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">17-28624</subfield>
@@ -11088,7 +11088,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_RGRA</subfield>
+      <subfield code="b">BIB_RECT</subfield>
       <subfield code="d">2005-08-08</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">17-28548</subfield>
@@ -11717,7 +11717,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_CLFT</subfield>
+      <subfield code="b">BIB_RECT</subfield>
       <subfield code="d">2004-05-10</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">12-24219</subfield>
@@ -11729,7 +11729,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_CLFT</subfield>
+      <subfield code="b">BIB_RECT</subfield>
       <subfield code="d">2004-05-10</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">12-24220</subfield>
@@ -11909,7 +11909,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_RGRA</subfield>
+      <subfield code="b">BIB_RECT</subfield>
       <subfield code="d">2005-06-15</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">17-28078</subfield>
@@ -12766,7 +12766,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_RGRA</subfield>
+      <subfield code="b">BIB_RECT</subfield>
       <subfield code="d">2005-07-26</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">17-28329</subfield>
@@ -12827,7 +12827,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_PMDN </subfield>
+      <subfield code="b">BIB_RECT</subfield>
       <subfield code="d">2004-04-06</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">15-23637</subfield>
@@ -13158,7 +13158,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_CLFT</subfield>
+      <subfield code="b">BIB_RECT</subfield>
       <subfield code="d">2004-03-08</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">12-23233</subfield>
@@ -13170,7 +13170,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_CLFT</subfield>
+      <subfield code="b">BIB_RECT</subfield>
       <subfield code="d">2004-03-08</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">12-23234</subfield>
@@ -13237,7 +13237,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_RGRA</subfield>
+      <subfield code="b">BIB_RECT</subfield>
       <subfield code="d">2005-08-10</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">17-28610</subfield>
@@ -13249,7 +13249,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_USHU</subfield>
+      <subfield code="b">BIB_RECT</subfield>
       <subfield code="d">2005-08-04</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">19-28453</subfield>
@@ -13398,7 +13398,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_PMDN </subfield>
+      <subfield code="b">BIB_RECT</subfield>
       <subfield code="d">2004-09-30</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">15-25867</subfield>
@@ -13410,7 +13410,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_PMDN </subfield>
+      <subfield code="b">BIB_RECT</subfield>
       <subfield code="d">2004-09-30</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">15-25868</subfield>
@@ -13422,7 +13422,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_RGRA</subfield>
+      <subfield code="b">BIB_RECT</subfield>
       <subfield code="d">2005-06-15</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">17-28080</subfield>
@@ -59479,7 +59479,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_APSI </subfield>
+      <subfield code="b">SAT_APSI</subfield>
       <subfield code="d">2006-10-19</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">14-31049</subfield>
@@ -60011,7 +60011,7 @@
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">SAT_APSI </subfield>
+      <subfield code="b">SAT_APSI</subfield>
       <subfield code="d">2006-10-19</subfield>
       <subfield code="y">BK</subfield>
       <subfield code="p">14-31051</subfield>
