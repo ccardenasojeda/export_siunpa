@@ -6533,6 +6533,7 @@
       <subfield code="o">R655(038) M385d</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -6671,6 +6672,7 @@
       <subfield code="o">R(038)=111 S644d</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -6683,6 +6685,7 @@
       <subfield code="o">R(038)=111 S644d</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -6695,6 +6698,7 @@
       <subfield code="o">R(038)=111 S644d</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -15629,6 +15633,7 @@
       <subfield code="o">R908(82) J36a</subfield>
       <subfield code="e">Decanato-UACO</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -20800,6 +20805,7 @@
       <subfield code="o">611 A284g9</subfield>
       <subfield code="e"/>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -20812,6 +20818,7 @@
       <subfield code="o">611 A284g9</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -21375,6 +21382,7 @@
       <subfield code="o">R614.253.5(038) M647d</subfield>
       <subfield code="e">AAB-UARG/05</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -21387,6 +21395,7 @@
       <subfield code="o">R614.253.5(038) M647d</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -21812,6 +21821,7 @@
       <subfield code="o">R61(038) S812s</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -22285,6 +22295,7 @@
       <subfield code="o">R1(038) F379d24</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -22297,6 +22308,7 @@
       <subfield code="o">R1(038) F379d24</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -22309,6 +22321,7 @@
       <subfield code="o">R1(038) F379d24</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -44237,6 +44250,7 @@
       <subfield code="o">R159.964.2(038) L314d</subfield>
       <subfield code="e"/>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -44249,6 +44263,7 @@
       <subfield code="o">R159.964.2(038) L314d</subfield>
       <subfield code="e"/>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -44261,6 +44276,7 @@
       <subfield code="o">R159.964.2(038) L314d</subfield>
       <subfield code="e">UASJ</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -44273,6 +44289,7 @@
       <subfield code="o">R159.964.2(038) L314d</subfield>
       <subfield code="e">Donación APEP/04</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -44285,6 +44302,7 @@
       <subfield code="o">R159.964.2(038) L314d</subfield>
       <subfield code="e">Donación Díaz, Paula Alejandra/09</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -44297,6 +44315,7 @@
       <subfield code="o">R159.964.2(038) L314d</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -44309,6 +44328,7 @@
       <subfield code="o">R159.964.2(038) L314d</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -44321,6 +44341,7 @@
       <subfield code="o">R159.964.2(038) L314d</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -44379,6 +44400,7 @@
       <subfield code="o">R316.7(038) D545d</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -44391,6 +44413,7 @@
       <subfield code="o">R316.7(038) D545d</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -44403,6 +44426,7 @@
       <subfield code="o">R316.7(038) D545d</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -44415,6 +44439,7 @@
       <subfield code="o">R316.7(038) D545d</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -44427,6 +44452,7 @@
       <subfield code="o">R316.7(038) D545d</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -44439,6 +44465,7 @@
       <subfield code="o">R316.7(038) D545d</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -44505,6 +44532,7 @@
       <subfield code="o">R792(038) P338d</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -47256,6 +47284,7 @@
       <subfield code="o">R(038)=134.2 D545d</subfield>
       <subfield code="e">Donación</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -56373,6 +56402,7 @@
       <subfield code="o">R378(036) U588g2003</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -64689,6 +64719,7 @@
       <subfield code="o">R94(82) N964n</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -64701,6 +64732,7 @@
       <subfield code="o">R94(82) N964n</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -64713,6 +64745,7 @@
       <subfield code="o">R94(82) N964n</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -64725,6 +64758,7 @@
       <subfield code="o">R94(82) N964n</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -64737,6 +64771,7 @@
       <subfield code="o">R94(82) N964n</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -64749,6 +64784,7 @@
       <subfield code="o">R94(82) N964n</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -64761,6 +64797,7 @@
       <subfield code="o">R94(82) N964n</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -64773,6 +64810,7 @@
       <subfield code="o">R94(82) N964n</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -64785,6 +64823,7 @@
       <subfield code="o">R94(82) N964n</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -64797,6 +64836,7 @@
       <subfield code="o">R94(82) N964n</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -72412,6 +72452,7 @@
       <subfield code="o">R159.964.2(038) D545d</subfield>
       <subfield code="e">UACO</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -80107,6 +80148,7 @@
       <subfield code="o">R657(038) F787d</subfield>
       <subfield code="e">FOMEC585</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -80119,6 +80161,7 @@
       <subfield code="o">R657(038) F787d</subfield>
       <subfield code="e">FOMEC585</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -80131,6 +80174,7 @@
       <subfield code="o">R657(038) F787d</subfield>
       <subfield code="e">FOMEC585</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -80143,6 +80187,7 @@
       <subfield code="o">R657(038) F787d</subfield>
       <subfield code="e">FOMEC585</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -80155,6 +80200,7 @@
       <subfield code="o">R657(038) F787d</subfield>
       <subfield code="e">FOMEC585</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -80167,6 +80213,7 @@
       <subfield code="o">R657(038) F787d</subfield>
       <subfield code="e">FOMEC585</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -80179,6 +80226,7 @@
       <subfield code="o">R657(038) F787d</subfield>
       <subfield code="e"/>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -80191,6 +80239,7 @@
       <subfield code="o">R657(038) F787d</subfield>
       <subfield code="e"/>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -80203,6 +80252,7 @@
       <subfield code="o">R657(038) F787d</subfield>
       <subfield code="e">Desconocido</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -83882,6 +83932,7 @@
       <subfield code="o">R33(038) P112i</subfield>
       <subfield code="e">FOMEC585</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -83894,6 +83945,7 @@
       <subfield code="o">R33(038) P112i</subfield>
       <subfield code="e">FOMEC585</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -89991,6 +90043,7 @@
       <subfield code="o">R82-2(038) U14d</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -90003,6 +90056,7 @@
       <subfield code="o">R82-2(038) U14d</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -97333,6 +97387,7 @@
       <subfield code="o">R725.31 T194a</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -102120,6 +102175,7 @@
       <subfield code="o">R159.9(038) P593d</subfield>
       <subfield code="e">Desconocido</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -102132,6 +102188,7 @@
       <subfield code="o">R159.9(038) P593d</subfield>
       <subfield code="e">FOMEC 585/97</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -102144,6 +102201,7 @@
       <subfield code="o">R159.9(038) P593d</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>

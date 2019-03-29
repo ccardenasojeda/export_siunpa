@@ -3635,6 +3635,7 @@
       <subfield code="o">R616-053.2 D545d</subfield>
       <subfield code="e">Donación Gabrielloni, José Ricardo</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -29228,6 +29229,7 @@
       <subfield code="o">R615.2 V192v32</subfield>
       <subfield code="e">Donación</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -29291,6 +29293,7 @@
       <subfield code="o">R634(031) L615e5</subfield>
       <subfield code="e">Donación</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -46806,6 +46809,7 @@
       <subfield code="o">R66.0(038) S884d2</subfield>
       <subfield code="e">Compra SIUNPA OC 068/10</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -46818,6 +46822,7 @@
       <subfield code="o">R66.0(038) S884d2</subfield>
       <subfield code="e">Compra SIUNPA OC 068/10</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -46830,6 +46835,7 @@
       <subfield code="o">R66.0(038) S884d2</subfield>
       <subfield code="e">Compra SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -46842,6 +46848,7 @@
       <subfield code="o">R66.0(038) S884d2</subfield>
       <subfield code="e">Compra SIUNPA 058/12</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -47574,6 +47581,7 @@
       <subfield code="o">R339.92(038) D545d2</subfield>
       <subfield code="e">Compra SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -47638,6 +47646,7 @@
       <subfield code="o">R32(038) J249d</subfield>
       <subfield code="e">Compra SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -48446,6 +48455,7 @@
       <subfield code="o">R32(038) P953p</subfield>
       <subfield code="e">Compra SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -49932,6 +49942,7 @@
       <subfield code="o">R338.48(031) E561e</subfield>
       <subfield code="e">Compra SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -53569,6 +53580,7 @@
       <subfield code="o">R811.134.2'36 R288n</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -53581,6 +53593,7 @@
       <subfield code="o">R811.134.2'36 R288n</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -72048,6 +72061,7 @@
       <subfield code="o">616.24-008.4 L598a</subfield>
       <subfield code="e">Donación Dr. Cucchirelli, Dino R.</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -72060,6 +72074,7 @@
       <subfield code="o">616.24-008.4 L598a</subfield>
       <subfield code="e">Donación Dr. Cucchirelli, Dino R.</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -73884,6 +73899,7 @@
       <subfield code="o">R54(038) H396d15</subfield>
       <subfield code="e">Compra UACO</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>

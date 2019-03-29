@@ -56,6 +56,7 @@
       <subfield code="o">R91(059)(100)</subfield>
       <subfield code="e">Donación</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -14814,6 +14815,7 @@
       <subfield code="o">R638.1(031) R782a19</subfield>
       <subfield code="e">PROYECTO</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -32271,6 +32273,7 @@
       <subfield code="o">R551(038) D554d2</subfield>
       <subfield code="e">Don. Prof. Gimenez, Carlos</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -32617,6 +32620,7 @@
       <subfield code="o">R314.02(058) I597a</subfield>
       <subfield code="e">INDEC</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -33031,6 +33035,7 @@
       <subfield code="o">R912 I597a</subfield>
       <subfield code="e">Donación CIT Golfo San Jorge-CONICET</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -33043,6 +33048,7 @@
       <subfield code="o">R912 I597a</subfield>
       <subfield code="e">Desconocido</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -35145,16 +35151,16 @@
     <controlfield tag="005">201803231027290</controlfield>
     <controlfield tag="008">180323|###########||||||b||||||||||spa|d</controlfield>
     <datafield tag="020" ind1=" " ind2=" ">
-      <subfield code="a">9789872437909</subfield>
+      <subfield code="a">[9789500011334]</subfield>
     </datafield>
     <datafield tag="040" ind1=" " ind2=" ">
       <subfield code="c">SIUNPA</subfield>
     </datafield>
     <datafield tag="041" ind1=" " ind2=" ">
-      <subfield code="a">978-987-24379-0-9</subfield>
+      <subfield code="a">spa</subfield>
     </datafield>
     <datafield tag="044" ind1=" " ind2=" ">
-      <subfield code="a">978-987-24379-0-9</subfield>
+      <subfield code="a">AR</subfield>
     </datafield>
     <datafield tag="080" ind1=" " ind2=" ">
       <subfield code="a">81'28 Y952y</subfield>
@@ -35164,15 +35170,21 @@
       <subfield code="c"> / Nacach, Gabriela, coord. ; Pérez, Paula, coord. ; Presman, Jéssica, coord. ; Candito, Cintia Verónica, il. ; Moreno, Emilio, il.</subfield>
     </datafield>
     <datafield tag="246" ind1=" " ind2=" ">
-      <subfield code="a">978-987-24379-0-9.</subfield>
+      <subfield code="a">Quilmes.</subfield>
+    </datafield>
+    <datafield tag="246" ind1=" " ind2=" ">
+      <subfield code="a">Con nuestra voz recordamos.</subfield>
     </datafield>
     <datafield tag="260" ind1=" " ind2=" ">
-      <subfield code="a">978-987-24379-0-9</subfield>
-      <subfield code="b"> : 978-987-24379-0-9</subfield>
-      <subfield code="c"> , 978-987-24379-0-9</subfield>
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : Ministerio de Educación</subfield>
+      <subfield code="c"> , 2015</subfield>
     </datafield>
     <datafield tag="500" ind1=" " ind2=" ">
-      <subfield code="a">978-987-24379-0-9</subfield>
+      <subfield code="a">En lenguas: Huarpe - Diaguita - Diaguita-calchaquí</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">Copy left: Biblioteca Nacional del Maestro</subfield>
     </datafield>
     <datafield tag="650" ind1=" " ind2=" ">
       <subfield code="a"> LENGUAS INDIGENAS  HUARPE  DIAGUITA</subfield>
@@ -35448,7 +35460,7 @@
       <subfield code="a">Colección con nuestra voz. Escritos plurilingües de docentes, alumnos, miembros de pueblos originarios y hablantes de lenguas indígenas</subfield>
       <subfield code="a">Colección con nuestra voz. Escritos plurilingües de docentes, alumnos, miembros de pueblos originarios y hablantes de lenguas indígenas</subfield>
       <subfield code="a">Colección con nuestra voz. Escritos plurilingües de docentes, alumnos, miembros de pueblos originarios y hablantes de lenguas indígenas</subfield>
-      <subfield code="a">978-987-24379-0-9</subfield>
+      <subfield code="a">Colección con nuestra voz. Escritos plurilingües de docentes, alumnos, miembros de pueblos originarios y hablantes de lenguas indígenas</subfield>
       <subfield code="a">Berkeley physics course</subfield>
       <subfield code="v">3</subfield>
     </datafield>
@@ -35460,7 +35472,7 @@
       <subfield code="a">Colección con nuestra voz. Escritos plurilingües de docentes, alumnos, miembros de pueblos originarios y hablantes de lenguas indígenas</subfield>
       <subfield code="a">Colección con nuestra voz. Escritos plurilingües de docentes, alumnos, miembros de pueblos originarios y hablantes de lenguas indígenas</subfield>
       <subfield code="a">Colección con nuestra voz. Escritos plurilingües de docentes, alumnos, miembros de pueblos originarios y hablantes de lenguas indígenas</subfield>
-      <subfield code="a">978-987-24379-0-9</subfield>
+      <subfield code="a">Colección con nuestra voz. Escritos plurilingües de docentes, alumnos, miembros de pueblos originarios y hablantes de lenguas indígenas</subfield>
       <subfield code="a">Berkeley physics course</subfield>
       <subfield code="v">3</subfield>
     </datafield>
@@ -43501,6 +43513,7 @@
       <subfield code="o">R617-089 G841a</subfield>
       <subfield code="e">Don. Lombardich, Miguel</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -43513,6 +43526,7 @@
       <subfield code="o">R617-089 G841a</subfield>
       <subfield code="e">Don. Lombardich, Miguel</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -43579,6 +43593,7 @@
       <subfield code="o">R616.31 A646a</subfield>
       <subfield code="e">Don. Lombardich, Miguel</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -43591,6 +43606,7 @@
       <subfield code="o">R616.31 A646a</subfield>
       <subfield code="e">Don. Lombardich, Miguel</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -43603,6 +43619,7 @@
       <subfield code="o">R616.31 A646a</subfield>
       <subfield code="e">Don. Lombardich, Miguel</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -43672,6 +43689,7 @@
       <subfield code="o">R616.24 T487t</subfield>
       <subfield code="e">Don. Lombardich, Miguel</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -43684,6 +43702,7 @@
       <subfield code="o">R616.24 T487t</subfield>
       <subfield code="e">Don. Lombardich, Miguel</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -43750,6 +43769,7 @@
       <subfield code="o">R616.6 U78u</subfield>
       <subfield code="e">Don. Lombardich, Miguel</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -43762,6 +43782,7 @@
       <subfield code="o">R616.6 U78u</subfield>
       <subfield code="e">Don. Lombardich, Miguel</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -43774,6 +43795,7 @@
       <subfield code="o">R616.6 U78u</subfield>
       <subfield code="e">Don. Lombardich, Miguel</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -43837,6 +43859,7 @@
       <subfield code="o">R616.13 C541c</subfield>
       <subfield code="e">Don. Lombardich, Miguel</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -43897,6 +43920,7 @@
       <subfield code="o">R616-089.23 O775o</subfield>
       <subfield code="e">Don. Lombardich, Miguel</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -43909,6 +43933,7 @@
       <subfield code="o">R616-089.23 O775o</subfield>
       <subfield code="e">Don. Lombardich, Miguel</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -43921,6 +43946,7 @@
       <subfield code="o">R616-089.23 O775o</subfield>
       <subfield code="e">Don. Lombardich, Miguel</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -43933,6 +43959,7 @@
       <subfield code="o">R616-089.23 O775o</subfield>
       <subfield code="e">Don. Lombardich, Miguel</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -45289,6 +45316,7 @@
       <subfield code="o">94(82) R788h</subfield>
       <subfield code="e">Pertierras, Carlos</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -45301,6 +45329,7 @@
       <subfield code="o">94(82) R788h</subfield>
       <subfield code="e">Pertierras, Carlos</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -45313,6 +45342,7 @@
       <subfield code="o">94(82) R788h</subfield>
       <subfield code="e">Pertierras, Carlos</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -45325,6 +45355,7 @@
       <subfield code="o">94(82) R788h</subfield>
       <subfield code="e">Pertierras, Carlos</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -45337,6 +45368,7 @@
       <subfield code="o">94(82) R788h</subfield>
       <subfield code="e">Pertierras, Carlos</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -45349,6 +45381,7 @@
       <subfield code="o">94(82) R788h</subfield>
       <subfield code="e">Pertierras, Carlos</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -45361,6 +45394,7 @@
       <subfield code="o">94(82) R788h</subfield>
       <subfield code="e">Pertierras, Carlos</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -45373,6 +45407,7 @@
       <subfield code="o">94(82) R788h</subfield>
       <subfield code="e">Pertierras, Carlos</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>

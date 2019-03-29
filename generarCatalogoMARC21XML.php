@@ -1331,6 +1331,7 @@ function itemSubcampos($xml, $marc_data_field, $uuaa, $value, $tipo_material) {
     switch ($value['collection_cd']) {
         case 1:
             $cc='CR';
+            $no_prestamo = 4;
             # code...
             break;
         case 3:
@@ -1342,16 +1343,20 @@ function itemSubcampos($xml, $marc_data_field, $uuaa, $value, $tipo_material) {
 
         case 10:
             $cc='PP';
+            $no_prestamo = 3;
             break;
         default:
             # code...
             break;
     }
-    
+     if($no_prestamo != NULL){
+    $marc_data_subfield = $xml->createElement('subfield', $no_prestamo);
+    $marc_data_field->appendChild($marc_data_subfield);
+    $marc_data_subfield->setAttribute('code', '7');//Motivo de no desponible para prestamo.   
+    }
     $marc_data_subfield = $xml->createElement('subfield', $cc);
     $marc_data_field->appendChild($marc_data_subfield);
     $marc_data_subfield->setAttribute('code', '8');//Codigo de coleccion
-
 }
 
 function idioma($consulta) {

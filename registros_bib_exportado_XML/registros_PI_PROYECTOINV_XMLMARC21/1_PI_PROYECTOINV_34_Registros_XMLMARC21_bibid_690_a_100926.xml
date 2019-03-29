@@ -2361,6 +2361,7 @@
       <subfield code="o">R657(038) B389c</subfield>
       <subfield code="e">SECYT</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -2373,6 +2374,7 @@
       <subfield code="o">R657(038) B389c</subfield>
       <subfield code="e">SECYT</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -2385,6 +2387,7 @@
       <subfield code="o">R657(038) B389c</subfield>
       <subfield code="e">SECYT</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>

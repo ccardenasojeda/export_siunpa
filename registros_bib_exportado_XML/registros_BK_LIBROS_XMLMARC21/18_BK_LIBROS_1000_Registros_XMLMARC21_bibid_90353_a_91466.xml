@@ -27755,6 +27755,7 @@
       <subfield code="o">R3(038) D545d</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -27767,6 +27768,7 @@
       <subfield code="o">R3(038) D545d</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -29652,6 +29654,7 @@
       <subfield code="o">R(038)=111 L856l4</subfield>
       <subfield code="e">PI 29/A144</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -29723,6 +29726,7 @@
       <subfield code="o">R(038)=111 D545d</subfield>
       <subfield code="e">PI 29/A144</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -37824,16 +37828,16 @@
     <controlfield tag="005">200904011251250</controlfield>
     <controlfield tag="008">090401|###########||||||b||||||||||spa|d</controlfield>
     <datafield tag="020" ind1=" " ind2=" ">
-      <subfield code="a">9789872437909</subfield>
+      <subfield code="a">[9789872437909]</subfield>
     </datafield>
     <datafield tag="040" ind1=" " ind2=" ">
       <subfield code="c">SIUNPA</subfield>
     </datafield>
     <datafield tag="041" ind1=" " ind2=" ">
-      <subfield code="a">978-987-24379-0-9</subfield>
+      <subfield code="a">spa</subfield>
     </datafield>
     <datafield tag="044" ind1=" " ind2=" ">
-      <subfield code="a">978-987-24379-0-9</subfield>
+      <subfield code="a">AR</subfield>
     </datafield>
     <datafield tag="080" ind1=" " ind2=" ">
       <subfield code="a">621.3 S579g</subfield>
@@ -37842,9 +37846,9 @@
       <subfield code="a">Guía técnica para el instalador electricista</subfield>
     </datafield>
     <datafield tag="260" ind1=" " ind2=" ">
-      <subfield code="a">978-987-24379-0-9</subfield>
-      <subfield code="b"> : 978-987-24379-0-9</subfield>
-      <subfield code="c"> , 978-987-24379-0-9</subfield>
+      <subfield code="a">[Buenos Aires]</subfield>
+      <subfield code="b"> : Siemens</subfield>
+      <subfield code="c"> , [2008]</subfield>
     </datafield>
     <datafield tag="650" ind1=" " ind2=" ">
       <subfield code="a"> INGENIERIA ELECTRICA</subfield>
@@ -45743,6 +45747,7 @@
       <subfield code="o">R(038)=111 D545d</subfield>
       <subfield code="e">AAB-UARG/00</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -45797,6 +45802,7 @@
       <subfield code="o">R1(038) F379d5</subfield>
       <subfield code="e">Migración UACO</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -45809,6 +45815,7 @@
       <subfield code="o">R1(038) F379d5</subfield>
       <subfield code="e">Migración UACO</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -45821,6 +45828,7 @@
       <subfield code="o">R1(038) F379d5</subfield>
       <subfield code="e">Desconocido</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -45833,6 +45841,7 @@
       <subfield code="o">R1(038) F379d5</subfield>
       <subfield code="e">Desconocido</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -45984,6 +45993,7 @@
       <subfield code="o">R1(038) F379d4</subfield>
       <subfield code="e">Fuentes Benítez, Cloe/84</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -45996,6 +46006,7 @@
       <subfield code="o">R1(038) F379d4</subfield>
       <subfield code="e">Fuentes Benítez, Cloe/84</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -46008,6 +46019,7 @@
       <subfield code="o">R1(038) F379d4</subfield>
       <subfield code="e">Fuentes Benítez, Cloe/84</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -46020,6 +46032,7 @@
       <subfield code="o">R1(038) F379d4</subfield>
       <subfield code="e">Fuentes Benítez, Cloe/84</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -48232,6 +48245,7 @@
       <subfield code="o">R316(038) D545di</subfield>
       <subfield code="e">Donación México</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -49700,6 +49714,7 @@
       <subfield code="o">R54(038) D545d</subfield>
       <subfield code="e">Donación México</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -50021,6 +50036,7 @@
       <subfield code="o">R912(4/6) M645a</subfield>
       <subfield code="e">Donación México</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -55675,8 +55691,8 @@
       <subfield code="b">il. ; </subfield>
       <subfield code="a">343 p. : </subfield>
       <subfield code="b">il. ; </subfield>
-      <subfield code="a">978-987-24379-0-9 : </subfield>
-      <subfield code="b">978-987-24379-0-9 ; </subfield>
+      <subfield code="a">133 p. : </subfield>
+      <subfield code="b">il. ; </subfield>
       <subfield code="a">170 p. : </subfield>
       <subfield code="b">il. ; </subfield>
       <subfield code="a">262 p. : </subfield>
@@ -56292,6 +56308,7 @@
       <subfield code="o">R32(038) V422d</subfield>
       <subfield code="e">Municipalidad de Río Gallegos</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -56304,6 +56321,7 @@
       <subfield code="o">R32(038) V422d</subfield>
       <subfield code="e">Municipalidad de Río Gallegos</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -56316,6 +56334,7 @@
       <subfield code="o">R32(038) V422d</subfield>
       <subfield code="e">Donación Barbería, Elsa</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -62835,6 +62854,7 @@
       <subfield code="o">R(031) P425p15</subfield>
       <subfield code="e">Compra Biblioteca/UE-09</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -62847,6 +62867,7 @@
       <subfield code="o">R(031) P425p15</subfield>
       <subfield code="e">Compra Biblioteca/UE-09</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -63031,6 +63052,7 @@
       <subfield code="o">R54(038) D545l</subfield>
       <subfield code="e">Compra Biblioteca/UE-09</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -68064,6 +68086,7 @@
       <subfield code="o">R(038)=111 P921p</subfield>
       <subfield code="e">PI 29/A215</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>

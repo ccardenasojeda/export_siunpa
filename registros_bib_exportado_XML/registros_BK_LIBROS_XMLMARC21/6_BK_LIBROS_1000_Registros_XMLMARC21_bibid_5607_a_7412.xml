@@ -8982,6 +8982,7 @@
       <subfield code="o">R615.2(038)</subfield>
       <subfield code="e">PI29/A076</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -12800,6 +12801,7 @@
       <subfield code="o">R159.964.2(038)</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -19945,6 +19947,7 @@
       <subfield code="o">R398.6(038) D545d</subfield>
       <subfield code="e">UASJ</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -19957,6 +19960,7 @@
       <subfield code="o">R398.6(038) D545d</subfield>
       <subfield code="e">UASJ</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -25166,6 +25170,7 @@
       <subfield code="o">R912(64) V697m</subfield>
       <subfield code="e">Donación España</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -25224,6 +25229,7 @@
       <subfield code="o">R912(611) V697m</subfield>
       <subfield code="e">Donación España</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -25282,6 +25288,7 @@
       <subfield code="o">R912(612) V697m</subfield>
       <subfield code="e">Donación España</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -25559,6 +25566,7 @@
       <subfield code="o">R159.9(038) D545d3</subfield>
       <subfield code="e">Compra UE/06</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -25629,6 +25637,7 @@
       <subfield code="o">R338.48(038) W212d</subfield>
       <subfield code="e">Donación</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -25641,6 +25650,7 @@
       <subfield code="o">R338.48(038) W212d</subfield>
       <subfield code="e">Compra UE/06</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -30699,6 +30709,7 @@
       <subfield code="o">R316.7(038) T319t</subfield>
       <subfield code="e">PI029/A084</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -30711,6 +30722,7 @@
       <subfield code="o">R316.7(038) T319t</subfield>
       <subfield code="e">SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -30723,6 +30735,7 @@
       <subfield code="o">R316.7(038) T319t</subfield>
       <subfield code="e">Compra SIUNPA OC 156/09</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -30852,6 +30865,7 @@
       <subfield code="o">R7.031.3 M834h</subfield>
       <subfield code="e">PI029/A084</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -63513,6 +63527,7 @@
       <subfield code="o">R02(038)=111 LOZ</subfield>
       <subfield code="e">FOMEC 791</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>

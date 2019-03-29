@@ -3694,6 +3694,7 @@
       <subfield code="o">R911(038) Z392g</subfield>
       <subfield code="e">Donación Prof. Córdoba, Rosa</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -5778,6 +5779,7 @@
       <subfield code="o">R(038)=111 S636d</subfield>
       <subfield code="e">Donación</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -6243,6 +6245,7 @@
       <subfield code="o">R(038)=87 F363r</subfield>
       <subfield code="e">Donación Fernández Garay, Ana/01</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -8149,6 +8152,7 @@
       <subfield code="o">R330(038) M688d</subfield>
       <subfield code="e">Migración UACO</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -8161,6 +8165,7 @@
       <subfield code="o">R330(038) M688d</subfield>
       <subfield code="e">Migración UART</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -8638,6 +8643,7 @@
       <subfield code="o">R912 A881a</subfield>
       <subfield code="e">UACO</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -8650,6 +8656,7 @@
       <subfield code="o">R912 A881a</subfield>
       <subfield code="e">Donación</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -8707,6 +8714,7 @@
       <subfield code="o">R912(82) I597a3</subfield>
       <subfield code="e">Donación</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -9390,6 +9398,7 @@
       <subfield code="o">R159.9(038) D775d</subfield>
       <subfield code="e">Donación</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -36099,6 +36108,7 @@
       <subfield code="o">R316.7(038) S245c</subfield>
       <subfield code="e">Acuerdo 175/94</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -41245,6 +41255,7 @@
       <subfield code="o">R37(038) T256c</subfield>
       <subfield code="e">Desconocido</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -41257,6 +41268,7 @@
       <subfield code="o">R37(038) T256c</subfield>
       <subfield code="e">Acuer.150/93</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -41269,6 +41281,7 @@
       <subfield code="o">R37(038) T256c</subfield>
       <subfield code="e">Acuer.175/94</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -41281,6 +41294,7 @@
       <subfield code="o">R37(038) T256c</subfield>
       <subfield code="e">Acuerd.175/94</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -53412,6 +53426,7 @@
       <subfield code="o">R615.2 V192v12</subfield>
       <subfield code="e">Sra. de Oliva</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -62663,6 +62678,7 @@
       <subfield code="o">R93(038) D545d</subfield>
       <subfield code="e">Compra SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -62675,6 +62691,7 @@
       <subfield code="o">R93(038) D545d</subfield>
       <subfield code="e">Compra SIUNPA</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -71387,6 +71404,7 @@
       <subfield code="o">R37(038) T256c</subfield>
       <subfield code="e">Desconocido</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -71399,6 +71417,7 @@
       <subfield code="o">R37(038) T256c</subfield>
       <subfield code="e">Donación Ossana, Edgardo (Rosario)</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>

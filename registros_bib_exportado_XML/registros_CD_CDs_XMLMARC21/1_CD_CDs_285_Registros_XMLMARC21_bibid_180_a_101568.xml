@@ -3036,6 +3036,7 @@
       <subfield code="o">R008(01) A512d2</subfield>
       <subfield code="e">UARG</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -3859,6 +3860,7 @@
       <subfield code="o">R(038)=111 D545d</subfield>
       <subfield code="e">Programa de Apoyo Escolar - UASJ</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -3917,6 +3919,7 @@
       <subfield code="o">R811.134.2'36(03)</subfield>
       <subfield code="e">Programa de Apoyo Escolar UASJ</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -6667,6 +6670,7 @@
       <subfield code="o">CD316.77 T277t</subfield>
       <subfield code="e"/>
       <subfield code="8">PP</subfield>
+      <subfield code="7">3</subfield>
     </datafield>
   </record>
   <record>
@@ -15490,6 +15494,7 @@
       <subfield code="o">R(031) E561e</subfield>
       <subfield code="e">Desconocido</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -15502,6 +15507,7 @@
       <subfield code="o">R(031) E561e</subfield>
       <subfield code="e">Desconocido</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -15514,6 +15520,7 @@
       <subfield code="o">R(031) E561e</subfield>
       <subfield code="e">Desconocido</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -15526,6 +15533,7 @@
       <subfield code="o">R(031) E561e</subfield>
       <subfield code="e">Desconocido</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>

@@ -13933,6 +13933,7 @@
       <subfield code="o">R001.4(038) T153d</subfield>
       <subfield code="e">FOMEC 585</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -15898,6 +15899,7 @@
       <subfield code="o">R82-36(038) GAU</subfield>
       <subfield code="e">FOMEC 578</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -39383,6 +39385,7 @@
       <subfield code="o">R(038)=134.2 DIC</subfield>
       <subfield code="e">AAB-UARG/00</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -47904,6 +47907,7 @@
       <subfield code="o">R791.43 C981c</subfield>
       <subfield code="e">FOMEC 578</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -49684,6 +49688,7 @@
       <subfield code="o">R02(038) M385d2</subfield>
       <subfield code="e">AAB-UARG/00</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -56129,6 +56134,7 @@
       <subfield code="o">R02(038) B944d2</subfield>
       <subfield code="e">AAB-UARG/00</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -72703,6 +72709,7 @@
       <subfield code="o">R1(038) I92n</subfield>
       <subfield code="e"/>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -72995,6 +73002,7 @@
       <subfield code="o">R1(038) D545d</subfield>
       <subfield code="e"/>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>

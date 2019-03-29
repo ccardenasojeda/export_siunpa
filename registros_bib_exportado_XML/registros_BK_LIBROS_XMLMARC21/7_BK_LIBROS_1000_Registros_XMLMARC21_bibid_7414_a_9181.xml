@@ -3059,6 +3059,7 @@
       <subfield code="o">R792 Z39d</subfield>
       <subfield code="e">FOMEC 578</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -10169,6 +10170,7 @@
       <subfield code="o">R(038)=133.1 AUG</subfield>
       <subfield code="e">FLIA. ROGERS</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -10226,6 +10228,7 @@
       <subfield code="o">R574(038) ARC</subfield>
       <subfield code="e">SUBSIDIO NAC/94</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -10284,6 +10287,7 @@
       <subfield code="o">R91(038) PAS</subfield>
       <subfield code="e">SUBSIDIO NAC/94</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -10341,6 +10345,7 @@
       <subfield code="o">R070(038) LOP</subfield>
       <subfield code="e">SUBSIDIO NAC/94</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -10476,6 +10481,7 @@
       <subfield code="o">R(038)=111 C993a5</subfield>
       <subfield code="e">SUBSIDIO NAC/94</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -10555,6 +10561,7 @@
       <subfield code="o">R93(038) DIC</subfield>
       <subfield code="e">SUBSIDIO NAC/94</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -20289,6 +20296,7 @@
       <subfield code="o">R616-03(038) QUE</subfield>
       <subfield code="e">SUBSIDIO NAC/94</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -61784,6 +61792,7 @@
       <subfield code="o">R792 Z39di</subfield>
       <subfield code="e">FOMEC 578</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
@@ -63679,6 +63688,7 @@
       <subfield code="o">R581(038) D545d</subfield>
       <subfield code="e">FOMEC 585/98</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -63691,6 +63701,7 @@
       <subfield code="o">R581(038) D545d</subfield>
       <subfield code="e">FOMEC 585/98</subfield>
       <subfield code="8">CR</subfield>
+      <subfield code="7">4</subfield>
     </datafield>
   </record>
   <record>
