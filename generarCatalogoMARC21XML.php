@@ -705,31 +705,31 @@ function generarRegistroBibliograficoMARC21($material, $nombre_xml, $directorio,
                     itemSubcampos($xml, $marc_data_field, 'SAT_PBNA', $value, $tipo_reg);                  
                     break;
                 case 12://satelite calafate Ya no esta vigente se asician ejemmplares a siunpa
-                    itemSubcampos($xml, $marc_data_field, 'BIB_RECT', $value, $tipo_reg);
+                    //itemSubcampos($xml, $marc_data_field, 'BIB_RECT', $value, $tipo_reg);
                     break;
                 case 13://Biblioteca APEP UARG Ya no esta vigente se asician ejemmplares a siunpa
-                    itemSubcampos($xml, $marc_data_field, 'BIB_RECT', $value, $tipo_reg);                   
+                    //itemSubcampos($xml, $marc_data_field, 'BIB_RECT', $value, $tipo_reg);                   
                     break;
                 case 14://Biblioteca Austral de Psicoanálisis UARG
                     itemSubcampos($xml, $marc_data_field, 'SAT_APSI', $value, $tipo_reg);
                     break;
                 case 15://Biblioteca Satélite Puerto Madryn Ya no esta vigente se asician ejemmplares a siunpa
-                    itemSubcampos($xml, $marc_data_field, 'BIB_RECT', $value, $tipo_reg);                   
+                    //itemSubcampos($xml, $marc_data_field, 'BIB_RECT', $value, $tipo_reg);                   
                     break;
                 case 16:// Centro de Información Puerto Deseado
                     itemSubcampos($xml, $marc_data_field, 'SAT_PDES', $value, $tipo_reg);                   
                     break;
                 case 17://Biblioteca Satélite Río Grande Ya no esta vigente se asician ejemmplares a siunpa
-                    itemSubcampos($xml, $marc_data_field, 'BIB_RECT', $value, $tipo_reg);                    
+                    //itemSubcampos($xml, $marc_data_field, 'BIB_RECT', $value, $tipo_reg);                    
                     break;
                 case 18://Biblioteca Satélite Gobernador Gregores
                     itemSubcampos($xml, $marc_data_field, 'SAT_GREG', $value, $tipo_reg);                   
                     break;
                 case 19://Biblioteca Satélite Ushuaia Ya no esta vigente se asician ejemmplares a siunpa
-                    itemSubcampos($xml, $marc_data_field, 'BIB_RECT', $value, $tipo_reg);                  
+                    //itemSubcampos($xml, $marc_data_field, 'BIB_RECT', $value, $tipo_reg);                  
                     break;
                 case 20://Biblioteca TeatrUNPA UARG Ya no esta vigente se asician ejemmplares a siunpa
-                    itemSubcampos($xml, $marc_data_field, 'BIB_RECT', $value, $tipo_reg);                   
+                    //itemSubcampos($xml, $marc_data_field, 'BIB_RECT', $value, $tipo_reg);                   
                     break;
                 default:
                     break;

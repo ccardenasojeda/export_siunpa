@@ -1678,8 +1678,8 @@
       <subfield code="g">0</subfield>
       <subfield code="o">R82.03(038) DIC</subfield>
       <subfield code="e">FOMEC 791</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -19680,8 +19680,8 @@
       <subfield code="g">0</subfield>
       <subfield code="o">R(038)=134.2 R288d18</subfield>
       <subfield code="e"/>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -19747,8 +19747,8 @@
       <subfield code="g">0</subfield>
       <subfield code="o">R(038)=111 BAS</subfield>
       <subfield code="e">FOMEC 578/97</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -19810,8 +19810,8 @@
       <subfield code="g">0</subfield>
       <subfield code="o">R(038)=134.3 PER</subfield>
       <subfield code="e">FOMEC 578/97</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -39496,8 +39496,8 @@
       <subfield code="g">0</subfield>
       <subfield code="o">R82(82)(031) E56e</subfield>
       <subfield code="e"/>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -39509,8 +39509,8 @@
       <subfield code="g">0</subfield>
       <subfield code="o">R82(82)(031) E56e</subfield>
       <subfield code="e"/>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -42898,8 +42898,8 @@
       <subfield code="g">0</subfield>
       <subfield code="o">R316.773.4 O85c</subfield>
       <subfield code="e">FOMEC 578/97</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -65039,8 +65039,8 @@
       <subfield code="g">0</subfield>
       <subfield code="o">R316.77(038) A282d</subfield>
       <subfield code="e">FOMEC 578/97</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>

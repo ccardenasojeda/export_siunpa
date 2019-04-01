@@ -5557,8 +5557,8 @@
       <subfield code="g">0</subfield>
       <subfield code="o">R(038)=134.3 D545d</subfield>
       <subfield code="e">FOMEC 545</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -21324,8 +21324,8 @@
       <subfield code="g">0</subfield>
       <subfield code="o">R622(038) N944d2</subfield>
       <subfield code="e">FUENTES BENITEZ, CLOE</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -36055,8 +36055,8 @@
       <subfield code="g">0</subfield>
       <subfield code="o">R74(038) C921l7</subfield>
       <subfield code="e">FOMEC 578</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -54358,8 +54358,8 @@
       <subfield code="g">32</subfield>
       <subfield code="o">R316.77(036) G943g</subfield>
       <subfield code="e">Proyecto de investigación 29 A067</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -58374,8 +58374,8 @@
       <subfield code="g">0</subfield>
       <subfield code="o">R81(038) D843d15</subfield>
       <subfield code="e"/>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -58387,8 +58387,8 @@
       <subfield code="g">0</subfield>
       <subfield code="o">R81(038) D843d15</subfield>
       <subfield code="e"/>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>

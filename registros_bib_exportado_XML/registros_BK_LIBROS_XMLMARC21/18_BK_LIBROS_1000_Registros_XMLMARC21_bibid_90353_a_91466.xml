@@ -10646,30 +10646,8 @@
       <subfield code="e">Secretaría de Extensión Universitaria</subfield>
       <subfield code="8">CG</subfield>
     </datafield>
-    <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">BIB_RECT</subfield>
-      <subfield code="d">2008-12-15</subfield>
-      <subfield code="y">BK</subfield>
-      <subfield code="p">12-36956</subfield>
-      <subfield code="i">12-36956</subfield>
-      <subfield code="g">29</subfield>
-      <subfield code="o">338.48 V113t</subfield>
-      <subfield code="e">Secretaría de Extensión Universitaria</subfield>
-      <subfield code="8">CG</subfield>
-    </datafield>
-    <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">BIB_RECT</subfield>
-      <subfield code="d">2008-12-15</subfield>
-      <subfield code="y">BK</subfield>
-      <subfield code="p">15-36929</subfield>
-      <subfield code="i">15-36929</subfield>
-      <subfield code="g">29</subfield>
-      <subfield code="o">338.48 V113t</subfield>
-      <subfield code="e">Secretaría de Extensión Universitaria</subfield>
-      <subfield code="8">CG</subfield>
-    </datafield>
+    <datafield tag="952" ind1=" " ind2=" "/>
+    <datafield tag="952" ind1=" " ind2=" "/>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
       <subfield code="b">SAT_PDES</subfield>
@@ -10682,18 +10660,7 @@
       <subfield code="e">Secretaría de Extensión Universitaria</subfield>
       <subfield code="8">CG</subfield>
     </datafield>
-    <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">BIB_RECT</subfield>
-      <subfield code="d">2008-12-15</subfield>
-      <subfield code="y">BK</subfield>
-      <subfield code="p">17-36941</subfield>
-      <subfield code="i">17-36941</subfield>
-      <subfield code="g">29</subfield>
-      <subfield code="o">338.48 V113t</subfield>
-      <subfield code="e">Secretaría de Extensión Universitaria</subfield>
-      <subfield code="8">CG</subfield>
-    </datafield>
+    <datafield tag="952" ind1=" " ind2=" "/>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
       <subfield code="b">SAT_GREG</subfield>
@@ -10706,18 +10673,7 @@
       <subfield code="e">Secretaría de Extensión Universitaria</subfield>
       <subfield code="8">CG</subfield>
     </datafield>
-    <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">BIB_RECT</subfield>
-      <subfield code="d">2008-12-15</subfield>
-      <subfield code="y">BK</subfield>
-      <subfield code="p">19-36945</subfield>
-      <subfield code="i">19-36945</subfield>
-      <subfield code="g">29</subfield>
-      <subfield code="o">338.48 V113t</subfield>
-      <subfield code="e">Secretaría de Extensión Universitaria</subfield>
-      <subfield code="8">CG</subfield>
-    </datafield>
+    <datafield tag="952" ind1=" " ind2=" "/>
   </record>
   <record>
     <leader>01000aam  22002601a 4500</leader>
@@ -11528,30 +11484,8 @@
       <subfield code="e">Secretaría de Extensión Universitaria</subfield>
       <subfield code="8">CG</subfield>
     </datafield>
-    <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">BIB_RECT</subfield>
-      <subfield code="d">2008-12-15</subfield>
-      <subfield code="y">BK</subfield>
-      <subfield code="p">12-36958</subfield>
-      <subfield code="i">12-36958</subfield>
-      <subfield code="g">35</subfield>
-      <subfield code="o">614.2 P418p</subfield>
-      <subfield code="e">Secretaría de Extensión Universitaria</subfield>
-      <subfield code="8">CG</subfield>
-    </datafield>
-    <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">BIB_RECT</subfield>
-      <subfield code="d">2008-12-15</subfield>
-      <subfield code="y">BK</subfield>
-      <subfield code="p">15-36930</subfield>
-      <subfield code="i">15-36930</subfield>
-      <subfield code="g">35</subfield>
-      <subfield code="o">614.2 P418p</subfield>
-      <subfield code="e">Secretaría de Extensión Universitaria</subfield>
-      <subfield code="8">CG</subfield>
-    </datafield>
+    <datafield tag="952" ind1=" " ind2=" "/>
+    <datafield tag="952" ind1=" " ind2=" "/>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
       <subfield code="b">SAT_PDES</subfield>
@@ -11564,18 +11498,7 @@
       <subfield code="e">Secretaría de Extensión Universitaria</subfield>
       <subfield code="8">CG</subfield>
     </datafield>
-    <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">BIB_RECT</subfield>
-      <subfield code="d">2008-12-15</subfield>
-      <subfield code="y">BK</subfield>
-      <subfield code="p">17-36940</subfield>
-      <subfield code="i">17-36940</subfield>
-      <subfield code="g">35</subfield>
-      <subfield code="o">614.2 P418p</subfield>
-      <subfield code="e">Secretaría de Extensión Universitaria</subfield>
-      <subfield code="8">CG</subfield>
-    </datafield>
+    <datafield tag="952" ind1=" " ind2=" "/>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
       <subfield code="b">SAT_GREG</subfield>
@@ -11588,18 +11511,7 @@
       <subfield code="e">Secretaría de Extensión Universitaria</subfield>
       <subfield code="8">CG</subfield>
     </datafield>
-    <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">BIB_RECT</subfield>
-      <subfield code="d">2008-12-15</subfield>
-      <subfield code="y">BK</subfield>
-      <subfield code="p">19-36944</subfield>
-      <subfield code="i">19-36944</subfield>
-      <subfield code="g">35</subfield>
-      <subfield code="o">614.2 P418p</subfield>
-      <subfield code="e">Secretaría de Extensión Universitaria</subfield>
-      <subfield code="8">CG</subfield>
-    </datafield>
+    <datafield tag="952" ind1=" " ind2=" "/>
   </record>
   <record>
     <leader>01000aam  22002601a 4500</leader>
@@ -11783,30 +11695,8 @@
       <subfield code="e">Secretaría de Extensión Universitaria</subfield>
       <subfield code="8">CG</subfield>
     </datafield>
-    <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">BIB_RECT</subfield>
-      <subfield code="d">2008-12-15</subfield>
-      <subfield code="y">BK</subfield>
-      <subfield code="p">12-36957</subfield>
-      <subfield code="i">12-36957</subfield>
-      <subfield code="g">36</subfield>
-      <subfield code="o">37(091) D636d</subfield>
-      <subfield code="e">Secretaría de Extensión Universitaria</subfield>
-      <subfield code="8">CG</subfield>
-    </datafield>
-    <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">BIB_RECT</subfield>
-      <subfield code="d">2008-12-15</subfield>
-      <subfield code="y">BK</subfield>
-      <subfield code="p">15-36928</subfield>
-      <subfield code="i">15-36928</subfield>
-      <subfield code="g">36</subfield>
-      <subfield code="o">37(091) D636d</subfield>
-      <subfield code="e">Secretaría de Extensión Universitaria</subfield>
-      <subfield code="8">CG</subfield>
-    </datafield>
+    <datafield tag="952" ind1=" " ind2=" "/>
+    <datafield tag="952" ind1=" " ind2=" "/>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
       <subfield code="b">SAT_PDES</subfield>
@@ -11819,18 +11709,7 @@
       <subfield code="e">Secretaría de Extensión Universitaria</subfield>
       <subfield code="8">CG</subfield>
     </datafield>
-    <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">BIB_RECT</subfield>
-      <subfield code="d">2008-12-15</subfield>
-      <subfield code="y">BK</subfield>
-      <subfield code="p">17-36942</subfield>
-      <subfield code="i">17-36942</subfield>
-      <subfield code="g">36</subfield>
-      <subfield code="o">37(091) D636d</subfield>
-      <subfield code="e">Secretaría de Extensión Universitaria</subfield>
-      <subfield code="8">CG</subfield>
-    </datafield>
+    <datafield tag="952" ind1=" " ind2=" "/>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
       <subfield code="b">SAT_GREG</subfield>
@@ -11843,18 +11722,7 @@
       <subfield code="e">Secretaría de Extensión Universitaria</subfield>
       <subfield code="8">CG</subfield>
     </datafield>
-    <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">BIB_RECT</subfield>
-      <subfield code="d">2008-12-15</subfield>
-      <subfield code="y">BK</subfield>
-      <subfield code="p">19-36946</subfield>
-      <subfield code="i">19-36946</subfield>
-      <subfield code="g">36</subfield>
-      <subfield code="o">37(091) D636d</subfield>
-      <subfield code="e">Secretaría de Extensión Universitaria</subfield>
-      <subfield code="8">CG</subfield>
-    </datafield>
+    <datafield tag="952" ind1=" " ind2=" "/>
   </record>
   <record>
     <leader>01000aam  22002601a 4500</leader>
@@ -12138,30 +12006,8 @@
       <subfield code="e">Secretaría de Extensión Universitaria</subfield>
       <subfield code="8">CG</subfield>
     </datafield>
-    <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">BIB_RECT</subfield>
-      <subfield code="d">2008-12-15</subfield>
-      <subfield code="y">BK</subfield>
-      <subfield code="p">12-36959</subfield>
-      <subfield code="i">12-36959</subfield>
-      <subfield code="g">32</subfield>
-      <subfield code="o">81'27 M971e</subfield>
-      <subfield code="e">Secretaría de Extensión Universitaria</subfield>
-      <subfield code="8">CG</subfield>
-    </datafield>
-    <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">BIB_RECT</subfield>
-      <subfield code="d">2008-12-15</subfield>
-      <subfield code="y">BK</subfield>
-      <subfield code="p">15-36931</subfield>
-      <subfield code="i">15-36931</subfield>
-      <subfield code="g">32</subfield>
-      <subfield code="o">81'27 M971e</subfield>
-      <subfield code="e">Secretaría de Extensión Universitaria</subfield>
-      <subfield code="8">CG</subfield>
-    </datafield>
+    <datafield tag="952" ind1=" " ind2=" "/>
+    <datafield tag="952" ind1=" " ind2=" "/>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
       <subfield code="b">SAT_PDES</subfield>
@@ -12174,18 +12020,7 @@
       <subfield code="e">Secretaría de Extensión Universitaria</subfield>
       <subfield code="8">CG</subfield>
     </datafield>
-    <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">BIB_RECT</subfield>
-      <subfield code="d">2008-12-15</subfield>
-      <subfield code="y">BK</subfield>
-      <subfield code="p">17-36943</subfield>
-      <subfield code="i">17-36943</subfield>
-      <subfield code="g">32</subfield>
-      <subfield code="o">81'27 M971e</subfield>
-      <subfield code="e">Secretaría de Extensión Universitaria</subfield>
-      <subfield code="8">CG</subfield>
-    </datafield>
+    <datafield tag="952" ind1=" " ind2=" "/>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
       <subfield code="b">SAT_GREG</subfield>
@@ -12198,18 +12033,7 @@
       <subfield code="e">Secretaría de Extensión Universitaria</subfield>
       <subfield code="8">CG</subfield>
     </datafield>
-    <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">BIB_RECT</subfield>
-      <subfield code="d">2008-12-15</subfield>
-      <subfield code="y">BK</subfield>
-      <subfield code="p">19-36947</subfield>
-      <subfield code="i">19-36947</subfield>
-      <subfield code="g">32</subfield>
-      <subfield code="o">81'27 M971e</subfield>
-      <subfield code="e">Secretaría de Extensión Universitaria</subfield>
-      <subfield code="8">CG</subfield>
-    </datafield>
+    <datafield tag="952" ind1=" " ind2=" "/>
   </record>
   <record>
     <leader>01000aam  22002601a 4500</leader>
@@ -27754,8 +27578,8 @@
       <subfield code="g">95</subfield>
       <subfield code="o">R3(038) D545d</subfield>
       <subfield code="e">SIUNPA</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -27767,8 +27591,8 @@
       <subfield code="g">95</subfield>
       <subfield code="o">R3(038) D545d</subfield>
       <subfield code="e">SIUNPA</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -29653,8 +29477,8 @@
       <subfield code="g">140</subfield>
       <subfield code="o">R(038)=111 L856l4</subfield>
       <subfield code="e">PI 29/A144</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -29725,8 +29549,8 @@
       <subfield code="g">120</subfield>
       <subfield code="o">R(038)=111 D545d</subfield>
       <subfield code="e">PI 29/A144</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -45746,8 +45570,8 @@
       <subfield code="g">69</subfield>
       <subfield code="o">R(038)=111 D545d</subfield>
       <subfield code="e">AAB-UARG/00</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -45801,8 +45625,8 @@
       <subfield code="g">69</subfield>
       <subfield code="o">R1(038) F379d5</subfield>
       <subfield code="e">Migración UACO</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -45814,8 +45638,8 @@
       <subfield code="g">69</subfield>
       <subfield code="o">R1(038) F379d5</subfield>
       <subfield code="e">Migración UACO</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -45827,8 +45651,8 @@
       <subfield code="g">69</subfield>
       <subfield code="o">R1(038) F379d5</subfield>
       <subfield code="e">Desconocido</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -45840,8 +45664,8 @@
       <subfield code="g">69</subfield>
       <subfield code="o">R1(038) F379d5</subfield>
       <subfield code="e">Desconocido</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -45992,8 +45816,8 @@
       <subfield code="g">89</subfield>
       <subfield code="o">R1(038) F379d4</subfield>
       <subfield code="e">Fuentes Benítez, Cloe/84</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -46005,8 +45829,8 @@
       <subfield code="g">89</subfield>
       <subfield code="o">R1(038) F379d4</subfield>
       <subfield code="e">Fuentes Benítez, Cloe/84</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -46018,8 +45842,8 @@
       <subfield code="g">89</subfield>
       <subfield code="o">R1(038) F379d4</subfield>
       <subfield code="e">Fuentes Benítez, Cloe/84</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -46031,8 +45855,8 @@
       <subfield code="g">89</subfield>
       <subfield code="o">R1(038) F379d4</subfield>
       <subfield code="e">Fuentes Benítez, Cloe/84</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -48244,8 +48068,8 @@
       <subfield code="g">30</subfield>
       <subfield code="o">R316(038) D545di</subfield>
       <subfield code="e">Donación México</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -49713,8 +49537,8 @@
       <subfield code="g">29</subfield>
       <subfield code="o">R54(038) D545d</subfield>
       <subfield code="e">Donación México</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -50035,8 +49859,8 @@
       <subfield code="g">30</subfield>
       <subfield code="o">R912(4/6) M645a</subfield>
       <subfield code="e">Donación México</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -56307,8 +56131,8 @@
       <subfield code="g">89</subfield>
       <subfield code="o">R32(038) V422d</subfield>
       <subfield code="e">Municipalidad de Río Gallegos</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -56320,8 +56144,8 @@
       <subfield code="g">89</subfield>
       <subfield code="o">R32(038) V422d</subfield>
       <subfield code="e">Municipalidad de Río Gallegos</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -56333,8 +56157,8 @@
       <subfield code="g">89</subfield>
       <subfield code="o">R32(038) V422d</subfield>
       <subfield code="e">Donación Barbería, Elsa</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -62853,8 +62677,8 @@
       <subfield code="g">140</subfield>
       <subfield code="o">R(031) P425p15</subfield>
       <subfield code="e">Compra Biblioteca/UE-09</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
@@ -62866,8 +62690,8 @@
       <subfield code="g">140</subfield>
       <subfield code="o">R(031) P425p15</subfield>
       <subfield code="e">Compra Biblioteca/UE-09</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -63051,8 +62875,8 @@
       <subfield code="g">34</subfield>
       <subfield code="o">R54(038) D545l</subfield>
       <subfield code="e">Compra Biblioteca/UE-09</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -68085,8 +67909,8 @@
       <subfield code="g">50</subfield>
       <subfield code="o">R(038)=111 P921p</subfield>
       <subfield code="e">PI 29/A215</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>

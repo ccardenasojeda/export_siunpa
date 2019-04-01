@@ -53,8 +53,8 @@
       <subfield code="g">50</subfield>
       <subfield code="o">R61(038) M894m</subfield>
       <subfield code="e">UARG</subfield>
-      <subfield code="8">CR</subfield>
       <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
     </datafield>
   </record>
   <record>
@@ -208,30 +208,8 @@
       <subfield code="e">Secretaría General Académica</subfield>
       <subfield code="8">MM</subfield>
     </datafield>
-    <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">BIB_RECT</subfield>
-      <subfield code="d">2012-06-29</subfield>
-      <subfield code="y">CF</subfield>
-      <subfield code="p">12-42742</subfield>
-      <subfield code="i">12-42742</subfield>
-      <subfield code="g">89</subfield>
-      <subfield code="o">37.018.43 E562e</subfield>
-      <subfield code="e">Secretaría General Académica</subfield>
-      <subfield code="8">MM</subfield>
-    </datafield>
-    <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">BIB_RECT</subfield>
-      <subfield code="d">2012-06-29</subfield>
-      <subfield code="y">CF</subfield>
-      <subfield code="p">15-42745</subfield>
-      <subfield code="i">15-42745</subfield>
-      <subfield code="g">89</subfield>
-      <subfield code="o">37.018.43 E562e</subfield>
-      <subfield code="e">Secretaría General Académica</subfield>
-      <subfield code="8">MM</subfield>
-    </datafield>
+    <datafield tag="952" ind1=" " ind2=" "/>
+    <datafield tag="952" ind1=" " ind2=" "/>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
       <subfield code="b">SAT_PDES</subfield>
@@ -244,18 +222,7 @@
       <subfield code="e">Secretaría General Académica</subfield>
       <subfield code="8">MM</subfield>
     </datafield>
-    <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">BIB_RECT</subfield>
-      <subfield code="d">2012-06-29</subfield>
-      <subfield code="y">CF</subfield>
-      <subfield code="p">17-42747</subfield>
-      <subfield code="i">17-42747</subfield>
-      <subfield code="g">89</subfield>
-      <subfield code="o">37.018.43 E562e</subfield>
-      <subfield code="e">Secretaría General Académica</subfield>
-      <subfield code="8">MM</subfield>
-    </datafield>
+    <datafield tag="952" ind1=" " ind2=" "/>
     <datafield tag="952" ind1=" " ind2=" ">
       <subfield code="a">BIB_RECT</subfield>
       <subfield code="b">SAT_GREG</subfield>
@@ -268,17 +235,6 @@
       <subfield code="e">Secretaría General Académica</subfield>
       <subfield code="8">MM</subfield>
     </datafield>
-    <datafield tag="952" ind1=" " ind2=" ">
-      <subfield code="a">BIB_RECT</subfield>
-      <subfield code="b">BIB_RECT</subfield>
-      <subfield code="d">2012-06-29</subfield>
-      <subfield code="y">CF</subfield>
-      <subfield code="p">19-42748</subfield>
-      <subfield code="i">19-42748</subfield>
-      <subfield code="g">89</subfield>
-      <subfield code="o">37.018.43 E562e</subfield>
-      <subfield code="e">Secretaría General Académica</subfield>
-      <subfield code="8">MM</subfield>
-    </datafield>
+    <datafield tag="952" ind1=" " ind2=" "/>
   </record>
 </collection>
