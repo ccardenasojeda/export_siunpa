@@ -292,3 +292,32 @@ INNER JOIN collection_dm cdm ON b.`collection_cd` = cdm.code
 INNER JOIN usmarc_subfield_dm usm ON usm.tag = 650 AND usm.subfield_cd = 'a' 
 
 ORDER BY `b`.`bibid` ASC
+/****************OBTINE REGISTRO MAL IMPORTASDOS SIN TITULOI DEM KOHA******/
+SELECT  bk.*, opb.bibid as id_open, opb.title 
+FROM (SELECT b.biblionumber,i.barcode, b.author 
+FROM `biblio` b
+LEFT JOIN items i ON b.biblionumber = i.biblionumber
+WHERE `title` IS NULL
+GROUP BY b.biblionumber) as bk
+LEFT JOIN openbiblio_siunpa.biblio_copy opbc ON bk.barcode = opbc.barcode_nmbr 
+LEFT JOIN openbiblio_siunpa.biblio opb ON  opbc.bibid = opb.bibid
+GROUP BY opb.bibid
+/**********************GENERA XML DE REGISTROS QUE TENIAN ERROR DE TITULO EN KOHA********/
+SELECT b.bibid, b.create_dt, b.call_nmbr1, b.call_nmbr2, 
+       b.call_nmbr3, b.title, b.title_remainder, 
+       b.responsibility_stmt, b.author, b.topic1, 
+       b.topic2, b.topic3, b.topic4, b.topic5,
+       mt.description as tipo_material, cdm.description as tipo_coleccion
+FROM openbiblio_siunpa.biblio b
+INNER JOIN openbiblio_siunpa.material_type_dm mt ON b.`material_cd`   = mt.code AND mt.code = 2
+INNER JOIN openbiblio_siunpa.collection_dm   cdm ON b.`collection_cd` = cdm.code
+WHERE b.bibid IN (SELECT  opb.bibid 
+FROM (SELECT b.biblionumber,i.barcode, b.author 
+FROM koha_siunpa.`biblio` b
+LEFT JOIN koha_siunpa.items i ON b.biblionumber = i.biblionumber
+WHERE `title` IS NULL
+GROUP BY b.biblionumber) as bk
+LEFT JOIN openbiblio_siunpa.biblio_copy opbc ON bk.barcode = opbc.barcode_nmbr 
+LEFT JOIN openbiblio_siunpa.biblio opb ON  opbc.bibid = opb.bibid
+GROUP BY opb.bibid)
+ORDER BY b.bibid ASC

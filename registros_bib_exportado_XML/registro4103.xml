@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ4103</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200504190000000</controlfield>
+    <controlfield tag="008">050419|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9568007040</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">eng</subfield>
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">CL</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">598.2(36) C872a</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Couve, Enrique.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Vidal, Claudio.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Birds of Patagonia, Tierra del Fuego &amp; Antarctic Peninsula, the Falkand Islands &amp; South Georgia</subfield>
+    </datafield>
+    <datafield tag="246" ind1=" " ind2=" ">
+      <subfield code="a">Aves de Patagonia, Tierra del Fuego y península antártica, Islas Malvinas y Georgias del Sur.</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">1a ed.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Punta Arenas</subfield>
+      <subfield code="b"> : Fantástico Sur Birding</subfield>
+      <subfield code="c"> , 2003</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> AVES  HABITAT</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> REGION PATAGONICA </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> SISTEMATICA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> PENINSULA ANTARTICA </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ORNITOLOGIA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ISLAS MALVINAS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> GUIA FOTOGRAFICA</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2005-08-23</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-27401</subfield>
+      <subfield code="i">02-27401</subfield>
+      <subfield code="g">195</subfield>
+      <subfield code="o">598.2(36) C872a</subfield>
+      <subfield code="e">SIUNPA</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">SAT_PDES</subfield>
+      <subfield code="d">2005-08-23</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">16-27136</subfield>
+      <subfield code="i">16-27136</subfield>
+      <subfield code="g">205.12</subfield>
+      <subfield code="o">598.2(36) C872a</subfield>
+      <subfield code="e">SIUNPA</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+</collection>

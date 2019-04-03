@@ -4,14 +4,15 @@ include 'gestorRegistroBiblio.php';
 //Modifica el tamanio de memoria para ejecutar las consultas
 ini_set('memory_limit', '8192M');
 
-$codigo = 1;
+$codigo = 2;
 $txt = fopen("archivos_generados.txt", "w");
 fwrite($txt, "\n***********************************ARCHIVOS GENERADOS*******************************\n" . PHP_EOL);
 
-while ($codigo < 24) {
+while ($codigo < 3) {
     
-    $registros = gestorRegistroBiblio::listadoDatosMaterial($codigo);
+    //$registros = gestorRegistroBiblio::listadoDatosMaterial($codigo);
     //Permite dividir los registros en subarreglos de 1000 en caso que supere este numero.
+    $registros = gestorRegistroBiblio::listadoRegistrosErrorTitulo();
     $datos = array_chunk($registros, 1000, true);
 
     switch ($codigo) {
@@ -31,7 +32,8 @@ while ($codigo < 24) {
             if (!file_exists($path)) {
                 mkdir($path, 0777, true);
             }
-            generarRegistrosBibliograficosXML($datos, 'BK', $codigo, "LIBROS", $path);
+            //generarRegistrosBibliograficosXML($datos, 'BK', $codigo, "LIBROS", $path);
+            generarRegistrosBibliograficosXML($datos, 'BK', 2, "LIBROS", 'registros_bib_exportado_XML/');
             break;
         case 3: //CDs
             $texto = "Tipo de Registro: CDs ---- Cantidad de Registros: ".sizeof($registros). " ------ Cantidad archivos a generar: ".sizeof($datos);
@@ -209,7 +211,7 @@ function generarRegistrosBibliograficosXML($reg_bib, $tipo_reg,$cod_mat, $desc_r
     $cont = 1;
     foreach ($reg_bib as $value) {
     $nombre_xml = $cont."_".$tipo_reg."_".$desc_reg."_".sizeof($value)."_Registros_XMLMARC21_bibid_".reset($value)['bibid']."_a_".end($value)['bibid'];
-    
+    //$nombre_xml= 'registro'.reset($value)['bibid'];
     echo $nombre_xml.'<br>';
         
     generarRegistroBibliograficoMARC21($value, $nombre_xml, $directorio, $tipo_reg, $cod_mat);
@@ -359,12 +361,15 @@ function generarRegistroBibliograficoMARC21($material, $nombre_xml, $directorio,
                     }
                     break;
                 case 245: //Mension de Titulo - este campo es obligatorio si no esta se debe crear vacio
+                    
+                    $prueba_titulo = str_replace("&", "&amp;", $dato['field_data']);
+                    var_dump($prueba_titulo);
 
                     if ($dato['subfield_cd'] == 'a' && !empty($dato['field_data'])) {
                         /**subcampo $a titulo**/
                         $campo_245['tag'] = '245';
                         $campo_245['subfield_cd'] = $dato['subfield_cd'];
-                        $campo_245['field_data'] = $dato['field_data'];
+                        $campo_245['field_data'] = str_replace("&", "&amp;", $dato['field_data']);
                         $list [] = $campo_245;
                     } else {
                         if ($dato['subfield_cd'] == 'a' && empty($dato['field_data'])) {
@@ -378,12 +383,12 @@ function generarRegistroBibliograficoMARC21($material, $nombre_xml, $directorio,
                                 /**subcampo $b  resto del titulo o subtitulo**/
                                 $campo_245['tag'] = '245';
                                 $campo_245['subfield_cd'] = $dato['subfield_cd'];
-                                $campo_245['field_data'] = ' : '.$dato['field_data'];
+                                $campo_245['field_data'] = ' : '.str_replace("&;", "&amp;", $dato['field_data']);
                                 $list [] = $campo_245;
                             } else {
                                 if ($dato['subfield_cd'] == 'c' && !empty($dato['field_data'])) {
                                     /**subcampo $c mencion de responsabilidad**/
-                                    $resultado = str_replace("|", " ; ", $dato['field_data']);
+                                    $resultado = str_replace("|", " ; ", str_replace("&", "&amp;", $dato['field_data']));
 
                                     $campo_245['tag'] = '245';
                                     $campo_245['subfield_cd'] = $dato['subfield_cd'];
@@ -1328,6 +1333,7 @@ function itemSubcampos($xml, $marc_data_field, $uuaa, $value, $tipo_material) {
     $marc_data_field->appendChild($marc_data_subfield);
     $marc_data_subfield->setAttribute('code', 'e');//e - Fuente de adquisición
     //var_dump($value['signatura_top']);
+    $no_prestamo = NULL;
     switch ($value['collection_cd']) {
         case 1:
             $cc='CR';

@@ -1,0 +1,2291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection xmlns="http://www.loc.gov/MARC21/slim" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.loc.gov/MARC21/slim http://www.loc.gov/standards/marcxml/schema/MARC21slim.xsd">
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ756</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200503160000000</controlfield>
+    <controlfield tag="008">050316|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">ES</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">372.853.7 R696e</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Rodríguez, Alícia.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">González, Agustín, colab..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Julián, Robert, colab..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Vilaseca, Inés, colab..</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Electricidad &amp; magnetismo</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">1a ed.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Barcelona</subfield>
+      <subfield code="b"> : Parramón</subfield>
+      <subfield code="c"> , 2002</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">48 p. : </subfield>
+      <subfield code="b">il. ; </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ELECTRICIDAD</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MAGNETISMO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EXPERIMENTO EDUCACIONAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ACTIVIDADES DE APRENDIZAJE</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2005-08-23</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-27201</subfield>
+      <subfield code="i">02-27201</subfield>
+      <subfield code="g">30</subfield>
+      <subfield code="o">372.853.7 R696e</subfield>
+      <subfield code="e">UACO</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ1322</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200404290000000</controlfield>
+    <controlfield tag="008">040429|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">0898747392</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">US</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">621.37 S974p</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Swearer, Harvey F..</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Pulse &amp; switching circuits</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Malabar, Fla.</subfield>
+      <subfield code="b"> : R. Krieger</subfield>
+      <subfield code="c"> , 1984</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> CIRCUITO ELECTRONICO  RADAR</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EQUIPAMIENTO ELECTRONICO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TECNOLOGIA ELECTRONICA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TELEVISION</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> RADIODIFUSION</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2009-08-14</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-01938</subfield>
+      <subfield code="i">02-01938</subfield>
+      <subfield code="g">84</subfield>
+      <subfield code="o">621.37 S974p</subfield>
+      <subfield code="e">Rotary Club</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2005-08-23</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">05-20425</subfield>
+      <subfield code="i">05-20425</subfield>
+      <subfield code="g">45</subfield>
+      <subfield code="o">621.37 S974p</subfield>
+      <subfield code="e">Donación</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ1769</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200503160000000</controlfield>
+    <controlfield tag="008">050316|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">8434225069</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">ES</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">372.872 R696c2</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Rodríguez, Alícia.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">González, Agustín, colab..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Claret, Anna, colab..</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Construcción &amp; arquitectura</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">2a ed.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Barcelona</subfield>
+      <subfield code="b"> : Parramón</subfield>
+      <subfield code="c"> , 2004</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">254 p. : </subfield>
+      <subfield code="b">gráf. ; </subfield>
+      <subfield code="a">48 p. : </subfield>
+      <subfield code="b">il. ; </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ARQUITECTURA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> CONSTRUCCION DE VIVIENDAS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ACTIVIDADES DE APRENDIZAJE</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EXPERIMENTO EDUCACIONAL</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2005-08-23</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-27202</subfield>
+      <subfield code="i">02-27202</subfield>
+      <subfield code="g">30</subfield>
+      <subfield code="o">372.872 R696c2</subfield>
+      <subfield code="e">UACO</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ1770</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200503160000000</controlfield>
+    <controlfield tag="008">050316|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">8434225085</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">ES</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">372.868.17 R696i</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Rodríguez, Alícia.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">González, Agustín, colab..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Julián, Oriol, colab..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Julián, Robert, colab..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Vilaseca, Inés, colab..</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Imágen &amp; sonido</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">1a ed.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Barcelona</subfield>
+      <subfield code="b"> : Parramón</subfield>
+      <subfield code="c"> , 2003</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">48 p. : </subfield>
+      <subfield code="b">il. ; </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> SONIDO  FOTOGRAFIA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EXPERIMENTO EDUCACIONAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> OPTICA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ACTIVIDADES DE APRENDIZAJE</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENSEÑANZA DE LA TECNOLOGIA</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2005-08-23</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-27203</subfield>
+      <subfield code="i">02-27203</subfield>
+      <subfield code="g">30</subfield>
+      <subfield code="o">372.868.17 R696i</subfield>
+      <subfield code="e">UACO</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ1771</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200503160000000</controlfield>
+    <controlfield tag="008">050316|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">8434225093</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">ES</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">372.862.17 R696m</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Rodríguez, Alícia.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Gómez Guillamón, Rafael, colab..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">González, Agustín, colab..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Julián, Oriol, colab..</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Máquinas &amp; herramientas</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">1a ed.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Barcelona</subfield>
+      <subfield code="b"> : Parramón</subfield>
+      <subfield code="c"> , 2003</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">48 p. : </subfield>
+      <subfield code="b">il. ; </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> HERRAMIENTAS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MAQUINA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EXPERIMENTO EDUCACIONAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ACTIVIDADES DE APRENDIZAJE</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2005-08-23</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-27200</subfield>
+      <subfield code="i">02-27200</subfield>
+      <subfield code="g">30</subfield>
+      <subfield code="o">372.862.17 R696m</subfield>
+      <subfield code="e">UACO</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ1772</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200503160000000</controlfield>
+    <controlfield tag="008">050316|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">8434225107</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">ES</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">372.853 N897f</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Nos Aguilà, Oriol.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Física &amp; agua</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">1a ed.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Barcelona</subfield>
+      <subfield code="b"> : Parramón</subfield>
+      <subfield code="c"> , 2003</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">48 p. : </subfield>
+      <subfield code="b">il. ; </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENSEÑANZA DE LA FISICA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EXPERIMENTO EDUCACIONAL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ACTIVIDADES DE APRENDIZAJE</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2005-08-23</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-27198</subfield>
+      <subfield code="i">02-27198</subfield>
+      <subfield code="g">30</subfield>
+      <subfield code="o">372.853 N897f</subfield>
+      <subfield code="e">UACO</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ1773</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200503160000000</controlfield>
+    <controlfield tag="008">050316|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">8434225115</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">ES</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">372.865.6 N897t</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Nos Aguilà, Oriol.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Transportes &amp; comunicación</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">1a ed.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Barcelona</subfield>
+      <subfield code="b"> : Parramón</subfield>
+      <subfield code="c"> , 2003</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">48 p. : </subfield>
+      <subfield code="b">il. ; </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> COMUNICACION</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TRANSPORTES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ENSEÑANZA DE LA INGENIERIA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ACTIVIDADES DE APRENDIZAJE</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EXPERIMENTO EDUCACIONAL</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2005-08-23</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-27199</subfield>
+      <subfield code="i">02-27199</subfield>
+      <subfield code="g">30</subfield>
+      <subfield code="o">372.865.6 N897t</subfield>
+      <subfield code="e">UACO</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ6109</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200605231348480</controlfield>
+    <controlfield tag="008">060523|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9875211788</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">630*2 C257c</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Carabelli, Esteban.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Peri, Pablo Luis.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Criterios e indicadores de sustentabilidad (C &amp; I) para el manejo sustentable de los bosques nativos de Tierra del Fuego, Argentina</subfield>
+      <subfield code="b"/>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Río Gallegos</subfield>
+      <subfield code="b"> : Estación Experimental Agropecuaria Santa Cruz, INTA</subfield>
+      <subfield code="c"> , 2005</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> RECURSOS FORESTALES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> BOSQUES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TIERRA DEL FUEGO (ARGENTINA)</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2006-05-15</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">04-30379</subfield>
+      <subfield code="i">04-30379</subfield>
+      <subfield code="g">28</subfield>
+      <subfield code="o">630*2 C257c</subfield>
+      <subfield code="e">Donación INTA</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2006-10-17</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">05-31011</subfield>
+      <subfield code="i">05-31011</subfield>
+      <subfield code="g">23</subfield>
+      <subfield code="o">630*2 C257c</subfield>
+      <subfield code="e">Donación</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2009-04-30</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">05-37668</subfield>
+      <subfield code="i">05-37668</subfield>
+      <subfield code="g">20</subfield>
+      <subfield code="o">630*2 C257c</subfield>
+      <subfield code="e">Donación Peri, Pablo/09</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2009-04-30</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">05-37669</subfield>
+      <subfield code="i">05-37669</subfield>
+      <subfield code="g">20</subfield>
+      <subfield code="o">630*2 C257c</subfield>
+      <subfield code="e">Donación Peri, Pablo/09</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2011-06-01</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">05-40935</subfield>
+      <subfield code="i">05-40935</subfield>
+      <subfield code="g">25</subfield>
+      <subfield code="o">630*2 C257c</subfield>
+      <subfield code="e">Donación prof. Vázquez, Mirian/11</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ8383</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200607241153020</controlfield>
+    <controlfield tag="008">060724|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">0138218285</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">US</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">004.41 P482s</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Peters Lawrence J..</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Software design,  methods &amp; techniques</subfield>
+      <subfield code="b"/>
+      <subfield code="c"> / foreword by; Belady. L.A.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Englewood Cliffs, New Jersey</subfield>
+      <subfield code="b"> : Prentice-Hall</subfield>
+      <subfield code="c"> , 1981</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">85 p. : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="a">xiv,234  p. : </subfield>
+      <subfield code="b">il. ; </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">DISEÑO DE SISTEMAS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">INGENIERIA DE SOFTWARE</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">TECNICAS DE DISEÑO</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2006-08-28</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">05-09249</subfield>
+      <subfield code="i">05-09249</subfield>
+      <subfield code="g"/>
+      <subfield code="o">004.41 P482s</subfield>
+      <subfield code="e">ACUER.110/95</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ11202</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200608101222210</controlfield>
+    <controlfield tag="008">060810|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">por</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">BR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">82-1(81) B542</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Bertholdo Oscar.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Ave, Arvore &amp; Tempo de Assoalho</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">1a. ed</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Caxias do Sul</subfield>
+      <subfield code="b"> : EDUCS</subfield>
+      <subfield code="c"> , 1981</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">74 p. : </subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2006-08-28</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">05-03742</subfield>
+      <subfield code="i">05-03742</subfield>
+      <subfield code="g"/>
+      <subfield code="o">82-1(81) B542</subfield>
+      <subfield code="e"/>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ13167</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200608161306330</controlfield>
+    <controlfield tag="008">060816|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">1573561649</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">US</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">82.081 DAY</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Day Robert A..</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">How to write &amp; publish a scientific paper</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">5th. ed</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Arizona</subfield>
+      <subfield code="b"> : Oryx Press</subfield>
+      <subfield code="c"> , c1998</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">xvi,275 p. : </subfield>
+      <subfield code="b">il., includes bibiographical references and index ; </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">DOCUMENTO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">DOCUMENTO SECUNDARIO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">LITERATURA</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2006-08-28</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">05-13246</subfield>
+      <subfield code="i">05-13246</subfield>
+      <subfield code="g"/>
+      <subfield code="o">82.081 DAY</subfield>
+      <subfield code="e">MILICIC, BEATRIZ/99</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ13549</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200608161306330</controlfield>
+    <controlfield tag="008">060816|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">067339736X</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">US</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">004.42 L674d</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Lewis Harry R..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Denenberg Larry.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Data structures &amp; their algorithms</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Reading, Massachusetts</subfield>
+      <subfield code="b"> : Addison-Wesley</subfield>
+      <subfield code="c"> , 1991</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">xv,509 p. : </subfield>
+      <subfield code="b">il. ; </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">PROGRAMACION DE COMPUTADORAS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">ESTRUCTURA DE DATOS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">ALGORITMOS</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2006-08-28</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">05-14285</subfield>
+      <subfield code="i">05-14285</subfield>
+      <subfield code="g"/>
+      <subfield code="o">004.42 L674d</subfield>
+      <subfield code="e"/>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2006-08-28</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">05-14288</subfield>
+      <subfield code="i">05-14288</subfield>
+      <subfield code="g"/>
+      <subfield code="o">004.42 L674d</subfield>
+      <subfield code="e"/>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ13599</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200608161306330</controlfield>
+    <controlfield tag="008">060816|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">0827372930</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">US</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">631.4 P715s3</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Plaster Edward J..</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Soil science &amp; management</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">3rd. ed</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Albany, New York</subfield>
+      <subfield code="b"> : Delmar Publishers</subfield>
+      <subfield code="c"> , 1997</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">ix,402 p. : </subfield>
+      <subfield code="b">il. ; </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">EDAFOLOGIA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">CIENCIA DEL SUELO</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2006-08-28</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">05-14402</subfield>
+      <subfield code="i">05-14402</subfield>
+      <subfield code="g"/>
+      <subfield code="o">631.4 P715s3</subfield>
+      <subfield code="e"/>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2006-08-28</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">05-14406</subfield>
+      <subfield code="i">05-14406</subfield>
+      <subfield code="g"/>
+      <subfield code="o">631.4 P715s3</subfield>
+      <subfield code="e"/>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ14835</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200608311023530</controlfield>
+    <controlfield tag="008">060831|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">R316.77(036) G943g</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Vecchiarelli, Cecilia, colaboradora.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Blanco, Federico, colaborador.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Gruning, Gisella, colaboradora.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Cherkoff, Laura, colaboradora.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Gutierrez, Mónica, colaboradora.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Boulocq, Bárbara, colaboradora.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Giba, Verónica, colaboradora.</subfield>
+    </datafield>
+    <datafield tag="110" ind1=" " ind2=" ">
+      <subfield code="a"/>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Guía de medios &amp; comunicación</subfield>
+      <subfield code="b"> : Argentina y Mercosur</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"/>
+      <subfield code="b"> : Centro de Comunicación La Crujía</subfield>
+      <subfield code="c"> , 2000</subfield>
+    </datafield>
+    <datafield tag="300" ind1=" " ind2=" ">
+      <subfield code="a">348 p. : </subfield>
+      <subfield code="b">il. ; </subfield>
+      <subfield code="e">1 CD-ROM en bolsillo</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MEDIOS DE COMUNICACION</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ARGENTINA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MERCOSUR</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2006-08-18</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">05-30615</subfield>
+      <subfield code="i">05-30615</subfield>
+      <subfield code="g">32</subfield>
+      <subfield code="o">R316.77(036) G943g</subfield>
+      <subfield code="e">Proyecto de investigación 29 A067</subfield>
+      <subfield code="7">4</subfield>
+      <subfield code="8">CR</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ18185</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200612111329410</controlfield>
+    <controlfield tag="008">061211|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">1558605002</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">US</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">004.652 T314d</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Toerey Toby J..</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Database modeling &amp; design</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">3rd. ed</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">San Francisco, Calif.</subfield>
+      <subfield code="b"> : Morgan Kaufmann</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">BASE DE DATOS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">INFORMATICA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a">Bases de datos relacionales</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2006-12-11</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-07657</subfield>
+      <subfield code="i">02-07657</subfield>
+      <subfield code="g">0</subfield>
+      <subfield code="o">004.652 T314d</subfield>
+      <subfield code="e"/>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ18361</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200612121440390</controlfield>
+    <controlfield tag="008">061212|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">0201877120</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">UK</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">004.414.3 J135s</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Jackson, Michael.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Software requirements &amp; specifications</subfield>
+      <subfield code="b"> : a lexicon of practice, principles and prejudices</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">1st printed, reprint</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Harlow</subfield>
+      <subfield code="b"> : ACM Press</subfield>
+      <subfield code="b"> : Addison-Wesley</subfield>
+      <subfield code="c"> , 1998</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> INGENIERIA DE SOFTWARE</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2006-12-11</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-31127</subfield>
+      <subfield code="i">02-31127</subfield>
+      <subfield code="g">74</subfield>
+      <subfield code="o">004.414.3 J135s</subfield>
+      <subfield code="e">FOMEC 585</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ18741</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200703061417570</controlfield>
+    <controlfield tag="008">070306|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9505375409</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">657.47 G393g</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Benvenuto, Edgardo M..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Benvenuto, Olver.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Cahwje, Jorge Alberto.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Carratalá, Juan Martín.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Carro, Roberto Ricardo.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Daian, Isaac Martín.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Font de Malugani, Elba.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Gaudino, Ovidio.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Giménez, Carlos Manuel.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Giménez Verete, María Nidia.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Ksairi, Jorge Luis.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">López de Trabucco, Nélida M..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">López Couceiro, Edmundo J. E..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Macrini, Domingo.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Miyaji, Ricardo.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Mocciaro, Osvaldo A..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Safarano, José M..</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Stasi, Juan Carlos.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Wajchman, Bernado.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Wajchman, Mauricio.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Gestión &amp; costos</subfield>
+      <subfield code="b"> : beneficio creciente, mejora continua</subfield>
+      <subfield code="c"> / Giménez, Carlos Manuel, coordinador</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : Macchi</subfield>
+      <subfield code="c"> , 2001</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> COSTES CONTABLES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> SISTEMA DE COSTOS </subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> GESTION DE COSTES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> CONTABILIDAD DE COSTOS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TOMA DE DECISIONES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ANALISIS CONTABLE</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2009-03-23</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-37392</subfield>
+      <subfield code="i">02-37392</subfield>
+      <subfield code="g">59</subfield>
+      <subfield code="o">657.47 G393g</subfield>
+      <subfield code="e">Donación Nieto, Jorge José</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UART</subfield>
+      <subfield code="d">2007-03-03</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">03-31314</subfield>
+      <subfield code="i">03-31314</subfield>
+      <subfield code="g">82</subfield>
+      <subfield code="o">657.47 G393g</subfield>
+      <subfield code="e">UART</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UART</subfield>
+      <subfield code="d">2007-03-03</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">03-31315</subfield>
+      <subfield code="i">03-31315</subfield>
+      <subfield code="g">82</subfield>
+      <subfield code="o">657.47 G393g</subfield>
+      <subfield code="e">UART</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ87022</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200709201457310</controlfield>
+    <controlfield tag="008">070920|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">ES</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">662.2 C749i</subfield>
+    </datafield>
+    <datafield tag="110" ind1=" " ind2=" ">
+      <subfield code="a"/>
+    </datafield>
+    <datafield tag="710" ind1=" " ind2=" ">
+      <subfield code="a">International Mine Water Association, org..</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Mine, water &amp; environment</subfield>
+      <subfield code="c"> / Rubio, Fernández, ed.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Madrid</subfield>
+      <subfield code="b"> : Instituto Tecnológico Geominero de España</subfield>
+      <subfield code="c"> , 1999</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MINERIA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> GEOLOGIA</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UART</subfield>
+      <subfield code="d">2007-09-12</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">04-33341</subfield>
+      <subfield code="i">04-33341</subfield>
+      <subfield code="g">49</subfield>
+      <subfield code="o">662.2 C749i</subfield>
+      <subfield code="e">SIUNPA CP</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2007-09-17</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">04-33369</subfield>
+      <subfield code="i">04-33369</subfield>
+      <subfield code="g">49</subfield>
+      <subfield code="o">662.2 C749i</subfield>
+      <subfield code="e">SIUNPA CP</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ87081</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200710041827260</controlfield>
+    <controlfield tag="008">071004|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">0596005407</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">US</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">004.738.5 B299h</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Basham, Bryan.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Sierra, Kathy.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Bates, Bert.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Head first servlets &amp; JSP</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">1st ed.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Sebastopol, CA</subfield>
+      <subfield code="b"> : O'Reilly</subfield>
+      <subfield code="c"> , 2004</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> PROGRAMACION WEB</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> INTERNET</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> SERVIDORES WEB</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2007-09-25</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-33439</subfield>
+      <subfield code="i">02-33439</subfield>
+      <subfield code="g">139</subfield>
+      <subfield code="o">004.738.5 B299h</subfield>
+      <subfield code="e">Compra UACO</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ87426</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200802141554440</controlfield>
+    <controlfield tag="008">080214|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">0126853525</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">US</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">004.65 T314d4</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Teorey, Toby.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Lightstone, Sam.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Nadeau, Tom.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Database modeling &amp; design</subfield>
+      <subfield code="b"> : logical design</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">4th ed.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">San Francisco, Calif.</subfield>
+      <subfield code="b"> : Morgan Kaufmann</subfield>
+      <subfield code="c"> , 2006</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> DISEÑO DE BASE DE DATOS</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2008-02-11</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-34193</subfield>
+      <subfield code="i">02-34193</subfield>
+      <subfield code="g">174</subfield>
+      <subfield code="o">004.65 T314d4</subfield>
+      <subfield code="e">SIUNPA</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ88151</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200804111658120</controlfield>
+    <controlfield tag="008">080411|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">0137116985</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">US</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">519.2 P218p</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Papoulis, Athanasios.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Probability &amp; statistics</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Upper Saddle River, N.J.</subfield>
+      <subfield code="b"> : Prentice-Hall</subfield>
+      <subfield code="c"> , c1990</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> TEORIA DE PROBABILIDADES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ESTADISTICA</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2006-08-28</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">05-09486</subfield>
+      <subfield code="i">05-09486</subfield>
+      <subfield code="g">0</subfield>
+      <subfield code="o">519.2 P218p</subfield>
+      <subfield code="e">MigracionUARG</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2006-08-28</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">05-11527</subfield>
+      <subfield code="i">05-11527</subfield>
+      <subfield code="g">0</subfield>
+      <subfield code="o">519.2 P218p</subfield>
+      <subfield code="e">MigracionUARG</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2008-04-08</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">05-35086</subfield>
+      <subfield code="i">05-35086</subfield>
+      <subfield code="g">337</subfield>
+      <subfield code="o">519.2 P218p</subfield>
+      <subfield code="e">SIUNPA</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ89712</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200809111229580</controlfield>
+    <controlfield tag="008">080911|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">78.038 T438j</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Thiers, Walter.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Jazz &amp; rock</subfield>
+      <subfield code="b"> : introducción 1940-1977</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">1a ed.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : Marymar</subfield>
+      <subfield code="c"> , 1978</subfield>
+    </datafield>
+    <datafield tag="440" ind1=" " ind2=" ">
+      <subfield code="a">Pequeño ingeniero</subfield>
+      <subfield code="a">Pequeño ingeniero</subfield>
+      <subfield code="a">Pequeño ingeniero</subfield>
+      <subfield code="a">Pequeño ingeniero</subfield>
+      <subfield code="a">Pequeño ingeniero</subfield>
+      <subfield code="a">Pequeño ingeniero</subfield>
+      <subfield code="a">Yourdon press computing series</subfield>
+      <subfield code="a">A brain-friendly study guide</subfield>
+      <subfield code="a">The Morgan Kaufmann series in data management systems</subfield>
+      <subfield code="a">Colección música / Marymar</subfield>
+      <subfield code="v">1</subfield>
+    </datafield>
+    <datafield tag="490" ind1=" " ind2=" ">
+      <subfield code="a">Pequeño ingeniero</subfield>
+      <subfield code="a">Pequeño ingeniero</subfield>
+      <subfield code="a">Pequeño ingeniero</subfield>
+      <subfield code="a">Pequeño ingeniero</subfield>
+      <subfield code="a">Pequeño ingeniero</subfield>
+      <subfield code="a">Pequeño ingeniero</subfield>
+      <subfield code="a">Yourdon press computing series</subfield>
+      <subfield code="a">A brain-friendly study guide</subfield>
+      <subfield code="a">The Morgan Kaufmann series in data management systems</subfield>
+      <subfield code="a">Colección música / Marymar</subfield>
+      <subfield code="v">1</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> JAZZ</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ROCK</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> HISTORIA DE LA MUSICA</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2008-09-11</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-00071</subfield>
+      <subfield code="i">02-00071</subfield>
+      <subfield code="g">29</subfield>
+      <subfield code="o">78.038 T438j</subfield>
+      <subfield code="e">Desconocido</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2008-09-11</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">05-06834</subfield>
+      <subfield code="i">05-06834</subfield>
+      <subfield code="g">29</subfield>
+      <subfield code="o">78.038 T438j</subfield>
+      <subfield code="e">90</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ90281</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200811121634120</controlfield>
+    <controlfield tag="008">081112|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">0080441777</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">NL</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">504.054 B615b</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Bioindicators &amp; biomonitors</subfield>
+      <subfield code="b"> : principles, concepts and applications</subfield>
+      <subfield code="c"> / Markert, B.A., ed. ; Breure, A.M., ed. ; Zechmeister, H.G., ed.</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">1st ed., 2nd impr.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Amsterdam</subfield>
+      <subfield code="b"> : Elsevier</subfield>
+      <subfield code="c"> , 2004</subfield>
+    </datafield>
+    <datafield tag="440" ind1=" " ind2=" ">
+      <subfield code="a">Trace metals and other contaminants in the environment</subfield>
+      <subfield code="v">v. 6</subfield>
+    </datafield>
+    <datafield tag="490" ind1=" " ind2=" ">
+      <subfield code="a">Trace metals and other contaminants in the environment</subfield>
+      <subfield code="v">v. 6</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ORGANISMOS INDICADORES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MEDIO AMBIENTE</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> MONITOREO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> CONTAMINACION DEL MEDIO AMBIENTE</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2008-11-11</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-36697</subfield>
+      <subfield code="i">02-36697</subfield>
+      <subfield code="g">692</subfield>
+      <subfield code="o">504.054 B615b</subfield>
+      <subfield code="e">PICTO 30727</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2009-10-02</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">05-38421</subfield>
+      <subfield code="i">05-38421</subfield>
+      <subfield code="g">1041</subfield>
+      <subfield code="o">504.054 B615b</subfield>
+      <subfield code="e">Compra Rectorado</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ90893</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200904031028580</controlfield>
+    <controlfield tag="008">090403|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">US</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">94(82) P859a</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Potash, Robert A..</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">The army &amp; politics in Argentina 1928-1945</subfield>
+      <subfield code="b"> : Yrigoyen to Perón</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">California, Calif.</subfield>
+      <subfield code="b"> : Stanford University Press</subfield>
+      <subfield code="c"> , 1969</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> HISTORIA ARGENTINA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> HISTORIA POLITICA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EJERCITO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> SIGLO XX</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2009-04-01</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">04-37469</subfield>
+      <subfield code="i">04-37469</subfield>
+      <subfield code="g">36</subfield>
+      <subfield code="o">94(82) P859a</subfield>
+      <subfield code="e">Donación México</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ91081</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">200905071500390</controlfield>
+    <controlfield tag="008">090507|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">US</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">294.3 S968z</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Suzuki, Daisetz Teitaro.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Fromm, Erich.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">De Martino, Richard.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Zen Buddhism &amp; psychoanalysis</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">New York, N.Y.</subfield>
+      <subfield code="b"/>
+      <subfield code="c"> , 1960</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> BUDISMO ZEN</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> PSICOANALISIS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> RELIGION</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> CULTURA CENTROASIATICO</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ESTUDIOS CULTURALES</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UASJ</subfield>
+      <subfield code="d">2009-05-07</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">04-37609</subfield>
+      <subfield code="i">04-37609</subfield>
+      <subfield code="g">22</subfield>
+      <subfield code="o">294.3 S968z</subfield>
+      <subfield code="e">Donación México</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ93610</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201011151715570</controlfield>
+    <controlfield tag="008">101115|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">9509445312</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">658.012.4 P153e</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Paladino, Marcelo.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Milberg, Amalia.</subfield>
+    </datafield>
+    <datafield tag="700" ind1=" " ind2=" ">
+      <subfield code="a">Sánchez Iriondo, Florencia.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Emprendedores sociales &amp; empresarios responsables</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">1a ed.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"> : Temas</subfield>
+      <subfield code="c"> , 2006</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ADMINISTRACION DE EMPRESAS</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ORGANIZACION ADMINISTRATIVA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ECONOMIA DE LA EMPRESA</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2010-11-02</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-40359</subfield>
+      <subfield code="i">02-40359</subfield>
+      <subfield code="g">59</subfield>
+      <subfield code="o">658.012.4 P153e</subfield>
+      <subfield code="e">Compra SIUNPA</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2010-11-02</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-40360</subfield>
+      <subfield code="i">02-40360</subfield>
+      <subfield code="g">59</subfield>
+      <subfield code="o">658.012.4 P153e</subfield>
+      <subfield code="e">Compra SIUNPA</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ94263</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201108111521250</controlfield>
+    <controlfield tag="008">110811|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">0028620135</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">eng</subfield>
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">US</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">R(038)=111 S594s2</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Simon &amp; Schuster's International dictionary</subfield>
+      <subfield code="b"> : english-spanish,  spanish-english</subfield>
+      <subfield code="c"> / Steiner, Roger, dir.</subfield>
+    </datafield>
+    <datafield tag="246" ind1=" " ind2=" ">
+      <subfield code="a">Diccionario internacional Simon and Schuster: español-inglés, inglés-español.</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">2a ed.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">New York, N.Y.</subfield>
+      <subfield code="b"> : Macmillan</subfield>
+      <subfield code="c"> , 1997</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> INGLES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ESPAÑOL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> DICCIONARIO BILINGUE</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2011-08-11</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-02107</subfield>
+      <subfield code="i">02-02107</subfield>
+      <subfield code="g">250</subfield>
+      <subfield code="o">R(038)=111 S594s2</subfield>
+      <subfield code="e">UACO</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2011-08-11</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-02410</subfield>
+      <subfield code="i">02-02410</subfield>
+      <subfield code="g">250</subfield>
+      <subfield code="o">R(038)=111 S594s2</subfield>
+      <subfield code="e">Acuerdo Nº 125/98</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2011-08-11</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-07247</subfield>
+      <subfield code="i">02-07247</subfield>
+      <subfield code="g">250</subfield>
+      <subfield code="o">R(038)=111 S594s2</subfield>
+      <subfield code="e">Fomec 585</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2011-08-11</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-07248</subfield>
+      <subfield code="i">02-07248</subfield>
+      <subfield code="g">250</subfield>
+      <subfield code="o">R(038)=111 S594s2</subfield>
+      <subfield code="e">Fomec/97</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2011-08-11</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-07249</subfield>
+      <subfield code="i">02-07249</subfield>
+      <subfield code="g">250</subfield>
+      <subfield code="o">R(038)=111 S594s2</subfield>
+      <subfield code="e">Fomec 585</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2011-08-11</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-07250</subfield>
+      <subfield code="i">02-07250</subfield>
+      <subfield code="g">250</subfield>
+      <subfield code="o">R(038)=111 S594s2</subfield>
+      <subfield code="e">Fomec 585</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2011-08-11</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-07251</subfield>
+      <subfield code="i">02-07251</subfield>
+      <subfield code="g">250</subfield>
+      <subfield code="o">R(038)=111 S594s2</subfield>
+      <subfield code="e">Fomec 585</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2011-08-11</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-07252</subfield>
+      <subfield code="i">02-07252</subfield>
+      <subfield code="g">250</subfield>
+      <subfield code="o">R(038)=111 S594s2</subfield>
+      <subfield code="e">Fomec 585</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UART</subfield>
+      <subfield code="d">2011-08-11</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">03-01403</subfield>
+      <subfield code="i">03-01403</subfield>
+      <subfield code="g">250</subfield>
+      <subfield code="o">R(038)=111 S594s2</subfield>
+      <subfield code="e">FOMEC O/C 41/00</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2011-08-11</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">03-01404</subfield>
+      <subfield code="i">03-01404</subfield>
+      <subfield code="g">250</subfield>
+      <subfield code="o">R(038)=111 S594s2</subfield>
+      <subfield code="e">FOMEC O/C 41/00</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UART</subfield>
+      <subfield code="d">2011-08-11</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">03-01670</subfield>
+      <subfield code="i">03-01670</subfield>
+      <subfield code="g">250</subfield>
+      <subfield code="o">R(038)=111 S594s2</subfield>
+      <subfield code="e">FOMEC O/C 41/00</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ94268</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201108111633380</controlfield>
+    <controlfield tag="008">110811|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">0671215078</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">eng</subfield>
+      <subfield code="a">spa</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">US</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">R(038)=111 S594s</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Simon &amp; Schuster's International dictionary</subfield>
+      <subfield code="b"> : english-spanish,  spanish-english</subfield>
+      <subfield code="c"> / Gámez, Tana de, dir.</subfield>
+    </datafield>
+    <datafield tag="246" ind1=" " ind2=" ">
+      <subfield code="a">Diccionario internacional Simon and Schuster: inglés-español, español-inglés.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">New York, N.Y.</subfield>
+      <subfield code="b"> : Simon and Schuster</subfield>
+      <subfield code="c"> , [1973]</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> INGLES</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ESPAÑOL</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> DICCIONARIO BILINGUE</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UACO</subfield>
+      <subfield code="d">2011-08-11</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">02-03171</subfield>
+      <subfield code="i">02-03171</subfield>
+      <subfield code="g">250</subfield>
+      <subfield code="o">R(038)=111 S594s</subfield>
+      <subfield code="e">Decanato</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2011-08-11</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">05-05107</subfield>
+      <subfield code="i">05-05107</subfield>
+      <subfield code="g">250</subfield>
+      <subfield code="o">R(038)=111 S594s</subfield>
+      <subfield code="e">Migración UARG</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2011-08-11</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">05-09021</subfield>
+      <subfield code="i">05-09021</subfield>
+      <subfield code="g">250</subfield>
+      <subfield code="o">R(038)=111 S594s</subfield>
+      <subfield code="e">Migración UARG</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+  <record>
+    <leader>01000aam  22002601a 4500</leader>
+    <controlfield tag="001">YPZ94616</controlfield>
+    <controlfield tag="003">YPZ</controlfield>
+    <controlfield tag="005">201111161455130</controlfield>
+    <controlfield tag="008">111116|###########||||||b||||||||||spa|d</controlfield>
+    <datafield tag="020" ind1=" " ind2=" ">
+      <subfield code="a">1879568233</subfield>
+    </datafield>
+    <datafield tag="040" ind1=" " ind2=" ">
+      <subfield code="c">SIUNPA</subfield>
+    </datafield>
+    <datafield tag="041" ind1=" " ind2=" ">
+      <subfield code="a">eng</subfield>
+    </datafield>
+    <datafield tag="044" ind1=" " ind2=" ">
+      <subfield code="a">AR</subfield>
+    </datafield>
+    <datafield tag="080" ind1=" " ind2=" ">
+      <subfield code="a">908(828.8) A454h3</subfield>
+    </datafield>
+    <datafield tag="100" ind1=" " ind2=" ">
+      <subfield code="a">Alonso, Miguel Angel.</subfield>
+    </datafield>
+    <datafield tag="245" ind1=" " ind2=" ">
+      <subfield code="a">Handbook of Lago Argentino &amp; Glaciar Perito Moreno</subfield>
+    </datafield>
+    <datafield tag="250" ind1=" " ind2=" ">
+      <subfield code="a">3rd ed.</subfield>
+    </datafield>
+    <datafield tag="260" ind1=" " ind2=" ">
+      <subfield code="a">Buenos Aires</subfield>
+      <subfield code="b"/>
+      <subfield code="c"> , 2000</subfield>
+    </datafield>
+    <datafield tag="500" ind1=" " ind2=" ">
+      <subfield code="a">En cub.: A view of Southern patagonia with its glaciers, nature, history, rural life and trips</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> EL CALAFATE (SANTA CRUZ)</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> ARGENTINA</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> LAGO ARGENTINO (SANTA CRUZ)</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> GLACIAR PERITO MORENO (SANTA CRUZ)</subfield>
+    </datafield>
+    <datafield tag="650" ind1=" " ind2=" ">
+      <subfield code="a"> GUIAS DE VIAJE</subfield>
+    </datafield>
+    <datafield tag="942" ind1=" " ind2=" ">
+      <subfield code="c">BK</subfield>
+    </datafield>
+    <datafield tag="952" ind1=" " ind2=" ">
+      <subfield code="a">BIB_RECT</subfield>
+      <subfield code="b">BIB_UARG</subfield>
+      <subfield code="d">2011-11-16</subfield>
+      <subfield code="y">BK</subfield>
+      <subfield code="p">05-41826</subfield>
+      <subfield code="i">05-41826</subfield>
+      <subfield code="g">59</subfield>
+      <subfield code="o">908(828.8) A454h3</subfield>
+      <subfield code="e">SIUNPA</subfield>
+      <subfield code="8">CG</subfield>
+    </datafield>
+  </record>
+</collection>
