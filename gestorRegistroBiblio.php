@@ -15,7 +15,12 @@ include 'dbModelo.php';
 class gestorRegistroBiblio {
 
     //put your code here
-
+    static function imagenesRegistros(){
+        $sql ="SELECT * FROM `biblio_fotos` WHERE 1 LIMIT 10";
+        $conexion = new dbModelo();
+        $resultado = $conexion->get_query($sql);
+        return $resultado;
+    }
     static function listadoDatosLibros()
     {
         $sql = "SELECT b.bibid, b.create_dt, b.call_nmbr1, b.call_nmbr2, 
